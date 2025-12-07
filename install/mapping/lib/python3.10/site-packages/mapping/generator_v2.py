@@ -117,6 +117,9 @@ class IntegratedDroneMappingNode(Node):
             10
         )
 
+        #self.vehicle_odometry_subscriber = self.create_subscription(VehicleOdometry, "/fmu/out/vehicle_odometry", self.vehicle_odometry_callback, qos_profile)
+        
+
         # ========== TIMERS ==========
         self.control_timer = self.create_timer(0.1, self.control_loop)
         self.mapping_iterations = 0
@@ -240,7 +243,7 @@ class IntegratedDroneMappingNode(Node):
         gx = int((wx / self.RESOLUTION) + self.GRID_ORIGIN_X_CELL)
         gy = int((wy / self.RESOLUTION) + self.GRID_ORIGIN_Y_CELL)
         return gx, gy
-
+        #return 50,50
     def is_in_grid_bounds(self, gx, gy):
         """Check if grid cell is within boundaries"""
         return 0 <= gx < self.GRID_WIDTH_CELLS and 0 <= gy < self.GRID_HEIGHT_CELLS
@@ -269,11 +272,15 @@ class IntegratedDroneMappingNode(Node):
         """Update occupancy grid with LiDAR scan data"""
         robot_x, robot_y, robot_theta = robot_pose
         robot_gx, robot_gy = self.world_to_grid(robot_x, robot_y)
+        
+
+        print("\n")
+        
         valid_updates = 0
         for angle, range_m in scan_data:
             global_angle = robot_theta + angle
 
-            print(range_m)
+            #print(range_m)
 
             if range_m == float('inf') or np.isnan(range_m):
             
@@ -312,7 +319,6 @@ class IntegratedDroneMappingNode(Node):
     def convert_to_three_state_matrix(self):
         """Convert log-odds grid to three-state matrix"""
         prob_grid = 1.0 - 1.0 / (1.0 + np.exp(self.occupancy_grid))
-        
         FREE_THRESH = 0.2
         OCC_THRESH = 0.8
         
@@ -364,6 +370,9 @@ class IntegratedDroneMappingNode(Node):
     # ============= MAIN CONTROL LOOPS =============
     
     def control_loop(self):
+
+        #print(robot_x,robot_y,"yes", end ="\n")
+
         """Flight control loop - 10 Hz"""
         self.publish_offboard_control_mode()
         self.counter += 1
@@ -537,7 +546,7 @@ class IntegratedDroneMappingNode(Node):
             for row in range(100):
                 row_str = "".join(f"{three_state_matrix[row, col]:2d}" for col in range(100))
                 #print(row_str)
-            if iteration >= 10:
+            if iteration >= 5:
                 # self.get_logger().info("Done 3 mapping iterations, stopping mapping timer.")
                 self.mapping_timer.cancel()
 

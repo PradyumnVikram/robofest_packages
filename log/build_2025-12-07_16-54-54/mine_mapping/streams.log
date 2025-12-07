@@ -1,0 +1,34 @@
+[0.226s] Invoking command in '/home/azidozide/px4_sitl_ws/build/mine_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azidozide/px4_sitl_ws/install/object_tracker:/home/azidozide/px4_sitl_ws/install/mapping:/opt/ros/humble /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/mine_mapping -- -j24 -l24
+[0.447s] [35m[1mConsolidate compiler generated dependencies of target map_generator[0m
+[0.447s] [ 25%] [32mBuilding CXX object CMakeFiles/map_generator.dir/src/map_generator.cpp.o[0m
+[3.044s] [ 50%] [32m[1mLinking CXX shared library libmap_generator.so[0m
+[3.172s] [ 50%] Built target map_generator
+[3.188s] [35m[1mConsolidate compiler generated dependencies of target mine_mapper[0m
+[3.209s] [ 75%] [32mBuilding CXX object CMakeFiles/mine_mapper.dir/src/mine_map_node.cpp.o[0m
+[9.593s] [100%] [32m[1mLinking CXX executable mine_mapper[0m
+[10.116s] [100%] Built target mine_mapper
+[10.127s] Invoked command in '/home/azidozide/px4_sitl_ws/build/mine_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azidozide/px4_sitl_ws/install/object_tracker:/home/azidozide/px4_sitl_ws/install/mapping:/opt/ros/humble /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/mine_mapping -- -j24 -l24
+[10.128s] Invoking command in '/home/azidozide/px4_sitl_ws/build/mine_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azidozide/px4_sitl_ws/install/object_tracker:/home/azidozide/px4_sitl_ws/install/mapping:/opt/ros/humble /usr/bin/cmake --install /home/azidozide/px4_sitl_ws/build/mine_mapping
+[10.133s] -- Install configuration: ""
+[10.133s] -- Installing: /home/azidozide/px4_sitl_ws/install/mine_mapping/lib/mine_mapping/mine_mapper
+[10.136s] -- Set runtime path of "/home/azidozide/px4_sitl_ws/install/mine_mapping/lib/mine_mapping/mine_mapper" to ""
+[10.136s] -- Installing: /home/azidozide/px4_sitl_ws/install/mine_mapping/lib/libmap_generator.so
+[10.136s] -- Set runtime path of "/home/azidozide/px4_sitl_ws/install/mine_mapping/lib/libmap_generator.so" to ""
+[10.136s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mine_mapping/include/mine_mapping
+[10.136s] -- Installing: /home/azidozide/px4_sitl_ws/install/mine_mapping/include/mine_mapping/map_generator.hpp
+[10.136s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mine_mapping/share/ament_index/resource_index/package_run_dependencies/mine_mapping
+[10.136s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mine_mapping/share/ament_index/resource_index/parent_prefix_path/mine_mapping
+[10.137s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/environment/ament_prefix_path.sh
+[10.137s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/environment/ament_prefix_path.dsv
+[10.137s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/environment/path.sh
+[10.137s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/environment/path.dsv
+[10.137s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/local_setup.bash
+[10.137s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/local_setup.sh
+[10.137s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/local_setup.zsh
+[10.137s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/local_setup.dsv
+[10.137s] -- Installing: /home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/package.dsv
+[10.137s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mine_mapping/share/ament_index/resource_index/packages/mine_mapping
+[10.137s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/cmake/mine_mappingConfig.cmake
+[10.137s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/cmake/mine_mappingConfig-version.cmake
+[10.137s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/package.xml
+[10.138s] Invoked command in '/home/azidozide/px4_sitl_ws/build/mine_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azidozide/px4_sitl_ws/install/object_tracker:/home/azidozide/px4_sitl_ws/install/mapping:/opt/ros/humble /usr/bin/cmake --install /home/azidozide/px4_sitl_ws/build/mine_mapping

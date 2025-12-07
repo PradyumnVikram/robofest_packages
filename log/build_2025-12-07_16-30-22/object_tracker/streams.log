@@ -1,0 +1,45 @@
+[0.803s] Invoking command in '/home/azidozide/px4_sitl_ws/src/object_tracker': PYTHONPATH=/home/azidozide/px4_sitl_ws/build/object_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/azidozide/px4_sitl_ws/install/object_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_tracker build --build-base /home/azidozide/px4_sitl_ws/build/object_tracker/build install --record /home/azidozide/px4_sitl_ws/build/object_tracker/install.log --single-version-externally-managed install_data
+[1.011s] running egg_info
+[1.011s] creating ../../build/object_tracker/object_tracker.egg-info
+[1.011s] writing ../../build/object_tracker/object_tracker.egg-info/PKG-INFO
+[1.012s] writing dependency_links to ../../build/object_tracker/object_tracker.egg-info/dependency_links.txt
+[1.012s] writing entry points to ../../build/object_tracker/object_tracker.egg-info/entry_points.txt
+[1.012s] writing requirements to ../../build/object_tracker/object_tracker.egg-info/requires.txt
+[1.012s] writing top-level names to ../../build/object_tracker/object_tracker.egg-info/top_level.txt
+[1.013s] writing manifest file '../../build/object_tracker/object_tracker.egg-info/SOURCES.txt'
+[1.014s] reading manifest file '../../build/object_tracker/object_tracker.egg-info/SOURCES.txt'
+[1.014s] adding license file 'LICENSE'
+[1.014s] writing manifest file '../../build/object_tracker/object_tracker.egg-info/SOURCES.txt'
+[1.014s] running build
+[1.014s] running build_py
+[1.015s] creating /home/azidozide/px4_sitl_ws/build/object_tracker/build
+[1.015s] creating /home/azidozide/px4_sitl_ws/build/object_tracker/build/lib
+[1.015s] creating /home/azidozide/px4_sitl_ws/build/object_tracker/build/lib/object_tracker
+[1.015s] copying object_tracker/controls_drone_tracking.py -> /home/azidozide/px4_sitl_ws/build/object_tracker/build/lib/object_tracker
+[1.015s] copying object_tracker/process_frame.py -> /home/azidozide/px4_sitl_ws/build/object_tracker/build/lib/object_tracker
+[1.015s] copying object_tracker/tracker.py -> /home/azidozide/px4_sitl_ws/build/object_tracker/build/lib/object_tracker
+[1.016s] copying object_tracker/__init__.py -> /home/azidozide/px4_sitl_ws/build/object_tracker/build/lib/object_tracker
+[1.016s] running install
+[1.016s] running install_lib
+[1.017s] creating /home/azidozide/px4_sitl_ws/install/object_tracker/lib/python3.10/site-packages/object_tracker
+[1.017s] copying /home/azidozide/px4_sitl_ws/build/object_tracker/build/lib/object_tracker/controls_drone_tracking.py -> /home/azidozide/px4_sitl_ws/install/object_tracker/lib/python3.10/site-packages/object_tracker
+[1.017s] copying /home/azidozide/px4_sitl_ws/build/object_tracker/build/lib/object_tracker/process_frame.py -> /home/azidozide/px4_sitl_ws/install/object_tracker/lib/python3.10/site-packages/object_tracker
+[1.017s] copying /home/azidozide/px4_sitl_ws/build/object_tracker/build/lib/object_tracker/tracker.py -> /home/azidozide/px4_sitl_ws/install/object_tracker/lib/python3.10/site-packages/object_tracker
+[1.017s] copying /home/azidozide/px4_sitl_ws/build/object_tracker/build/lib/object_tracker/__init__.py -> /home/azidozide/px4_sitl_ws/install/object_tracker/lib/python3.10/site-packages/object_tracker
+[1.017s] byte-compiling /home/azidozide/px4_sitl_ws/install/object_tracker/lib/python3.10/site-packages/object_tracker/controls_drone_tracking.py to controls_drone_tracking.cpython-310.pyc
+[1.020s] byte-compiling /home/azidozide/px4_sitl_ws/install/object_tracker/lib/python3.10/site-packages/object_tracker/process_frame.py to process_frame.cpython-310.pyc
+[1.020s] byte-compiling /home/azidozide/px4_sitl_ws/install/object_tracker/lib/python3.10/site-packages/object_tracker/tracker.py to tracker.cpython-310.pyc
+[1.021s] byte-compiling /home/azidozide/px4_sitl_ws/install/object_tracker/lib/python3.10/site-packages/object_tracker/__init__.py to __init__.cpython-310.pyc
+[1.021s] running install_data
+[1.021s] creating /home/azidozide/px4_sitl_ws/install/object_tracker/share/ament_index
+[1.021s] creating /home/azidozide/px4_sitl_ws/install/object_tracker/share/ament_index/resource_index
+[1.021s] creating /home/azidozide/px4_sitl_ws/install/object_tracker/share/ament_index/resource_index/packages
+[1.021s] copying resource/object_tracker -> /home/azidozide/px4_sitl_ws/install/object_tracker/share/ament_index/resource_index/packages
+[1.021s] copying package.xml -> /home/azidozide/px4_sitl_ws/install/object_tracker/share/object_tracker
+[1.021s] running install_egg_info
+[1.023s] Copying ../../build/object_tracker/object_tracker.egg-info to /home/azidozide/px4_sitl_ws/install/object_tracker/lib/python3.10/site-packages/object_tracker-0.0.0-py3.10.egg-info
+[1.023s] running install_scripts
+[1.041s] Installing drone_control script to /home/azidozide/px4_sitl_ws/install/object_tracker/lib/object_tracker
+[1.041s] Installing tracker script to /home/azidozide/px4_sitl_ws/install/object_tracker/lib/object_tracker
+[1.041s] writing list of installed files to '/home/azidozide/px4_sitl_ws/build/object_tracker/install.log'
+[1.062s] Invoked command in '/home/azidozide/px4_sitl_ws/src/object_tracker' returned '0': PYTHONPATH=/home/azidozide/px4_sitl_ws/build/object_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/azidozide/px4_sitl_ws/install/object_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_tracker build --build-base /home/azidozide/px4_sitl_ws/build/object_tracker/build install --record /home/azidozide/px4_sitl_ws/build/object_tracker/install.log --single-version-externally-managed install_data

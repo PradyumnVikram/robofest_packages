@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000395] (-) JobUnselected: {'identifier': 'mapping'}
+[0.000438] (-) JobUnselected: {'identifier': 'mine_mapping'}
+[0.000555] (-) JobUnselected: {'identifier': 'object_tracker'}
+[0.000579] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000603] (-) EventReactorShutdown: {}

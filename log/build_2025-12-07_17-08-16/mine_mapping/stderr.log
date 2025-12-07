@@ -1,0 +1,13 @@
+[01m[K/home/azidozide/px4_sitl_ws/src/mine_mapping/src/mine_map_node.cpp:66:74:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Krclcpp::Subscription<px4_msgs::msg::VehicleLocalPosition_<std::allocator<void> > >::SharedPtr MineMapper::pos_sub_[m[K’
+   66 |     rclcpp::Subscription<px4_msgs::msg::VehicleLocalPosition>::SharedPtr [01;31m[Kpos_sub_[m[K;
+      |                                                                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/mine_mapping/src/mine_map_node.cpp:30:74:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Krclcpp::Subscription<px4_msgs::msg::VehicleLocalPosition_<std::allocator<void> > >::SharedPtr MineMapper::pos_sub_[m[K’
+   30 |     rclcpp::Subscription<px4_msgs::msg::VehicleLocalPosition>::SharedPtr [01;36m[Kpos_sub_[m[K;
+      |                                                                          [01;36m[K^~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/mine_mapping/src/mine_map_node.cpp:[m[K In constructor ‘[01m[KMineMapper::MineMapper()[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/mine_mapping/src/mine_map_node.cpp:14:36:[m[K [01;31m[Kerror: [m[K‘[01m[Klistener_callback[m[K’ is not a member of ‘[01m[KMineMapper[m[K’
+   14 |             std::bind(&MineMapper::[01;31m[Klistener_callback[m[K, this, std::placeholders::_1));
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/mine_mapper.dir/build.make:76: CMakeFiles/mine_mapper.dir/src/mine_map_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/mine_mapper.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
