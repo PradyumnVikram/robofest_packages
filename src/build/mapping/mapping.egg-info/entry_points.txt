@@ -1,0 +1,3 @@
+[console_scripts]
+sfc_gen = mapping.generator:main
+

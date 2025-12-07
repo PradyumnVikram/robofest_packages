@@ -1,0 +1,4 @@
+[console_scripts]
+drone_control = object_tracker.controls_drone_tracking:main
+tracker = object_tracker.tracker:main
+

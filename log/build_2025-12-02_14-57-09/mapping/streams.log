@@ -1,0 +1,28 @@
+[0.687s] Invoking command in '/home/azidozide/px4_sitl_ws/src/mapping': PYTHONPATH=/home/azidozide/px4_sitl_ws/build/mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/azidozide/px4_sitl_ws/install/mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mapping build --build-base /home/azidozide/px4_sitl_ws/build/mapping/build install --record /home/azidozide/px4_sitl_ws/build/mapping/install.log --single-version-externally-managed install_data
+[0.860s] running egg_info
+[0.860s] writing ../../build/mapping/mapping.egg-info/PKG-INFO
+[0.860s] writing dependency_links to ../../build/mapping/mapping.egg-info/dependency_links.txt
+[0.861s] writing entry points to ../../build/mapping/mapping.egg-info/entry_points.txt
+[0.861s] writing requirements to ../../build/mapping/mapping.egg-info/requires.txt
+[0.861s] writing top-level names to ../../build/mapping/mapping.egg-info/top_level.txt
+[0.864s] reading manifest file '../../build/mapping/mapping.egg-info/SOURCES.txt'
+[0.865s] adding license file 'LICENSE'
+[0.865s] writing manifest file '../../build/mapping/mapping.egg-info/SOURCES.txt'
+[0.865s] running build
+[0.865s] running build_py
+[0.866s] copying mapping/generator.py -> /home/azidozide/px4_sitl_ws/build/mapping/build/lib/mapping
+[0.866s] copying mapping/generator_v2.py -> /home/azidozide/px4_sitl_ws/build/mapping/build/lib/mapping
+[0.866s] running install
+[0.866s] running install_lib
+[0.867s] copying /home/azidozide/px4_sitl_ws/build/mapping/build/lib/mapping/generator.py -> /home/azidozide/px4_sitl_ws/install/mapping/lib/python3.10/site-packages/mapping
+[0.867s] copying /home/azidozide/px4_sitl_ws/build/mapping/build/lib/mapping/generator_v2.py -> /home/azidozide/px4_sitl_ws/install/mapping/lib/python3.10/site-packages/mapping
+[0.867s] byte-compiling /home/azidozide/px4_sitl_ws/install/mapping/lib/python3.10/site-packages/mapping/generator.py to generator.cpython-310.pyc
+[0.871s] byte-compiling /home/azidozide/px4_sitl_ws/install/mapping/lib/python3.10/site-packages/mapping/generator_v2.py to generator_v2.cpython-310.pyc
+[0.873s] running install_data
+[0.873s] running install_egg_info
+[0.874s] removing '/home/azidozide/px4_sitl_ws/install/mapping/lib/python3.10/site-packages/mapping-0.0.0-py3.10.egg-info' (and everything under it)
+[0.874s] Copying ../../build/mapping/mapping.egg-info to /home/azidozide/px4_sitl_ws/install/mapping/lib/python3.10/site-packages/mapping-0.0.0-py3.10.egg-info
+[0.875s] running install_scripts
+[0.890s] Installing sfc_gen script to /home/azidozide/px4_sitl_ws/install/mapping/lib/mapping
+[0.890s] writing list of installed files to '/home/azidozide/px4_sitl_ws/build/mapping/install.log'
+[0.906s] Invoked command in '/home/azidozide/px4_sitl_ws/src/mapping' returned '0': PYTHONPATH=/home/azidozide/px4_sitl_ws/build/mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/azidozide/px4_sitl_ws/install/mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mapping build --build-base /home/azidozide/px4_sitl_ws/build/mapping/build install --record /home/azidozide/px4_sitl_ws/build/mapping/install.log --single-version-externally-managed install_data
