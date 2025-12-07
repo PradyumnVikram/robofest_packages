@@ -1,0 +1,7 @@
+[01m[K/home/azidozide/px4_sitl_ws/src/mine_mapping/src/mine_map_node.cpp:[m[K In constructor ‘[01m[KMineMapper::MineMapper()[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/mine_mapping/src/mine_map_node.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_sub_[m[K’ was not declared in this scope
+   16 |         [01;31m[Kodom_sub_[m[K = this->create_subscription<px4_msgs::msg::VehicleOdometry>(
+      |         [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/mine_mapper.dir/build.make:76: CMakeFiles/mine_mapper.dir/src/mine_map_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/mine_mapper.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

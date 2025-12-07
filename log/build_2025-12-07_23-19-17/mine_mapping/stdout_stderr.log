@@ -1,0 +1,28 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/map_generator.dir/src/map_generator.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libmap_generator.so[0m
+[ 50%] Built target map_generator
+[35m[1mConsolidate compiler generated dependencies of target mine_mapper[0m
+[ 75%] [32m[1mLinking CXX executable mine_mapper[0m
+[100%] Built target mine_mapper
+-- Install configuration: ""
+-- Installing: /home/azidozide/px4_sitl_ws/install/mine_mapping/lib/mine_mapping/mine_mapper
+-- Set runtime path of "/home/azidozide/px4_sitl_ws/install/mine_mapping/lib/mine_mapping/mine_mapper" to ""
+-- Installing: /home/azidozide/px4_sitl_ws/install/mine_mapping/lib/libmap_generator.so
+-- Set runtime path of "/home/azidozide/px4_sitl_ws/install/mine_mapping/lib/libmap_generator.so" to ""
+-- Up-to-date: /home/azidozide/px4_sitl_ws/install/mine_mapping/include/mine_mapping
+-- Installing: /home/azidozide/px4_sitl_ws/install/mine_mapping/include/mine_mapping/map_generator.hpp
+-- Up-to-date: /home/azidozide/px4_sitl_ws/install/mine_mapping/share/ament_index/resource_index/package_run_dependencies/mine_mapping
+-- Installing: /home/azidozide/px4_sitl_ws/install/mine_mapping/share/ament_index/resource_index/parent_prefix_path/mine_mapping
+-- Up-to-date: /home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/environment/ament_prefix_path.sh
+-- Installing: /home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/environment/path.sh
+-- Installing: /home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/environment/path.dsv
+-- Up-to-date: /home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/local_setup.bash
+-- Up-to-date: /home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/local_setup.sh
+-- Up-to-date: /home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/local_setup.zsh
+-- Installing: /home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/local_setup.dsv
+-- Installing: /home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/package.dsv
+-- Up-to-date: /home/azidozide/px4_sitl_ws/install/mine_mapping/share/ament_index/resource_index/packages/mine_mapping
+-- Up-to-date: /home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/cmake/mine_mappingConfig.cmake
+-- Up-to-date: /home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/cmake/mine_mappingConfig-version.cmake
+-- Up-to-date: /home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/package.xml

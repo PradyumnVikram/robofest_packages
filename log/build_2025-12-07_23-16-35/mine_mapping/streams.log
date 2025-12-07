@@ -1,0 +1,11 @@
+[0.192s] Invoking command in '/home/azidozide/px4_sitl_ws/build/mine_mapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/mine_mapping -- -j24 -l24
+[0.379s] [35m[1mConsolidate compiler generated dependencies of target map_generator[0m
+[0.379s] [ 25%] [32mBuilding CXX object CMakeFiles/map_generator.dir/src/map_generator.cpp.o[0m
+[2.395s] In file included from [01m[K/home/azidozide/px4_sitl_ws/src/mine_mapping/src/map_generator.cpp:1[m[K:
+[2.395s] [01m[K/home/azidozide/px4_sitl_ws/src/mine_mapping/src/map_generator.hpp:25:18:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KMapGen::[m[K’ on member ‘[01m[Kpixel_to_world[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.395s]    25 |     MineLocation [01;31m[KMapGen[m[K::pixel_to_world(double pixel_x, double pixel_y, DronePose& drone_pose);
+[2.395s]       |                  [01;31m[K^~~~~~[m[K
+[3.258s] gmake[2]: *** [CMakeFiles/map_generator.dir/build.make:76: CMakeFiles/map_generator.dir/src/map_generator.cpp.o] Error 1
+[3.258s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/map_generator.dir/all] Error 2
+[3.258s] gmake: *** [Makefile:146: all] Error 2
+[3.260s] Invoked command in '/home/azidozide/px4_sitl_ws/build/mine_mapping' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/mine_mapping -- -j24 -l24

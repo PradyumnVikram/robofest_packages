@@ -5,7 +5,39 @@ MapGen::MapGen() : rclcpp::Node("map_generator") {  // ← Proper Node construct
     RCLCPP_INFO(this->get_logger(), "MapGen initialized");
 }
 
-void MapGen::update_map(const cv::Mat& frame, double* curr_pos) {
+MineLocation MapGen::pixel_to_world(double pixel_x, double pixel_y, DronePose& pose) {
+    // 1. CAMERA INTRINSICS (calibrate once)
+    double fx = 724.5;  // From calibration
+    double fy = 724.5;
+    double cx = 640.0; 
+    double cy = 480.0;
+    
+    // 2. Pixel → normalized camera ray
+    double u = (pixel_x - cx) / fx;
+    double v = (pixel_y - cy) / fy;
+    
+    // 3. Ray length = drone altitude (ground plane)
+    double depth = pose.altitude();
+    
+    // 4. Camera-frame 3D point (forward, down)
+    double cam_x = u * depth;
+    double cam_y = v * depth;
+    double cam_z = depth;
+    
+    // 5. Camera → Drone body (your camera mount)
+    Eigen::Vector3d body_point;
+    body_point << cam_x, cam_y, cam_z;  // Adjust for camera orientation
+    
+    // 6. Drone body → World (QUATERNION ROTATION + POSITION)
+    Eigen::Quaterniond q(pose.q_w, pose.q_x, pose.q_y, pose.q_z);
+    Eigen::Vector3d world_point = q * body_point + 
+                                  Eigen::Vector3d(pose.x, pose.y, pose.z);
+    
+    return {world_point.x(), world_point.y()};
+}
+
+
+void MapGen::update_map(const cv::Mat& frame, DronePose& drone_pose) {
     RCLCPP_INFO(this->get_logger(), "=== Frame processing started ===");
     
     if (frame.empty()) {
@@ -62,10 +94,9 @@ void MapGen::update_map(const cv::Mat& frame, double* curr_pos) {
                            cv::Point(pixel_x, pixel_y-15), cv::FONT_HERSHEY_SIMPLEX, 
                            0.5, cv::Scalar(0, 255, 255), 2);
                 
-                double mine_x = pixel_x - frame.cols / 2.0;
-                double mine_y = pixel_y - frame.rows / 2.0;
-                mine_x -= curr_pos[0];
-                mine_y -= curr_pos[1];
+                MineLocation world_mine = pixel_to_world(pixel_x, pixel_y, drone_pose);
+                double mine_x = world_mine.x;
+                double mine_y = world_mine.y;
                 
                 MineLocation new_mine = {mine_x, mine_y};
                 if (!mine_exists(new_mine)) {
@@ -106,7 +137,7 @@ void MapGen::update_map(const cv::Mat& frame, double* curr_pos) {
     
     // DRONE POSITION TEXT
     char drone_pos[50];
-    sprintf(drone_pos, "Drone: %.1f, %.1f", curr_pos[0], curr_pos[1]);
+    sprintf(drone_pos, "Drone: %.3f, %.3f", drone_pose.x, drone_pose.y);
     cv::putText(display_frame, drone_pos, cv::Point(10, 30), 
                 cv::FONT_HERSHEY_SIMPLEX, 0.7, cv::Scalar(0, 255, 0), 2);
     

@@ -1,0 +1,9 @@
+[ 50%] Built target map_generator
+[35m[1mConsolidate compiler generated dependencies of target mine_mapper[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/mine_mapper.dir/src/mine_map_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable mine_mapper[0m
+/usr/bin/ld: libmap_generator.so: undefined reference to `MapGen::pixel_to_world(double, double, DronePose&)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/mine_mapper.dir/build.make:239: mine_mapper] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/mine_mapper.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,12 @@
+[0.196s] Invoking command in '/home/azidozide/px4_sitl_ws/build/mine_mapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/mine_mapping -- -j24 -l24
+[0.391s] [35m[1mConsolidate compiler generated dependencies of target map_generator[0m
+[0.391s] [ 25%] [32mBuilding CXX object CMakeFiles/map_generator.dir/src/map_generator.cpp.o[0m
+[0.402s] In file included from [01m[K/home/azidozide/px4_sitl_ws/src/mine_mapping/src/map_generator.cpp:1[m[K:
+[0.402s] [01m[K/home/azidozide/px4_sitl_ws/src/mine_mapping/src/map_generator.hpp:8:10:[m[K [01;31m[Kfatal error: [m[KEigen/Geometry: No such file or directory
+[0.402s]     8 | #include [01;31m[K<Eigen/Geometry>[m[K
+[0.402s]       |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[0.403s] compilation terminated.
+[0.404s] gmake[2]: *** [CMakeFiles/map_generator.dir/build.make:76: CMakeFiles/map_generator.dir/src/map_generator.cpp.o] Error 1
+[0.404s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/map_generator.dir/all] Error 2
+[0.405s] gmake: *** [Makefile:146: all] Error 2
+[0.407s] Invoked command in '/home/azidozide/px4_sitl_ws/build/mine_mapping' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/mine_mapping -- -j24 -l24

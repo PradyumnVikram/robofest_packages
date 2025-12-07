@@ -1,0 +1,12 @@
+[0.283s] Invoking command in '/home/azidozide/px4_sitl_ws/build/mine_mapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/mine_mapping -- -j24 -l24
+[0.565s] [ 50%] Built target map_generator
+[0.565s] [35m[1mConsolidate compiler generated dependencies of target mine_mapper[0m
+[0.565s] [ 75%] [32mBuilding CXX object CMakeFiles/mine_mapper.dir/src/mine_map_node.cpp.o[0m
+[3.160s] [01m[K/home/azidozide/px4_sitl_ws/src/mine_mapping/src/mine_map_node.cpp:[m[K In constructor ‘[01m[KMineMapper::MineMapper()[m[K’:
+[3.160s] [01m[K/home/azidozide/px4_sitl_ws/src/mine_mapping/src/mine_map_node.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_sub_[m[K’ was not declared in this scope
+[3.160s]    16 |         [01;31m[Kodom_sub_[m[K = this->create_subscription<px4_msgs::msg::VehicleOdometry>(
+[3.160s]       |         [01;31m[K^~~~~~~~~[m[K
+[6.225s] gmake[2]: *** [CMakeFiles/mine_mapper.dir/build.make:76: CMakeFiles/mine_mapper.dir/src/mine_map_node.cpp.o] Error 1
+[6.225s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/mine_mapper.dir/all] Error 2
+[6.225s] gmake: *** [Makefile:146: all] Error 2
+[6.227s] Invoked command in '/home/azidozide/px4_sitl_ws/build/mine_mapping' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/mine_mapping -- -j24 -l24

@@ -1,0 +1,19 @@
+[0.199s] Invoking command in '/home/azidozide/px4_sitl_ws/build/mine_mapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/mine_mapping -- -j24 -l24
+[0.402s] [ 50%] Built target map_generator
+[0.402s] [35m[1mConsolidate compiler generated dependencies of target mine_mapper[0m
+[0.402s] [ 75%] [32mBuilding CXX object CMakeFiles/mine_mapper.dir/src/mine_map_node.cpp.o[0m
+[2.164s] [01m[K/home/azidozide/px4_sitl_ws/src/mine_mapping/src/mine_map_node.cpp:[m[K In constructor ‘[01m[KMineMapper::MineMapper()[m[K’:
+[2.164s] [01m[K/home/azidozide/px4_sitl_ws/src/mine_mapping/src/mine_map_node.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_sub_[m[K’ was not declared in this scope
+[2.164s]    16 |         [01;31m[Kodom_sub_[m[K = this->create_subscription<px4_msgs::msg::VehicleOdometry>(
+[2.164s]       |         [01;31m[K^~~~~~~~~[m[K
+[2.191s] [01m[K/home/azidozide/px4_sitl_ws/src/mine_mapping/src/mine_map_node.cpp:[m[K In member function ‘[01m[Kvoid MineMapper::odom_callback(px4_msgs::msg::VehicleOdometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.191s] [01m[K/home/azidozide/px4_sitl_ws/src/mine_mapping/src/mine_map_node.cpp:28:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[2.191s]    28 |         pos[0] = msg->[01;31m[Kpose[m[K.position.x;  // Local NED X (North)
+[2.191s]       |                       [01;31m[K^~~~[m[K
+[2.191s] [01m[K/home/azidozide/px4_sitl_ws/src/mine_mapping/src/mine_map_node.cpp:29:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[2.191s]    29 |         pos[1] = msg->[01;31m[Kpose[m[K.position.y;  // Local NED Y (East)
+[2.191s]       |                       [01;31m[K^~~~[m[K
+[4.256s] gmake[2]: *** [CMakeFiles/mine_mapper.dir/build.make:76: CMakeFiles/mine_mapper.dir/src/mine_map_node.cpp.o] Error 1
+[4.256s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/mine_mapper.dir/all] Error 2
+[4.256s] gmake: *** [Makefile:146: all] Error 2
+[4.258s] Invoked command in '/home/azidozide/px4_sitl_ws/build/mine_mapping' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/mine_mapping -- -j24 -l24

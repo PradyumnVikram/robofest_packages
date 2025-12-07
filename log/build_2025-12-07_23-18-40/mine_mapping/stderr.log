@@ -1,0 +1,5 @@
+/usr/bin/ld: libmap_generator.so: undefined reference to `MapGen::pixel_to_world(double, double, DronePose&)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/mine_mapper.dir/build.make:239: mine_mapper] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/mine_mapper.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

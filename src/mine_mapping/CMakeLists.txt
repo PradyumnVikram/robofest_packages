@@ -12,23 +12,27 @@ find_package(sensor_msgs REQUIRED)
 find_package(OpenCV REQUIRED)
 find_package(px4_msgs REQUIRED)
 
+# ← ADD EIGEN3
+find_package(Eigen3 REQUIRED)
+
 include_directories(src/)
 
-# Library
+# Library - ADD Eigen3
 add_library(map_generator SHARED src/map_generator.cpp)
-ament_target_dependencies(map_generator rclcpp sensor_msgs cv_bridge OpenCV)
-target_link_libraries(map_generator ${OpenCV_LIBRARIES})
+ament_target_dependencies(map_generator rclcpp sensor_msgs cv_bridge OpenCV px4_msgs)
+target_link_libraries(map_generator ${OpenCV_LIBRARIES} Eigen3::Eigen)
 
-# Executable
+# Executable - ADD Eigen3  
 add_executable(mine_mapper src/mine_map_node.cpp)
 ament_target_dependencies(mine_mapper rclcpp sensor_msgs cv_bridge OpenCV px4_msgs)
 target_link_libraries(mine_mapper 
   map_generator 
   ${OpenCV_LIBRARIES} 
   cv_bridge::cv_bridge
+  Eigen3::Eigen  # ← ADD THIS
 )
 
-# ← FIXED INSTALL SECTION
+# Install unchanged
 install(TARGETS mine_mapper map_generator
   ARCHIVE DESTINATION lib
   LIBRARY DESTINATION lib

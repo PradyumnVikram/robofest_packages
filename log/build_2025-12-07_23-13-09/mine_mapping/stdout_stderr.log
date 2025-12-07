@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target map_generator[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/map_generator.dir/src/map_generator.cpp.o[0m
+In file included from [01m[K/home/azidozide/px4_sitl_ws/src/mine_mapping/src/map_generator.cpp:1[m[K:
+[01m[K/home/azidozide/px4_sitl_ws/src/mine_mapping/src/map_generator.hpp:8:10:[m[K [01;31m[Kfatal error: [m[KEigen/Geometry: No such file or directory
+    8 | #include [01;31m[K<Eigen/Geometry>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/map_generator.dir/build.make:76: CMakeFiles/map_generator.dir/src/map_generator.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/map_generator.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

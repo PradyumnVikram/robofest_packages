@@ -1,0 +1,33 @@
+[0.191s] Invoking command in '/home/azidozide/px4_sitl_ws/build/mine_mapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/mine_mapping -- -j24 -l24
+[0.382s] [35m[1mConsolidate compiler generated dependencies of target map_generator[0m
+[0.382s] [ 25%] [32mBuilding CXX object CMakeFiles/map_generator.dir/src/map_generator.cpp.o[0m
+[3.455s] [ 50%] [32m[1mLinking CXX shared library libmap_generator.so[0m
+[3.564s] [ 50%] Built target map_generator
+[3.572s] [35m[1mConsolidate compiler generated dependencies of target mine_mapper[0m
+[3.588s] [ 75%] [32mBuilding CXX object CMakeFiles/mine_mapper.dir/src/mine_map_node.cpp.o[0m
+[5.735s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.735s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.735s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.735s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.735s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.735s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.735s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.735s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.735s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.735s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.735s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.735s]                  from [01m[K/home/azidozide/px4_sitl_ws/src/mine_mapping/src/mine_map_node.cpp:1[m[K:
+[5.735s] [01m[K/home/azidozide/px4_sitl_ws/src/mine_mapping/src/mine_map_node.cpp:[m[K In member function ‘[01m[Kvoid MineMapper::odom_callback(px4_msgs::msg::VehicleOdometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.735s] [01m[K/home/azidozide/px4_sitl_ws/src/mine_mapping/src/mine_map_node.cpp:39:79:[m[K [01;31m[Kerror: [m[K‘[01m[Kpos[m[K’ was not declared in this scope; did you mean ‘[01m[Kpow[m[K’?
+[5.735s]    39 | O_ONCE(this->get_logger(), "Odometry received: %.3f, %.3f", [01;31m[Kpos[m[K[0], pos[1]);
+[5.735s]       |                                                             [01;31m[K^~~[m[K
+[5.735s] 
+[5.742s] [01m[K/home/azidozide/px4_sitl_ws/src/mine_mapping/src/mine_map_node.cpp:[m[K In member function ‘[01m[Kvoid MineMapper::listener_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.742s] [01m[K/home/azidozide/px4_sitl_ws/src/mine_mapping/src/mine_map_node.cpp:47:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kpos[m[K’ was not declared in this scope; did you mean ‘[01m[Kpow[m[K’?
+[5.742s]    47 |                     "Waiting for odometry (pos=%.3f,%.3f)", [01;31m[Kpos[m[K[0], pos[1]);
+[5.742s]       |                                                             [01;31m[K^~~[m[K
+[5.742s] 
+[7.858s] gmake[2]: *** [CMakeFiles/mine_mapper.dir/build.make:76: CMakeFiles/mine_mapper.dir/src/mine_map_node.cpp.o] Error 1
+[7.858s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/mine_mapper.dir/all] Error 2
+[7.858s] gmake: *** [Makefile:146: all] Error 2
+[7.860s] Invoked command in '/home/azidozide/px4_sitl_ws/build/mine_mapping' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/mine_mapping -- -j24 -l24

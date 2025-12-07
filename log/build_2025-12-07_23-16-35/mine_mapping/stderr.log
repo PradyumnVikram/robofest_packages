@@ -1,0 +1,7 @@
+In file included from [01m[K/home/azidozide/px4_sitl_ws/src/mine_mapping/src/map_generator.cpp:1[m[K:
+[01m[K/home/azidozide/px4_sitl_ws/src/mine_mapping/src/map_generator.hpp:25:18:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KMapGen::[m[K’ on member ‘[01m[Kpixel_to_world[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   25 |     MineLocation [01;31m[KMapGen[m[K::pixel_to_world(double pixel_x, double pixel_y, DronePose& drone_pose);
+      |                  [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/map_generator.dir/build.make:76: CMakeFiles/map_generator.dir/src/map_generator.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/map_generator.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
