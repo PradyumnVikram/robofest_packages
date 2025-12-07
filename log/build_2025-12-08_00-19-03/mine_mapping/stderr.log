@@ -1,0 +1,10 @@
+[01m[K/home/azidozide/px4_sitl_ws/src/mine_mapping/src/map_generator.cpp:[m[K In member function ‘[01m[Kvoid MapGen::update_map(const cv::Mat&, const DronePose&)[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/mine_mapping/src/map_generator.cpp:83:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kpixel_x[m[K’ was not declared in this scope
+   83 |                            cv::Point([01;31m[Kpixel_x[m[K, pixel_y-15), cv::FONT_HERSHEY_SIMPLEX,
+      |                                      [01;31m[K^~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/mine_mapping/src/map_generator.cpp:83:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kpixel_y[m[K’ was not declared in this scope
+   83 |                            cv::Point(pixel_x, [01;31m[Kpixel_y[m[K-15), cv::FONT_HERSHEY_SIMPLEX,
+      |                                               [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/map_generator.dir/build.make:76: CMakeFiles/map_generator.dir/src/map_generator.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/map_generator.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

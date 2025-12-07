@@ -21,12 +21,12 @@ class MapGen : public rclcpp::Node {  // ← Inherit from Node
 public:
     MapGen();
     std::vector<MineLocation> mine_locations;
-    void update_map(const cv::Mat& frame, DronePose& drone_pose);
-    MineLocation pixel_to_world(double pixel_x, double pixel_y, DronePose& drone_pose);
+    void update_map(const cv::Mat& frame, const DronePose& drone_pose);
+    MineLocation pixel_to_world(double pixel_x, double pixel_y, const DronePose& drone_pose);
 
 private:
     bool mine_exists(const MineLocation& mine) const {
-        const double error = 20;
+        const double error = 0.2;
         for (const auto& m : mine_locations) {
             if (std::hypot(m.x - mine.x, m.y - mine.y) < error) {
                 return true;

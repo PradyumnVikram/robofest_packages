@@ -26,6 +26,8 @@ private:
     MapGen map_obj;
     bool pos_valid_ = false;
     DronePose pos_quat;
+    DronePose world_origin;
+    bool origin_set = false;
 
     void odom_callback(const px4_msgs::msg::VehicleOdometry::SharedPtr msg) {
         pos_quat.x = msg->position[0]; 
@@ -35,6 +37,12 @@ private:
         pos_quat.q_x = msg->q[1];
         pos_quat.q_y = msg->q[2];
         pos_quat.q_z = msg->q[3];
+
+        if (!origin_set && pos_quat.altitude() > 2.45) {
+            world_origin = pos_quat;
+            origin_set = true;
+            RCLCPP_INFO(this->get_logger(), "FIXED ORIGIN SET");
+        }
         
         RCLCPP_INFO_ONCE(this->get_logger(), "Odometry received: %.3f, %.3f", pos_quat.x, pos_quat.y);
         pos_valid_ = true;
@@ -47,11 +55,17 @@ private:
                             "Waiting for odometry (pos=%.3f,%.3f)", pos_quat.x, pos_quat.y);
             return;  // Skip until odometry arrives
         }
+        if(!origin_set){
+            return;
+        }
         try
         {
             cv::Mat frame = cv_bridge::toCvShare(msg, "bgr8") -> image;
             cv::imshow("Camera", frame);
-            map_obj.update_map(frame, pos_quat);
+            DronePose rel_pose = pos_quat;
+            rel_pose.x -= world_origin.x;
+            rel_pose.y -= world_origin.y;
+            map_obj.update_map(frame, rel_pose);
             for(auto mine : map_obj.mine_locations){
                 RCLCPP_INFO(this->get_logger(), "Mine at: %f, %f", mine.x, mine.y);
             }

@@ -5,7 +5,7 @@ MapGen::MapGen() : rclcpp::Node("map_generator") {  // ← Proper Node construct
     RCLCPP_INFO(this->get_logger(), "MapGen initialized");
 }
 
-MineLocation MapGen::pixel_to_world(double pixel_x, double pixel_y, DronePose& pose) {
+MineLocation MapGen::pixel_to_world(double pixel_x, double pixel_y, const DronePose& pose) {
     // 1. CAMERA INTRINSICS (calibrate once)
     double fx = 724.5;  // From calibration
     double fy = 724.5;
@@ -37,7 +37,7 @@ MineLocation MapGen::pixel_to_world(double pixel_x, double pixel_y, DronePose& p
 }
 
 
-void MapGen::update_map(const cv::Mat& frame, DronePose& drone_pose) {
+void MapGen::update_map(const cv::Mat& frame, const DronePose& drone_pose) {
     RCLCPP_INFO(this->get_logger(), "=== Frame processing started ===");
     
     if (frame.empty()) {
@@ -80,7 +80,7 @@ void MapGen::update_map(const cv::Mat& frame, DronePose& drone_pose) {
         // Draw ALL contours (GREEN thin)
         cv::drawContours(display_frame, contours, i, cv::Scalar(0, 255, 0), 1);
         
-        if (area > 100) {
+        if (area > 250 and area < 2000) {
             cv::Moments m = cv::moments(contour);
             if (m.m00 > 0) {
                 double pixel_x = m.m10 / m.m00;
