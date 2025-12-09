@@ -1,0 +1,4 @@
+source;share/integrated_drone_mapping/local_setup.bash
+source;share/integrated_drone_mapping/local_setup.dsv
+source;share/integrated_drone_mapping/local_setup.sh
+source;share/integrated_drone_mapping/local_setup.zsh

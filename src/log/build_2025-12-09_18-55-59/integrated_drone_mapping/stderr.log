@@ -1,0 +1,33 @@
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/integrated_drone_mapping_node.cpp:[m[K In constructor ‘[01m[KIntegratedDroneMappingNode::IntegratedDroneMappingNode()[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/integrated_drone_mapping_node.cpp:23:72:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::QoS::QoS()[m[K’
+   23 |     IntegratedDroneMappingNode() : Node("integrated_drone_mapping_node"[01;31m[K)[m[K {
+      |                                                                        [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/integrated_drone_mapping_node.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:141:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::QoS::QoS(size_t)[m[K’
+  141 |   [01;36m[KQoS[m[K(size_t history_depth);  // NOLINT(runtime/explicit): conversion constructor
+      |   [01;36m[K^~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:141:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:128:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::QoS::QoS(const rclcpp::QoSInitialization&, const rmw_qos_profile_t&)[m[K’
+  128 |   [01;36m[KQoS[m[K(
+      |   [01;36m[K^~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:128:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:110:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr rclcpp::QoS::QoS(const rclcpp::QoS&)[m[K’
+  110 | class RCLCPP_PUBLIC [01;36m[KQoS[m[K
+      |                     [01;36m[K^~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:110:21:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:110:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr rclcpp::QoS::QoS(rclcpp::QoS&&)[m[K’
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:110:21:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+gmake[2]: *** [CMakeFiles/integrated_drone_mapping_node.dir/build.make:76: CMakeFiles/integrated_drone_mapping_node.dir/src/integrated_drone_mapping_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/integrated_drone_mapping_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,6 @@
+lto-wrapper: warning: using serial compilation of 7 LTRANS jobs
+[31mCMake Error at cmake_install.cmake:66 (file):
+  file INSTALL cannot find "/home/azidozide/px4_sitl_ws/src/mapping/launch":
+  No such file or directory.
+
+[0m

@@ -1,0 +1,70 @@
+[0.007s] Invoking command in '/home/azidozide/px4_sitl_ws/build/integrated_drone_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azidozide/px4_sitl_ws/install/object_tracker:/home/azidozide/px4_sitl_ws/install/mapping:/opt/ros/humble /usr/bin/cmake /home/azidozide/px4_sitl_ws/src/mapping -DCMAKE_INSTALL_PREFIX=/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping
+[0.057s] -- The C compiler identification is GNU 11.4.0
+[0.125s] -- The CXX compiler identification is GNU 11.4.0
+[0.134s] -- Detecting C compiler ABI info
+[0.201s] -- Detecting C compiler ABI info - done
+[0.208s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.208s] -- Detecting C compile features
+[0.208s] -- Detecting C compile features - done
+[0.212s] -- Detecting CXX compiler ABI info
+[0.273s] -- Detecting CXX compiler ABI info - done
+[0.279s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.279s] -- Detecting CXX compile features
+[0.280s] -- Detecting CXX compile features - done
+[0.282s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.404s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.484s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.517s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.520s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.526s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.534s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.545s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.574s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.576s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.648s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.676s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.712s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.720s] -- Looking for pthread.h
+[0.811s] -- Looking for pthread.h - found
+[0.811s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.909s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.910s] -- Found Threads: TRUE  
+[0.949s] -- Found px4_msgs: 2.0.1 (/home/azidozide/px4_sitl_ws/install/px4_msgs/share/px4_msgs/cmake)
+[0.958s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.980s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.048s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.048s] -- Configured cppcheck include dirs: 
+[1.048s] -- Configured cppcheck exclude dirs and/or files: 
+[1.048s] -- Added test 'lint_cmake' to check CMake code style
+[1.049s] -- Added test 'uncrustify' to check C / C++ code style
+[1.049s] -- Configured uncrustify additional arguments: 
+[1.049s] -- Added test 'xmllint' to check XML markup files
+[1.050s] -- Configuring done
+[1.056s] -- Generating done
+[1.059s] -- Build files have been written to: /home/azidozide/px4_sitl_ws/build/integrated_drone_mapping
+[1.065s] Invoked command in '/home/azidozide/px4_sitl_ws/build/integrated_drone_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azidozide/px4_sitl_ws/install/object_tracker:/home/azidozide/px4_sitl_ws/install/mapping:/opt/ros/humble /usr/bin/cmake /home/azidozide/px4_sitl_ws/src/mapping -DCMAKE_INSTALL_PREFIX=/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping
+[1.067s] Invoking command in '/home/azidozide/px4_sitl_ws/build/integrated_drone_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azidozide/px4_sitl_ws/install/object_tracker:/home/azidozide/px4_sitl_ws/install/mapping:/opt/ros/humble /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/integrated_drone_mapping -- -j24 -l24
+[1.124s] [ 50%] [32mBuilding CXX object CMakeFiles/integrated_drone_mapping_node.dir/src/integrated_drone_mapping_node.cpp.o[0m
+[13.133s] [100%] [32m[1mLinking CXX executable integrated_drone_mapping_node[0m
+[13.301s] [100%] Built target integrated_drone_mapping_node
+[13.310s] Invoked command in '/home/azidozide/px4_sitl_ws/build/integrated_drone_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azidozide/px4_sitl_ws/install/object_tracker:/home/azidozide/px4_sitl_ws/install/mapping:/opt/ros/humble /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/integrated_drone_mapping -- -j24 -l24
+[13.311s] Invoking command in '/home/azidozide/px4_sitl_ws/build/integrated_drone_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azidozide/px4_sitl_ws/install/object_tracker:/home/azidozide/px4_sitl_ws/install/mapping:/opt/ros/humble /usr/bin/cmake --install /home/azidozide/px4_sitl_ws/build/integrated_drone_mapping
+[13.317s] -- Install configuration: ""
+[13.317s] -- Installing: /home/azidozide/px4_sitl_ws/install/integrated_drone_mapping/lib/integrated_drone_mapping/integrated_drone_mapping_node
+[13.318s] -- Set runtime path of "/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping/lib/integrated_drone_mapping/integrated_drone_mapping_node" to ""
+[13.318s] -- Installing: /home/azidozide/px4_sitl_ws/install/integrated_drone_mapping/share/ament_index/resource_index/package_run_dependencies/integrated_drone_mapping
+[13.318s] -- Installing: /home/azidozide/px4_sitl_ws/install/integrated_drone_mapping/share/ament_index/resource_index/parent_prefix_path/integrated_drone_mapping
+[13.318s] -- Installing: /home/azidozide/px4_sitl_ws/install/integrated_drone_mapping/share/integrated_drone_mapping/environment/ament_prefix_path.sh
+[13.318s] -- Installing: /home/azidozide/px4_sitl_ws/install/integrated_drone_mapping/share/integrated_drone_mapping/environment/ament_prefix_path.dsv
+[13.318s] -- Installing: /home/azidozide/px4_sitl_ws/install/integrated_drone_mapping/share/integrated_drone_mapping/environment/path.sh
+[13.318s] -- Installing: /home/azidozide/px4_sitl_ws/install/integrated_drone_mapping/share/integrated_drone_mapping/environment/path.dsv
+[13.319s] -- Installing: /home/azidozide/px4_sitl_ws/install/integrated_drone_mapping/share/integrated_drone_mapping/local_setup.bash
+[13.319s] -- Installing: /home/azidozide/px4_sitl_ws/install/integrated_drone_mapping/share/integrated_drone_mapping/local_setup.sh
+[13.319s] -- Installing: /home/azidozide/px4_sitl_ws/install/integrated_drone_mapping/share/integrated_drone_mapping/local_setup.zsh
+[13.319s] -- Installing: /home/azidozide/px4_sitl_ws/install/integrated_drone_mapping/share/integrated_drone_mapping/local_setup.dsv
+[13.319s] -- Installing: /home/azidozide/px4_sitl_ws/install/integrated_drone_mapping/share/integrated_drone_mapping/package.dsv
+[13.319s] -- Installing: /home/azidozide/px4_sitl_ws/install/integrated_drone_mapping/share/ament_index/resource_index/packages/integrated_drone_mapping
+[13.319s] -- Installing: /home/azidozide/px4_sitl_ws/install/integrated_drone_mapping/share/integrated_drone_mapping/cmake/integrated_drone_mappingConfig.cmake
+[13.319s] -- Installing: /home/azidozide/px4_sitl_ws/install/integrated_drone_mapping/share/integrated_drone_mapping/cmake/integrated_drone_mappingConfig-version.cmake
+[13.319s] -- Installing: /home/azidozide/px4_sitl_ws/install/integrated_drone_mapping/share/integrated_drone_mapping/package.xml
+[13.321s] Invoked command in '/home/azidozide/px4_sitl_ws/build/integrated_drone_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azidozide/px4_sitl_ws/install/object_tracker:/home/azidozide/px4_sitl_ws/install/mapping:/opt/ros/humble /usr/bin/cmake --install /home/azidozide/px4_sitl_ws/build/integrated_drone_mapping

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-22e63072ed669e59aa53.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "integrated_drone_mapping",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "integrated_drone_mapping_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-integrated_drone_mapping_node-e11884b18ed1b2d431f9.json",
+					"name" : "integrated_drone_mapping_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "integrated_drone_mapping_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-integrated_drone_mapping_uninstall-c3f8a0a5796f43f19c52.json",
+					"name" : "integrated_drone_mapping_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-19f288c42cf359b80252.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/azidozide/px4_sitl_ws/build/integrated_drone_mapping",
+		"source" : "/home/azidozide/px4_sitl_ws/src/mapping"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

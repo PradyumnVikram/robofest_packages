@@ -1,0 +1,11 @@
+/home/azidozide/px4_sitl_ws/src/build/mine_mapping/CMakeFiles/uninstall.dir
+/home/azidozide/px4_sitl_ws/src/build/mine_mapping/CMakeFiles/mine_mapping_uninstall.dir
+/home/azidozide/px4_sitl_ws/src/build/mine_mapping/CMakeFiles/map_generator.dir
+/home/azidozide/px4_sitl_ws/src/build/mine_mapping/CMakeFiles/mine_mapper.dir
+/home/azidozide/px4_sitl_ws/src/build/mine_mapping/CMakeFiles/test.dir
+/home/azidozide/px4_sitl_ws/src/build/mine_mapping/CMakeFiles/edit_cache.dir
+/home/azidozide/px4_sitl_ws/src/build/mine_mapping/CMakeFiles/rebuild_cache.dir
+/home/azidozide/px4_sitl_ws/src/build/mine_mapping/CMakeFiles/list_install_components.dir
+/home/azidozide/px4_sitl_ws/src/build/mine_mapping/CMakeFiles/install.dir
+/home/azidozide/px4_sitl_ws/src/build/mine_mapping/CMakeFiles/install/local.dir
+/home/azidozide/px4_sitl_ws/src/build/mine_mapping/CMakeFiles/install/strip.dir

@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target integrated_drone_mapping_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/integrated_drone_mapping_node.dir/src/integrated_drone_mapping_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable integrated_drone_mapping_node[0m
+lto-wrapper: warning: using serial compilation of 7 LTRANS jobs
+[100%] Built target integrated_drone_mapping_node
+-- Install configuration: ""
+-- Installing: /home/azidozide/px4_sitl_ws/src/install/integrated_drone_mapping/lib/integrated_drone_mapping/integrated_drone_mapping_node
+-- Set runtime path of "/home/azidozide/px4_sitl_ws/src/install/integrated_drone_mapping/lib/integrated_drone_mapping/integrated_drone_mapping_node" to ""
+[31mCMake Error at cmake_install.cmake:66 (file):
+  file INSTALL cannot find "/home/azidozide/px4_sitl_ws/src/mapping/launch":
+  No such file or directory.
+
+[0m

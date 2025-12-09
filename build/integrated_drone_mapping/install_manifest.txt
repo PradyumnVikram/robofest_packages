@@ -1,0 +1,16 @@
+/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping/lib/integrated_drone_mapping/integrated_drone_mapping_node
+/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping/share/ament_index/resource_index/package_run_dependencies/integrated_drone_mapping
+/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping/share/ament_index/resource_index/parent_prefix_path/integrated_drone_mapping
+/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping/share/integrated_drone_mapping/environment/ament_prefix_path.sh
+/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping/share/integrated_drone_mapping/environment/ament_prefix_path.dsv
+/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping/share/integrated_drone_mapping/environment/path.sh
+/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping/share/integrated_drone_mapping/environment/path.dsv
+/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping/share/integrated_drone_mapping/local_setup.bash
+/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping/share/integrated_drone_mapping/local_setup.sh
+/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping/share/integrated_drone_mapping/local_setup.zsh
+/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping/share/integrated_drone_mapping/local_setup.dsv
+/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping/share/integrated_drone_mapping/package.dsv
+/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping/share/ament_index/resource_index/packages/integrated_drone_mapping
+/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping/share/integrated_drone_mapping/cmake/integrated_drone_mappingConfig.cmake
+/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping/share/integrated_drone_mapping/cmake/integrated_drone_mappingConfig-version.cmake
+/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping/share/integrated_drone_mapping/package.xml

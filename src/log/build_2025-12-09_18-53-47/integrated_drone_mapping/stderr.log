@@ -1,0 +1,179 @@
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/integrated_drone_mapping_node.cpp:1:2:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #!
+    1 | #[01;31m[K![m[K/usr/bin/env /usr/bin/python3
+      |  [01;31m[K^[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/integrated_drone_mapping_node.cpp:[m[K In constructor ‘[01m[KIntegratedDroneMappingNode::IntegratedDroneMappingNode()[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/integrated_drone_mapping_node.cpp:24:72:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::QoS::QoS()[m[K’
+   24 |     IntegratedDroneMappingNode() : Node("integrated_drone_mapping_node"[01;31m[K)[m[K {
+      |                                                                        [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/integrated_drone_mapping_node.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:141:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::QoS::QoS(size_t)[m[K’
+  141 |   [01;36m[KQoS[m[K(size_t history_depth);  // NOLINT(runtime/explicit): conversion constructor
+      |   [01;36m[K^~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:141:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:128:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::QoS::QoS(const rclcpp::QoSInitialization&, const rmw_qos_profile_t&)[m[K’
+  128 |   [01;36m[KQoS[m[K(
+      |   [01;36m[K^~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:128:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:110:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr rclcpp::QoS::QoS(const rclcpp::QoS&)[m[K’
+  110 | class RCLCPP_PUBLIC [01;36m[KQoS[m[K
+      |                     [01;36m[K^~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:110:21:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:110:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr rclcpp::QoS::QoS(rclcpp::QoS&&)[m[K’
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:110:21:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/integrated_drone_mapping_node.cpp:[m[K In member function ‘[01m[Kint IntegratedDroneMappingNode::update_occupancy_grid(float, float, float)[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/integrated_drone_mapping_node.cpp:235:70:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::tuple<int&, int&>[m[K’ and ‘[01m[Kstd::array<int, 2>[m[K’)
+  235 |         std::tie(robot_gx, robot_gy) = world_to_grid(robot_x, robot_y[01;31m[K)[m[K;
+      |                                                                      [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/integrated_drone_mapping_node.cpp:7[m[K:
+[01m[K/usr/include/c++/11/tuple:1290:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2> std::__enable_if_t<__assignable<const _U1&, const _U2&>(), std::tuple<_T1, _T2>&> std::tuple<_T1, _T2>::operator=(const std::tuple<_U1, _U2>&) [with _U1 = _U1; _U2 = _U2; _T1 = int&; _T2 = int&][m[K’
+ 1290 |         [01;36m[Koperator[m[K=(const tuple<_U1, _U2>& __in)
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/tuple:1290:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/integrated_drone_mapping_node.cpp:235:70:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::array<int, 2>[m[K’ is not derived from ‘[01m[Kconst std::tuple<_T1, _T2>[m[K’
+  235 |         std::tie(robot_gx, robot_gy) = world_to_grid(robot_x, robot_y[01;36m[K)[m[K;
+      |                                                                      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/integrated_drone_mapping_node.cpp:7[m[K:
+[01m[K/usr/include/c++/11/tuple:1300:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2> std::__enable_if_t<__assignable<_U1, _U2>(), std::tuple<_T1, _T2>&> std::tuple<_T1, _T2>::operator=(std::tuple<_U1, _U2>&&) [with _U1 = _U1; _U2 = _U2; _T1 = int&; _T2 = int&][m[K’
+ 1300 |         [01;36m[Koperator[m[K=(tuple<_U1, _U2>&& __in)
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/tuple:1300:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/integrated_drone_mapping_node.cpp:235:70:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::array<int, 2>[m[K’ is not derived from ‘[01m[Kstd::tuple<_T1, _T2>[m[K’
+  235 |         std::tie(robot_gx, robot_gy) = world_to_grid(robot_x, robot_y[01;36m[K)[m[K;
+      |                                                                      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/integrated_drone_mapping_node.cpp:7[m[K:
+[01m[K/usr/include/c++/11/tuple:1310:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2> std::__enable_if_t<__assignable<const _U1&, const _U2&>(), std::tuple<_T1, _T2>&> std::tuple<_T1, _T2>::operator=(const std::pair<_U1, _U2>&) [with _U1 = _U1; _U2 = _U2; _T1 = int&; _T2 = int&][m[K’
+ 1310 |         [01;36m[Koperator[m[K=(const pair<_U1, _U2>& __in)
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/tuple:1310:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/integrated_drone_mapping_node.cpp:235:70:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::array<int, 2>[m[K’ is not derived from ‘[01m[Kconst std::pair<_T1, _T2>[m[K’
+  235 |         std::tie(robot_gx, robot_gy) = world_to_grid(robot_x, robot_y[01;36m[K)[m[K;
+      |                                                                      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/integrated_drone_mapping_node.cpp:7[m[K:
+[01m[K/usr/include/c++/11/tuple:1321:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2> std::__enable_if_t<__assignable<_U1, _U2>(), std::tuple<_T1, _T2>&> std::tuple<_T1, _T2>::operator=(std::pair<_U1, _U2>&&) [with _U1 = _U1; _U2 = _U2; _T1 = int&; _T2 = int&][m[K’
+ 1321 |         [01;36m[Koperator[m[K=(pair<_U1, _U2>&& __in)
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/tuple:1321:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/integrated_drone_mapping_node.cpp:235:70:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::array<int, 2>[m[K’ is not derived from ‘[01m[Kstd::pair<_T1, _T2>[m[K’
+  235 |         std::tie(robot_gx, robot_gy) = world_to_grid(robot_x, robot_y[01;36m[K)[m[K;
+      |                                                                      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/integrated_drone_mapping_node.cpp:7[m[K:
+[01m[K/usr/include/c++/11/tuple:1267:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::tuple<_T1, _T2>& std::tuple<_T1, _T2>::operator=(typename std::conditional<__assignable<const _T1&, const _T2&>(), const std::tuple<_T1, _T2>&, const std::__nonesuch&>::type) [with _T1 = int&; _T2 = int&; typename std::conditional<__assignable<const _T1&, const _T2&>(), const std::tuple<_T1, _T2>&, const std::__nonesuch&>::type = const std::tuple<int&, int&>&][m[K’
+ 1267 |       [01;36m[Koperator[m[K=(typename conditional<__assignable<const _T1&, const _T2&>(),
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/tuple:1269:63:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::array<int, 2>[m[K’ to ‘[01m[Kstd::conditional<true, const std::tuple<int&, int&>&, const std::__nonesuch&>::type[m[K’ {aka ‘[01m[Kconst std::tuple<int&, int&>&[m[K’}
+ 1267 |       operator=([01;36m[Ktypename conditional<__assignable<const _T1&, const _T2&>(),[m[K
+      |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 1268 | [01;36m[K                                     const tuple&,[m[K
+      |                                      [01;36m[K~~~~~~~~~~~~~[m[K             
+ 1269 | [01;36m[K                                     const __nonesuch&>::type __in[m[K)
+      |                                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/usr/include/c++/11/tuple:1278:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::tuple<_T1, _T2>& std::tuple<_T1, _T2>::operator=(typename std::conditional<__assignable<_T1, _T2>(), std::tuple<_T1, _T2>&&, std::__nonesuch&&>::type) [with _T1 = int&; _T2 = int&; typename std::conditional<__assignable<_T1, _T2>(), std::tuple<_T1, _T2>&&, std::__nonesuch&&>::type = std::tuple<int&, int&>&&][m[K’
+ 1278 |       [01;36m[Koperator[m[K=(typename conditional<__assignable<_T1, _T2>(),
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/tuple:1280:58:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::array<int, 2>[m[K’ to ‘[01m[Kstd::conditional<true, std::tuple<int&, int&>&&, std::__nonesuch&&>::type[m[K’ {aka ‘[01m[Kstd::tuple<int&, int&>&&[m[K’}
+ 1278 |       operator=([01;36m[Ktypename conditional<__assignable<_T1, _T2>(),[m[K
+      |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 1279 | [01;36m[K                                     tuple&&,[m[K
+      |                                      [01;36m[K~~~~~~~~[m[K             
+ 1280 | [01;36m[K                                     __nonesuch&&>::type __in[m[K)
+      |                                      [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/integrated_drone_mapping_node.cpp:248:66:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::tuple<int&, int&>[m[K’ and ‘[01m[Kstd::array<int, 2>[m[K’)
+  248 |             std::tie(hit_gx, hit_gy) = world_to_grid(hit_x, hit_y[01;31m[K)[m[K;
+      |                                                                  [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/integrated_drone_mapping_node.cpp:7[m[K:
+[01m[K/usr/include/c++/11/tuple:1290:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2> std::__enable_if_t<__assignable<const _U1&, const _U2&>(), std::tuple<_T1, _T2>&> std::tuple<_T1, _T2>::operator=(const std::tuple<_U1, _U2>&) [with _U1 = _U1; _U2 = _U2; _T1 = int&; _T2 = int&][m[K’
+ 1290 |         [01;36m[Koperator[m[K=(const tuple<_U1, _U2>& __in)
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/tuple:1290:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/integrated_drone_mapping_node.cpp:248:66:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::array<int, 2>[m[K’ is not derived from ‘[01m[Kconst std::tuple<_T1, _T2>[m[K’
+  248 |             std::tie(hit_gx, hit_gy) = world_to_grid(hit_x, hit_y[01;36m[K)[m[K;
+      |                                                                  [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/integrated_drone_mapping_node.cpp:7[m[K:
+[01m[K/usr/include/c++/11/tuple:1300:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2> std::__enable_if_t<__assignable<_U1, _U2>(), std::tuple<_T1, _T2>&> std::tuple<_T1, _T2>::operator=(std::tuple<_U1, _U2>&&) [with _U1 = _U1; _U2 = _U2; _T1 = int&; _T2 = int&][m[K’
+ 1300 |         [01;36m[Koperator[m[K=(tuple<_U1, _U2>&& __in)
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/tuple:1300:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/integrated_drone_mapping_node.cpp:248:66:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::array<int, 2>[m[K’ is not derived from ‘[01m[Kstd::tuple<_T1, _T2>[m[K’
+  248 |             std::tie(hit_gx, hit_gy) = world_to_grid(hit_x, hit_y[01;36m[K)[m[K;
+      |                                                                  [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/integrated_drone_mapping_node.cpp:7[m[K:
+[01m[K/usr/include/c++/11/tuple:1310:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2> std::__enable_if_t<__assignable<const _U1&, const _U2&>(), std::tuple<_T1, _T2>&> std::tuple<_T1, _T2>::operator=(const std::pair<_U1, _U2>&) [with _U1 = _U1; _U2 = _U2; _T1 = int&; _T2 = int&][m[K’
+ 1310 |         [01;36m[Koperator[m[K=(const pair<_U1, _U2>& __in)
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/tuple:1310:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/integrated_drone_mapping_node.cpp:248:66:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::array<int, 2>[m[K’ is not derived from ‘[01m[Kconst std::pair<_T1, _T2>[m[K’
+  248 |             std::tie(hit_gx, hit_gy) = world_to_grid(hit_x, hit_y[01;36m[K)[m[K;
+      |                                                                  [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/integrated_drone_mapping_node.cpp:7[m[K:
+[01m[K/usr/include/c++/11/tuple:1321:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2> std::__enable_if_t<__assignable<_U1, _U2>(), std::tuple<_T1, _T2>&> std::tuple<_T1, _T2>::operator=(std::pair<_U1, _U2>&&) [with _U1 = _U1; _U2 = _U2; _T1 = int&; _T2 = int&][m[K’
+ 1321 |         [01;36m[Koperator[m[K=(pair<_U1, _U2>&& __in)
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/tuple:1321:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/integrated_drone_mapping_node.cpp:248:66:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::array<int, 2>[m[K’ is not derived from ‘[01m[Kstd::pair<_T1, _T2>[m[K’
+  248 |             std::tie(hit_gx, hit_gy) = world_to_grid(hit_x, hit_y[01;36m[K)[m[K;
+      |                                                                  [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/integrated_drone_mapping_node.cpp:7[m[K:
+[01m[K/usr/include/c++/11/tuple:1267:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::tuple<_T1, _T2>& std::tuple<_T1, _T2>::operator=(typename std::conditional<__assignable<const _T1&, const _T2&>(), const std::tuple<_T1, _T2>&, const std::__nonesuch&>::type) [with _T1 = int&; _T2 = int&; typename std::conditional<__assignable<const _T1&, const _T2&>(), const std::tuple<_T1, _T2>&, const std::__nonesuch&>::type = const std::tuple<int&, int&>&][m[K’
+ 1267 |       [01;36m[Koperator[m[K=(typename conditional<__assignable<const _T1&, const _T2&>(),
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/tuple:1269:63:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::array<int, 2>[m[K’ to ‘[01m[Kstd::conditional<true, const std::tuple<int&, int&>&, const std::__nonesuch&>::type[m[K’ {aka ‘[01m[Kconst std::tuple<int&, int&>&[m[K’}
+ 1267 |       operator=([01;36m[Ktypename conditional<__assignable<const _T1&, const _T2&>(),[m[K
+      |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 1268 | [01;36m[K                                     const tuple&,[m[K
+      |                                      [01;36m[K~~~~~~~~~~~~~[m[K             
+ 1269 | [01;36m[K                                     const __nonesuch&>::type __in[m[K)
+      |                                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/usr/include/c++/11/tuple:1278:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::tuple<_T1, _T2>& std::tuple<_T1, _T2>::operator=(typename std::conditional<__assignable<_T1, _T2>(), std::tuple<_T1, _T2>&&, std::__nonesuch&&>::type) [with _T1 = int&; _T2 = int&; typename std::conditional<__assignable<_T1, _T2>(), std::tuple<_T1, _T2>&&, std::__nonesuch&&>::type = std::tuple<int&, int&>&&][m[K’
+ 1278 |       [01;36m[Koperator[m[K=(typename conditional<__assignable<_T1, _T2>(),
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/tuple:1280:58:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::array<int, 2>[m[K’ to ‘[01m[Kstd::conditional<true, std::tuple<int&, int&>&&, std::__nonesuch&&>::type[m[K’ {aka ‘[01m[Kstd::tuple<int&, int&>&&[m[K’}
+ 1278 |       operator=([01;36m[Ktypename conditional<__assignable<_T1, _T2>(),[m[K
+      |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 1279 | [01;36m[K                                     tuple&&,[m[K
+      |                                      [01;36m[K~~~~~~~~[m[K             
+ 1280 | [01;36m[K                                     __nonesuch&&>::type __in[m[K)
+      |                                      [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+gmake[2]: *** [CMakeFiles/integrated_drone_mapping_node.dir/build.make:76: CMakeFiles/integrated_drone_mapping_node.dir/src/integrated_drone_mapping_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/integrated_drone_mapping_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

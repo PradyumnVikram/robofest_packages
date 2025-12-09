@@ -1,0 +1,16 @@
+/home/azidozide/px4_sitl_ws/install/mapping/lib/mapping/integrated_drone_mapping_node
+/home/azidozide/px4_sitl_ws/install/mapping/share/ament_index/resource_index/package_run_dependencies/mapping
+/home/azidozide/px4_sitl_ws/install/mapping/share/ament_index/resource_index/parent_prefix_path/mapping
+/home/azidozide/px4_sitl_ws/install/mapping/share/mapping/environment/ament_prefix_path.sh
+/home/azidozide/px4_sitl_ws/install/mapping/share/mapping/environment/ament_prefix_path.dsv
+/home/azidozide/px4_sitl_ws/install/mapping/share/mapping/environment/path.sh
+/home/azidozide/px4_sitl_ws/install/mapping/share/mapping/environment/path.dsv
+/home/azidozide/px4_sitl_ws/install/mapping/share/mapping/local_setup.bash
+/home/azidozide/px4_sitl_ws/install/mapping/share/mapping/local_setup.sh
+/home/azidozide/px4_sitl_ws/install/mapping/share/mapping/local_setup.zsh
+/home/azidozide/px4_sitl_ws/install/mapping/share/mapping/local_setup.dsv
+/home/azidozide/px4_sitl_ws/install/mapping/share/mapping/package.dsv
+/home/azidozide/px4_sitl_ws/install/mapping/share/ament_index/resource_index/packages/mapping
+/home/azidozide/px4_sitl_ws/install/mapping/share/mapping/cmake/mappingConfig.cmake
+/home/azidozide/px4_sitl_ws/install/mapping/share/mapping/cmake/mappingConfig-version.cmake
+/home/azidozide/px4_sitl_ws/install/mapping/share/mapping/package.xml

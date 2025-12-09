@@ -1,0 +1,8 @@
+source;share/integrated_drone_mapping/hook/cmake_prefix_path.ps1
+source;share/integrated_drone_mapping/hook/cmake_prefix_path.dsv
+source;share/integrated_drone_mapping/hook/cmake_prefix_path.sh
+source;share/integrated_drone_mapping/local_setup.bash
+source;share/integrated_drone_mapping/local_setup.dsv
+source;share/integrated_drone_mapping/local_setup.ps1
+source;share/integrated_drone_mapping/local_setup.sh
+source;share/integrated_drone_mapping/local_setup.zsh

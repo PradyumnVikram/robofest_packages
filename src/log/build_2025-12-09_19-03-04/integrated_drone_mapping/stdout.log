@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target integrated_drone_mapping_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/integrated_drone_mapping_node.dir/src/integrated_drone_mapping_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable integrated_drone_mapping_node[0m
+[100%] Built target integrated_drone_mapping_node
+-- Install configuration: ""
+-- Installing: /home/azidozide/px4_sitl_ws/src/install/integrated_drone_mapping/lib/integrated_drone_mapping/integrated_drone_mapping_node
+-- Set runtime path of "/home/azidozide/px4_sitl_ws/src/install/integrated_drone_mapping/lib/integrated_drone_mapping/integrated_drone_mapping_node" to ""
+-- Up-to-date: /home/azidozide/px4_sitl_ws/src/install/integrated_drone_mapping/share/ament_index/resource_index/package_run_dependencies/integrated_drone_mapping
+-- Up-to-date: /home/azidozide/px4_sitl_ws/src/install/integrated_drone_mapping/share/ament_index/resource_index/parent_prefix_path/integrated_drone_mapping
+-- Up-to-date: /home/azidozide/px4_sitl_ws/src/install/integrated_drone_mapping/share/integrated_drone_mapping/environment/ament_prefix_path.sh
+-- Up-to-date: /home/azidozide/px4_sitl_ws/src/install/integrated_drone_mapping/share/integrated_drone_mapping/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/azidozide/px4_sitl_ws/src/install/integrated_drone_mapping/share/integrated_drone_mapping/environment/path.sh
+-- Up-to-date: /home/azidozide/px4_sitl_ws/src/install/integrated_drone_mapping/share/integrated_drone_mapping/environment/path.dsv
+-- Up-to-date: /home/azidozide/px4_sitl_ws/src/install/integrated_drone_mapping/share/integrated_drone_mapping/local_setup.bash
+-- Up-to-date: /home/azidozide/px4_sitl_ws/src/install/integrated_drone_mapping/share/integrated_drone_mapping/local_setup.sh
+-- Up-to-date: /home/azidozide/px4_sitl_ws/src/install/integrated_drone_mapping/share/integrated_drone_mapping/local_setup.zsh
+-- Up-to-date: /home/azidozide/px4_sitl_ws/src/install/integrated_drone_mapping/share/integrated_drone_mapping/local_setup.dsv
+-- Installing: /home/azidozide/px4_sitl_ws/src/install/integrated_drone_mapping/share/integrated_drone_mapping/package.dsv
+-- Up-to-date: /home/azidozide/px4_sitl_ws/src/install/integrated_drone_mapping/share/ament_index/resource_index/packages/integrated_drone_mapping
+-- Up-to-date: /home/azidozide/px4_sitl_ws/src/install/integrated_drone_mapping/share/integrated_drone_mapping/cmake/integrated_drone_mappingConfig.cmake
+-- Up-to-date: /home/azidozide/px4_sitl_ws/src/install/integrated_drone_mapping/share/integrated_drone_mapping/cmake/integrated_drone_mappingConfig-version.cmake
+-- Up-to-date: /home/azidozide/px4_sitl_ws/src/install/integrated_drone_mapping/share/integrated_drone_mapping/package.xml

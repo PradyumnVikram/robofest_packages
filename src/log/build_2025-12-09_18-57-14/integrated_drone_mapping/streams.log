@@ -1,0 +1,37 @@
+[0.008s] Invoking command in '/home/azidozide/px4_sitl_ws/src/build/integrated_drone_mapping': AMENT_PREFIX_PATH=/home/azidozide/px4_sitl_ws/src/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azidozide/px4_sitl_ws/src/install/px4_msgs:/home/azidozide/px4_sitl_ws/install/px4_msgs:/home/azidozide/px4_sitl_ws/install/mine_mapping:/home/azidozide/px4_sitl_ws/install/object_tracker:/home/azidozide/px4_sitl_ws/install/mapping:/opt/ros/humble LD_LIBRARY_PATH=/home/azidozide/px4_sitl_ws/src/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azidozide/px4_sitl_ws/src/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/src/build/integrated_drone_mapping -- -j24 -l24
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target integrated_drone_mapping_node[0m
+[0.060s] [ 50%] [32mBuilding CXX object CMakeFiles/integrated_drone_mapping_node.dir/src/integrated_drone_mapping_node.cpp.o[0m
+[3.895s] [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/integrated_drone_mapping_node.cpp:[m[K In constructor ‘[01m[KIntegratedDroneMappingNode::IntegratedDroneMappingNode()[m[K’:
+[3.895s] [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/integrated_drone_mapping_node.cpp:23:72:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::QoS::QoS()[m[K’
+[3.895s]    23 |     IntegratedDroneMappingNode() : Node("integrated_drone_mapping_node"[01;31m[K)[m[K {
+[3.895s]       |                                                                        [01;31m[K^[m[K
+[3.895s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+[3.895s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[3.895s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.895s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.895s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.896s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.896s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.896s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.896s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.896s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.896s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.896s]                  from [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/integrated_drone_mapping_node.cpp:6[m[K:
+[3.896s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:141:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::QoS::QoS(size_t)[m[K’
+[3.896s]   141 |   [01;36m[KQoS[m[K(size_t history_depth);  // NOLINT(runtime/explicit): conversion constructor
+[3.896s]       |   [01;36m[K^~~[m[K
+[3.896s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:141:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[3.896s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:128:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::QoS::QoS(const rclcpp::QoSInitialization&, const rmw_qos_profile_t&)[m[K’
+[3.896s]   128 |   [01;36m[KQoS[m[K(
+[3.896s]       |   [01;36m[K^~~[m[K
+[3.896s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:128:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[3.896s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:110:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr rclcpp::QoS::QoS(const rclcpp::QoS&)[m[K’
+[3.896s]   110 | class RCLCPP_PUBLIC [01;36m[KQoS[m[K
+[3.896s]       |                     [01;36m[K^~~[m[K
+[3.896s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:110:21:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[3.896s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:110:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr rclcpp::QoS::QoS(rclcpp::QoS&&)[m[K’
+[3.896s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:110:21:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[3.896s] gmake[2]: *** [CMakeFiles/integrated_drone_mapping_node.dir/build.make:76: CMakeFiles/integrated_drone_mapping_node.dir/src/integrated_drone_mapping_node.cpp.o] Error 1
+[3.896s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/integrated_drone_mapping_node.dir/all] Error 2
+[3.897s] gmake: *** [Makefile:146: all] Error 2
+[3.899s] Invoked command in '/home/azidozide/px4_sitl_ws/src/build/integrated_drone_mapping' returned '2': AMENT_PREFIX_PATH=/home/azidozide/px4_sitl_ws/src/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azidozide/px4_sitl_ws/src/install/px4_msgs:/home/azidozide/px4_sitl_ws/install/px4_msgs:/home/azidozide/px4_sitl_ws/install/mine_mapping:/home/azidozide/px4_sitl_ws/install/object_tracker:/home/azidozide/px4_sitl_ws/install/mapping:/opt/ros/humble LD_LIBRARY_PATH=/home/azidozide/px4_sitl_ws/src/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azidozide/px4_sitl_ws/src/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/src/build/integrated_drone_mapping -- -j24 -l24
