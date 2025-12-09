@@ -1,0 +1,5 @@
+In file included from [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/corridor_gen_correct.cpp:17[m[K:
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/final_hstar.hpp:[m[K In member function ‘[01m[Kstd::vector<Vec2> HStarPlanner::search(int, int, double, int, int, double, int)[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/final_hstar.hpp:202:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgbin[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  202 |         int [01;35m[Kgbin[m[K = angleToBin(gheading);
+      |             [01;35m[K^~~~[m[K

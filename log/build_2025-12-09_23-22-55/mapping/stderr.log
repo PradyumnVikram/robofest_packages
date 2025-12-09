@@ -1,0 +1,7 @@
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/corridor_gen_correct.cpp:2:10:[m[K [01;31m[Kfatal error: [m[KEigen/Dense: No such file or directory
+    2 | #include [01;31m[K<Eigen/Dense>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/corridor_gen_correct.dir/build.make:76: CMakeFiles/corridor_gen_correct.dir/src/corridor_gen_correct.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/corridor_gen_correct.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,31 @@
+[0.007s] Invoking command in '/home/azidozide/px4_sitl_ws/build/mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azidozide/px4_sitl_ws/install/object_tracker:/home/azidozide/px4_sitl_ws/install/mapping:/opt/ros/humble /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/mapping -- -j24 -l24
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target corridor_gen_correct[0m
+[0.053s] [ 25%] [32mBuilding CXX object CMakeFiles/integrated_drone_mapping_node.dir/src/integrated_drone_mapping_node.cpp.o[0m
+[0.056s] [ 50%] [32mBuilding CXX object CMakeFiles/corridor_gen_correct.dir/src/corridor_gen_correct.cpp.o[0m
+[9.110s] [ 75%] [32m[1mLinking CXX executable corridor_gen_correct[0m
+[9.222s] [ 75%] Built target corridor_gen_correct
+[10.763s] [100%] [32m[1mLinking CXX executable integrated_drone_mapping_node[0m
+[10.906s] [100%] Built target integrated_drone_mapping_node
+[10.918s] Invoked command in '/home/azidozide/px4_sitl_ws/build/mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azidozide/px4_sitl_ws/install/object_tracker:/home/azidozide/px4_sitl_ws/install/mapping:/opt/ros/humble /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/mapping -- -j24 -l24
+[10.920s] Invoking command in '/home/azidozide/px4_sitl_ws/build/mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azidozide/px4_sitl_ws/install/object_tracker:/home/azidozide/px4_sitl_ws/install/mapping:/opt/ros/humble /usr/bin/cmake --install /home/azidozide/px4_sitl_ws/build/mapping
+[10.931s] -- Install configuration: ""
+[10.931s] -- Installing: /home/azidozide/px4_sitl_ws/install/mapping/lib/mapping/integrated_drone_mapping_node
+[10.933s] -- Set runtime path of "/home/azidozide/px4_sitl_ws/install/mapping/lib/mapping/integrated_drone_mapping_node" to ""
+[10.933s] -- Installing: /home/azidozide/px4_sitl_ws/install/mapping/lib/mapping/corridor_gen_correct
+[10.934s] -- Set runtime path of "/home/azidozide/px4_sitl_ws/install/mapping/lib/mapping/corridor_gen_correct" to ""
+[10.934s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mapping/share/ament_index/resource_index/package_run_dependencies/mapping
+[10.934s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mapping/share/ament_index/resource_index/parent_prefix_path/mapping
+[10.934s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mapping/share/mapping/environment/ament_prefix_path.sh
+[10.934s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mapping/share/mapping/environment/ament_prefix_path.dsv
+[10.934s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mapping/share/mapping/environment/path.sh
+[10.934s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mapping/share/mapping/environment/path.dsv
+[10.934s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mapping/share/mapping/local_setup.bash
+[10.934s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mapping/share/mapping/local_setup.sh
+[10.934s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mapping/share/mapping/local_setup.zsh
+[10.935s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mapping/share/mapping/local_setup.dsv
+[10.935s] -- Installing: /home/azidozide/px4_sitl_ws/install/mapping/share/mapping/package.dsv
+[10.935s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mapping/share/ament_index/resource_index/packages/mapping
+[10.935s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mapping/share/mapping/cmake/mappingConfig.cmake
+[10.935s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mapping/share/mapping/cmake/mappingConfig-version.cmake
+[10.935s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mapping/share/mapping/package.xml
+[10.937s] Invoked command in '/home/azidozide/px4_sitl_ws/build/mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azidozide/px4_sitl_ws/install/object_tracker:/home/azidozide/px4_sitl_ws/install/mapping:/opt/ros/humble /usr/bin/cmake --install /home/azidozide/px4_sitl_ws/build/mapping

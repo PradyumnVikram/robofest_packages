@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target integrated_drone_mapping_node[0m
+[35m[1mConsolidate compiler generated dependencies of target corridor_gen_correct[0m
+[ 50%] Built target integrated_drone_mapping_node
+[ 75%] [32mBuilding CXX object CMakeFiles/corridor_gen_correct.dir/src/corridor_gen_correct.cpp.o[0m

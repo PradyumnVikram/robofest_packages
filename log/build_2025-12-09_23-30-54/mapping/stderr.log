@@ -1,0 +1,41 @@
+In file included from [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/corridor_gen_correct.cpp:17[m[K:
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/final_hstar.hpp:[m[K In member function ‘[01m[Kstd::vector<Vec2> HStarPlanner::search(int, int, double, int, int, double, int)[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/final_hstar.hpp:202:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgbin[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  202 |         int [01;35m[Kgbin[m[K = angleToBin(gheading);
+      |             [01;35m[K^~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/corridor_gen_correct.cpp:[m[K In member function ‘[01m[Kvoid polyhedronGenerator::paramSet(bool, bool, bool, const int&, const int&, double, double, double)[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/corridor_gen_correct.cpp:61:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kis_gpu_on_stage_1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   61 |     void paramSet([01;35m[Kbool is_gpu_on_stage_1[m[K, bool is_gpu_on_stage_2, bool is_cluster_on,
+      |                   [01;35m[K~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/corridor_gen_correct.cpp:61:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kis_gpu_on_stage_2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   61 |     void paramSet(bool is_gpu_on_stage_1, [01;35m[Kbool is_gpu_on_stage_2[m[K, bool is_cluster_on,
+      |                                           [01;35m[K~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/corridor_gen_correct.cpp:[m[K In member function ‘[01m[Kbool polyhedronGenerator::serialConvexTest2D(int, int, int, int, const MatrixXi&, const MatrixXi&, const MatrixXi&)[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/corridor_gen_correct.cpp:197:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmax_y_id[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  197 |                             int cluster_grid_num, [01;35m[Kint max_y_id[m[K,
+      |                                                   [01;35m[K~~~~^~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/corridor_gen_correct.cpp:[m[K In member function ‘[01m[Kvoid polyhedronGenerator::polygonGeneration(std::vector<int>&, std::vector<int>&)[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/corridor_gen_correct.cpp:423:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  423 |             for (int i = 0; [01;35m[Ki < rect_grid_x.size()[m[K; ++i) {
+      |                             [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/corridor_gen_correct.cpp:436:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  436 |         for (int i = 0; [01;35m[Ki < rect_grid_x.size()[m[K; ++i) {
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/corridor_gen_correct.cpp:[m[K In function ‘[01m[Kstd::vector<std::pair<int, int> > extractSeedVoxelsFromPath(const std::vector<std::pair<double, double> >&, int, int, double)[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/corridor_gen_correct.cpp:552:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kspacing[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  552 |     int max_x, int max_y, [01;35m[Kdouble spacing = 1.0[m[K) {
+      |                           [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/corridor_gen_correct.cpp:[m[K In constructor ‘[01m[KLidarPolygonGenerator::LidarPolygonGenerator()[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/corridor_gen_correct.cpp:592:84:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+  592 |             "/map", 10, std::bind(&LidarPolygonGenerator::occupancyCallback, this, [01;31m[K_1[m[K));
+      |                                                                                    [01;31m[K^~[m[K
+      |                                                                                    [32m[Kstd::placeholders::_1[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:85[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/corridor_gen_correct.cpp:2[m[K:
+[01m[K/usr/include/c++/11/functional:225:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+  225 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+      |                                  [01;36m[K^~[m[K
+gmake[2]: *** [CMakeFiles/corridor_gen_correct.dir/build.make:76: CMakeFiles/corridor_gen_correct.dir/src/corridor_gen_correct.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/corridor_gen_correct.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

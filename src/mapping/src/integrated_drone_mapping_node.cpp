@@ -110,7 +110,7 @@ private:
         
         // ADD THIS LINE:
         occupancy_grid_pub_ = create_publisher<nav_msgs::msg::OccupancyGrid>(
-            "occupancy_grid_map", occupancy_qos_);
+            "/occupancy_grid_map", occupancy_qos_);
     }
 
     void init_subscribers() {

@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target integrated_drone_mapping_node[0m
+[35m[1mConsolidate compiler generated dependencies of target corridor_gen_correct[0m
+[ 50%] Built target integrated_drone_mapping_node
+[ 75%] [32mBuilding CXX object CMakeFiles/corridor_gen_correct.dir/src/corridor_gen_correct.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/corridor_gen_correct.cpp:12[m[K:
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/corridor_gen_correct.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/corridor_gen_correct.cpp:661:86:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_wait[m[K’ was not declared in this scope
+  661 |                     std::chrono::duration<double>(std::chrono::steady_clock::now() - [01;31m[Kstart_wait[m[K).count());
+      |                                                                                      [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/corridor_gen_correct.dir/build.make:76: CMakeFiles/corridor_gen_correct.dir/src/corridor_gen_correct.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/corridor_gen_correct.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

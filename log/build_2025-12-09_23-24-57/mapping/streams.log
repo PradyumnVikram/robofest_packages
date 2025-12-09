@@ -1,0 +1,36 @@
+[0.008s] Invoking command in '/home/azidozide/px4_sitl_ws/build/mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azidozide/px4_sitl_ws/install/object_tracker:/home/azidozide/px4_sitl_ws/install/mapping:/opt/ros/humble /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/mapping -- -j24 -l24
+[0.027s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.117s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.137s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.138s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.142s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.148s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.156s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.176s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.177s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.245s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.276s] -- Found px4_msgs: 2.0.1 (/home/azidozide/px4_sitl_ws/install/px4_msgs/share/px4_msgs/cmake)
+[0.283s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.302s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.318s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.363s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.363s] -- Configured cppcheck include dirs: 
+[0.363s] -- Configured cppcheck exclude dirs and/or files: 
+[0.364s] -- Added test 'lint_cmake' to check CMake code style
+[0.364s] -- Added test 'uncrustify' to check C / C++ code style
+[0.364s] -- Configured uncrustify additional arguments: 
+[0.364s] -- Added test 'xmllint' to check XML markup files
+[0.364s] -- Configuring done
+[0.372s] -- Generating done
+[0.376s] -- Build files have been written to: /home/azidozide/px4_sitl_ws/build/mapping
+[0.399s] [35m[1mConsolidate compiler generated dependencies of target integrated_drone_mapping_node[0m
+[0.413s] [ 25%] [32mBuilding CXX object CMakeFiles/corridor_gen_correct.dir/src/corridor_gen_correct.cpp.o[0m
+[0.419s] [ 75%] Built target integrated_drone_mapping_node
+[0.801s] [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/corridor_gen_correct.cpp:15:10:[m[K [01;31m[Kfatal error: [m[Kquickhull2.hpp: No such file or directory
+[0.801s]    15 | #include [01;31m[K"quickhull2.hpp"[m[K
+[0.801s]       |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[0.801s] compilation terminated.
+[0.813s] gmake[2]: *** [CMakeFiles/corridor_gen_correct.dir/build.make:76: CMakeFiles/corridor_gen_correct.dir/src/corridor_gen_correct.cpp.o] Error 1
+[0.813s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/corridor_gen_correct.dir/all] Error 2
+[0.813s] gmake: *** [Makefile:146: all] Error 2
+[0.815s] Invoked command in '/home/azidozide/px4_sitl_ws/build/mapping' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azidozide/px4_sitl_ws/install/object_tracker:/home/azidozide/px4_sitl_ws/install/mapping:/opt/ros/humble /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/mapping -- -j24 -l24

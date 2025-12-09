@@ -1,0 +1,54 @@
+[35m[1mConsolidate compiler generated dependencies of target corridor_gen_correct[0m
+[ 50%] Built target integrated_drone_mapping_node
+[ 75%] [32mBuilding CXX object CMakeFiles/corridor_gen_correct.dir/src/corridor_gen_correct.cpp.o[0m
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/corridor_gen_correct.cpp:580:38:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat32MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+  580 |     rclcpp::Publisher<std_msgs::msg::[01;31m[KFloat32MultiArray[m[K>::SharedPtr h_matrix_pub_;
+      |                                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/corridor_gen_correct.cpp:580:55:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  580 |     rclcpp::Publisher<std_msgs::msg::Float32MultiArray[01;31m[K>[m[K::SharedPtr h_matrix_pub_;
+      |                                                       [01;31m[K^[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/corridor_gen_correct.cpp:580:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  580 |     rclcpp::Publisher<std_msgs::msg::Float32MultiArray>::[01;31m[KSharedPtr[m[K h_matrix_pub_;
+      |                                                          [01;31m[K^~~~~~~~~[m[K
+      |                                                                   [32m[K;[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/corridor_gen_correct.cpp:580:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kh_matrix_pub_[m[K’ does not name a type
+  580 |     rclcpp::Publisher<std_msgs::msg::Float32MultiArray>::SharedPtr [01;31m[Kh_matrix_pub_[m[K;
+      |                                                                    [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/corridor_gen_correct.cpp:[m[K In constructor ‘[01m[KLidarPolygonGenerator::LidarPolygonGenerator()[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/corridor_gen_correct.cpp:600:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kh_matrix_pub_[m[K’ was not declared in this scope
+  600 |         [01;31m[Kh_matrix_pub_[m[K = this->create_publisher<std_msgs::msg::Float32MultiArray>(
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/corridor_gen_correct.cpp:600:63:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat32MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+  600 |         h_matrix_pub_ = this->create_publisher<std_msgs::msg::[01;31m[KFloat32MultiArray[m[K>(
+      |                                                               [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/corridor_gen_correct.cpp:600:81:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KLidarPolygonGenerator::create_publisher<<expression error> >(const char [19], int)[m[K’
+  600 |         h_matrix_pub_ = [01;31m[Kthis->create_publisher<std_msgs::msg::Float32MultiArray>([m[K
+      |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+  601 | [01;31m[K            "/corridor_h_matrix", 10)[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                            
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/corridor_gen_correct.cpp:12[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/corridor_gen_correct.cpp:600:81:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  600 |         h_matrix_pub_ = [01;31m[Kthis->create_publisher<std_msgs::msg::Float32MultiArray>([m[K
+      |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+  601 | [01;31m[K            "/corridor_h_matrix", 10)[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                            
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/corridor_gen_correct.cpp:[m[K In member function ‘[01m[Kvoid LidarPolygonGenerator::publishHMatrix(const MatrixXd&, const VectorXd&)[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/corridor_gen_correct.cpp:609:35:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat32MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+  609 |         auto msg = std_msgs::msg::[01;31m[KFloat32MultiArray[m[K();
+      |                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/corridor_gen_correct.cpp:618:49:[m[K [01;31m[Kerror: [m[K‘[01m[KMultiArrayDimension[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+  618 |         msg.layout.dim.push_back(std_msgs::msg::[01;31m[KMultiArrayDimension[m[K());
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/corridor_gen_correct.cpp:636:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kh_matrix_pub_[m[K’ was not declared in this scope
+  636 |         [01;31m[Kh_matrix_pub_[m[K->publish(msg);
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/corridor_gen_correct.dir/build.make:76: CMakeFiles/corridor_gen_correct.dir/src/corridor_gen_correct.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/corridor_gen_correct.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
