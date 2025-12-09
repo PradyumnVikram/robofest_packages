@@ -272,7 +272,7 @@ SITE:STRING=omen
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/humble/share/ament_cmake/cmake
@@ -396,6 +396,9 @@ mapping_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 mapping_SOURCE_DIR:STATIC=/home/azidozide/px4_sitl_ws/src/mapping
+
+//The directory containing a CMake configuration file for nav_msgs.
+nav_msgs_DIR:PATH=/opt/ros/humble/share/nav_msgs/cmake
 
 //Path to a library.
 pkgcfg_lib__OPENSSL_crypto:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so

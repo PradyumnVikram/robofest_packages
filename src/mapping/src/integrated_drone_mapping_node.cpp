@@ -9,6 +9,9 @@ Combines: Flight Control + LiDAR Subscription + Real-time Occupancy Grid Mapping
 #include <px4_msgs/msg/vehicle_command.hpp>
 #include <px4_msgs/msg/vehicle_odometry.hpp>
 #include <sensor_msgs/msg/laser_scan.hpp>
+#include <nav_msgs/msg/occupancy_grid.hpp>
+#include <rclcpp/logging.hpp>  // Add at top
+
 
 #include <array>
 #include <vector>
@@ -80,10 +83,12 @@ private:
     rclcpp::Publisher<px4_msgs::msg::OffboardControlMode>::SharedPtr offboard_mode_pub_;
     rclcpp::Publisher<px4_msgs::msg::VehicleCommand>::SharedPtr vehicle_command_pub_;
     rclcpp::Publisher<px4_msgs::msg::TrajectorySetpoint>::SharedPtr trajectory_pub_;
+    rclcpp::Publisher<nav_msgs::msg::OccupancyGrid>::SharedPtr occupancy_grid_pub_;  // Add here
+    rclcpp::QoS occupancy_qos_{rclcpp::KeepLast(1)};                                // Add here
     rclcpp::Subscription<px4_msgs::msg::VehicleOdometry>::SharedPtr odometry_sub_;
-    rclcpp::Subscription<sensor_msgs::msg::LaserScan>::SharedPtr lidar_sub_;
-    rclcpp::TimerBase::SharedPtr control_timer_;
-    rclcpp::TimerBase::SharedPtr mapping_timer_;
+    rclcpp::Subscription<sensor_msgs::msg::LaserScan>::SharedPtr lidar_sub_;    
+    rclcpp::TimerBase::SharedPtr control_timer_;   // Move here
+    rclcpp::TimerBase::SharedPtr mapping_timer_;   // Move here
 
     void init_parameters() {
         qos_profile_ = rclcpp::QoS(rclcpp::KeepLast(1))
@@ -102,6 +107,10 @@ private:
             "/fmu/in/vehicle_command", qos_profile_);
         trajectory_pub_ = create_publisher<px4_msgs::msg::TrajectorySetpoint>(
             "/fmu/in/trajectory_setpoint", qos_profile_);
+        
+        // ADD THIS LINE:
+        occupancy_grid_pub_ = create_publisher<nav_msgs::msg::OccupancyGrid>(
+            "occupancy_grid_map", occupancy_qos_);
     }
 
     void init_subscribers() {
@@ -139,6 +148,45 @@ private:
         }
         scan_count_++;
     }
+
+    // Add this method to publish the map:
+    void publish_occupancy_grid() {
+        nav_msgs::msg::OccupancyGrid msg;
+        msg.header.frame_id = "map";
+        msg.header.stamp = now();
+        
+        // Grid metadata (10m x 10m, 0.1m resolution)
+        msg.info.resolution = RESOLUTION;
+        msg.info.width = GRID_WIDTH_CELLS;
+        msg.info.height = GRID_HEIGHT_CELLS;
+        
+        // Origin at grid center (world origin)
+        msg.info.origin.position.x = -GRID_WIDTH_M / 2.0f;
+        msg.info.origin.position.y = -GRID_HEIGHT_M / 2.0f;
+        msg.info.origin.position.z = 0.0f;
+        
+        // Convert log-odds to ROS OccupancyGrid format (-1=unknown, 0=free, 100=occupied)
+        msg.data.resize(occupancy_grid_.size());
+        for (size_t i = 0; i < occupancy_grid_.size(); ++i) {
+            float log_odds = occupancy_grid_[i];
+            
+            // Clamp and convert to probability [0,1]
+            float prob = 1.0f / (1.0f + std::exp(-log_odds));
+            
+            // ROS format: -1=unknown, 0=free, 100=occupied
+            if (log_odds < LOG_ODDS_MIN + 0.1f) {
+                msg.data[i] = 0;  // Free
+            } else if (log_odds > LOG_ODDS_MAX - 0.1f) {
+                msg.data[i] = 100; // Occupied
+            } else {
+                msg.data[i] = static_cast<int8_t>(prob * 100.0f); // 0-100 scale
+            }
+        }
+        
+        occupancy_grid_pub_->publish(msg);
+        RCLCPP_DEBUG(get_logger(), "Published occupancy grid: %zu cells", msg.data.size());
+    }
+
 
     // ============= FLIGHT CONTROL =============
     void publish_offboard_control_mode() {
@@ -340,24 +388,31 @@ private:
 
         if (flight_state_ == "FORWARD" && !mapping_begin_) {
             mapping_begin_ = true;
+            RCLCPP_INFO(get_logger(), "=== MAPPING STARTED ===");
         }
 
         if (mapping_begin_) {
             mapping_iterations_++;
             
-            RCLCPP_INFO(get_logger(), "Updating occupancy grid with %zu beams...", 
-                       latest_scan_data_.ranges.size());
+            RCLCPP_INFO_THROTTLE(get_logger(), *get_clock(), 5000, 
+                "Mapping iter %d: Updating with %zu beams...", 
+                mapping_iterations_, latest_scan_data_.ranges.size());
             
-            float robot_theta = 0.0f;
-            update_occupancy_grid(vehicle_odometry_.position[0], 
-                                vehicle_odometry_.position[1], robot_theta);
+            float robot_theta = atan2f(vehicle_odometry_.q[1], vehicle_odometry_.q[0]) * 2.0f; // Proper yaw
+            int updates = update_occupancy_grid(vehicle_odometry_.position[0], 
+                                            vehicle_odometry_.position[1], 
+                                            robot_theta);
+            
+            // Publish updated map on every iteration (3Hz)
+            publish_occupancy_grid();
             
             if (mapping_iterations_ >= 5) {
                 mapping_timer_->cancel();
-                RCLCPP_INFO(get_logger(), "Completed 5 mapping iterations");
+                RCLCPP_INFO(get_logger(), "=== MAPPING COMPLETE: 5 iterations, %d valid updates ===", updates);
             }
         }
     }
+
 };
 
 int main(int argc, char **argv) {

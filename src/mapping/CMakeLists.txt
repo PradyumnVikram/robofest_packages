@@ -10,6 +10,7 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(px4_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
 
 # Set C++ standard
 if(NOT CMAKE_CXX_STANDARD)
@@ -26,6 +27,7 @@ ament_target_dependencies(integrated_drone_mapping_node
   rclcpp
   px4_msgs
   sensor_msgs
+  nav_msgs
 )
 
 # Compiler optimizations for performance
