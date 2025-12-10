@@ -1,0 +1,4 @@
+Invoking command in '/home/azidozide/px4_sitl_ws/build/px4_msgs': /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/px4_msgs -- -j24 -l24
+Invoked command in '/home/azidozide/px4_sitl_ws/build/px4_msgs' returned '0': /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/px4_msgs -- -j24 -l24
+Invoking command in '/home/azidozide/px4_sitl_ws/build/px4_msgs': /usr/bin/cmake --install /home/azidozide/px4_sitl_ws/build/px4_msgs
+Invoked command in '/home/azidozide/px4_sitl_ws/build/px4_msgs' returned '0': /usr/bin/cmake --install /home/azidozide/px4_sitl_ws/build/px4_msgs

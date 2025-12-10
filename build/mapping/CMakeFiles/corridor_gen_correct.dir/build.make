@@ -163,10 +163,10 @@ corridor_gen_correct: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c
 corridor_gen_correct: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
 corridor_gen_correct: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
 corridor_gen_correct: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
-corridor_gen_correct: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
 corridor_gen_correct: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
-corridor_gen_correct: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
 corridor_gen_correct: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
+corridor_gen_correct: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
+corridor_gen_correct: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
 corridor_gen_correct: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
 corridor_gen_correct: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 corridor_gen_correct: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so

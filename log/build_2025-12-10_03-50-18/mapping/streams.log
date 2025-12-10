@@ -1,0 +1,30 @@
+[0.010s] Invoking command in '/home/azidozide/px4_sitl_ws/build/mapping': CMAKE_PREFIX_PATH=/home/azidozide/px4_sitl_ws/install/px4_msgs:/home/azidozide/px4_sitl_ws/install/mapping:/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping:/home/azidozide/px4_sitl_ws/install/mine_mapping:/home/azidozide/px4_sitl_ws/install/object_tracker:/opt/ros/humble /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/mapping -- -j24 -l24
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target gcopter_trajectory_planner[0m
+[0.061s] [ 33%] Built target corridor_gen_correct
+[0.061s] [ 66%] Built target integrated_drone_mapping_node
+[0.065s] [ 83%] [32mBuilding CXX object CMakeFiles/gcopter_trajectory_planner.dir/src/planner.cpp.o[0m
+[22.993s] [100%] [32m[1mLinking CXX executable gcopter_trajectory_planner[0m
+[23.106s] [100%] Built target gcopter_trajectory_planner
+[23.115s] Invoked command in '/home/azidozide/px4_sitl_ws/build/mapping' returned '0': CMAKE_PREFIX_PATH=/home/azidozide/px4_sitl_ws/install/px4_msgs:/home/azidozide/px4_sitl_ws/install/mapping:/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping:/home/azidozide/px4_sitl_ws/install/mine_mapping:/home/azidozide/px4_sitl_ws/install/object_tracker:/opt/ros/humble /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/mapping -- -j24 -l24
+[23.117s] Invoking command in '/home/azidozide/px4_sitl_ws/build/mapping': CMAKE_PREFIX_PATH=/home/azidozide/px4_sitl_ws/install/px4_msgs:/home/azidozide/px4_sitl_ws/install/mapping:/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping:/home/azidozide/px4_sitl_ws/install/mine_mapping:/home/azidozide/px4_sitl_ws/install/object_tracker:/opt/ros/humble /usr/bin/cmake --install /home/azidozide/px4_sitl_ws/build/mapping
+[23.123s] -- Install configuration: ""
+[23.123s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mapping/lib/mapping/integrated_drone_mapping_node
+[23.123s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mapping/lib/mapping/corridor_gen_correct
+[23.123s] -- Installing: /home/azidozide/px4_sitl_ws/install/mapping/lib/mapping/gcopter_trajectory_planner
+[23.124s] -- Set runtime path of "/home/azidozide/px4_sitl_ws/install/mapping/lib/mapping/gcopter_trajectory_planner" to ""
+[23.124s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mapping/share/ament_index/resource_index/package_run_dependencies/mapping
+[23.124s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mapping/share/ament_index/resource_index/parent_prefix_path/mapping
+[23.124s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mapping/share/mapping/environment/ament_prefix_path.sh
+[23.124s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mapping/share/mapping/environment/ament_prefix_path.dsv
+[23.124s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mapping/share/mapping/environment/path.sh
+[23.124s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mapping/share/mapping/environment/path.dsv
+[23.124s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mapping/share/mapping/local_setup.bash
+[23.124s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mapping/share/mapping/local_setup.sh
+[23.124s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mapping/share/mapping/local_setup.zsh
+[23.124s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mapping/share/mapping/local_setup.dsv
+[23.125s] -- Installing: /home/azidozide/px4_sitl_ws/install/mapping/share/mapping/package.dsv
+[23.125s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mapping/share/ament_index/resource_index/packages/mapping
+[23.125s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mapping/share/mapping/cmake/mappingConfig.cmake
+[23.125s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mapping/share/mapping/cmake/mappingConfig-version.cmake
+[23.125s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/mapping/share/mapping/package.xml
+[23.126s] Invoked command in '/home/azidozide/px4_sitl_ws/build/mapping' returned '0': CMAKE_PREFIX_PATH=/home/azidozide/px4_sitl_ws/install/px4_msgs:/home/azidozide/px4_sitl_ws/install/mapping:/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping:/home/azidozide/px4_sitl_ws/install/mine_mapping:/home/azidozide/px4_sitl_ws/install/object_tracker:/opt/ros/humble /usr/bin/cmake --install /home/azidozide/px4_sitl_ws/build/mapping

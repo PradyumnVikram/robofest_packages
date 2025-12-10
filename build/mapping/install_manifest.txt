@@ -1,5 +1,6 @@
 /home/azidozide/px4_sitl_ws/install/mapping/lib/mapping/integrated_drone_mapping_node
 /home/azidozide/px4_sitl_ws/install/mapping/lib/mapping/corridor_gen_correct
+/home/azidozide/px4_sitl_ws/install/mapping/lib/mapping/gcopter_trajectory_planner
 /home/azidozide/px4_sitl_ws/install/mapping/share/ament_index/resource_index/package_run_dependencies/mapping
 /home/azidozide/px4_sitl_ws/install/mapping/share/ament_index/resource_index/parent_prefix_path/mapping
 /home/azidozide/px4_sitl_ws/install/mapping/share/mapping/environment/ament_prefix_path.sh

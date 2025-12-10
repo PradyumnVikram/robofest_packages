@@ -1,0 +1,59 @@
+[0.009s] Invoking command in '/home/azidozide/px4_sitl_ws/build/mapping': CMAKE_PREFIX_PATH=/home/azidozide/px4_sitl_ws/install/px4_msgs:/home/azidozide/px4_sitl_ws/install/mapping:/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping:/home/azidozide/px4_sitl_ws/install/mine_mapping:/home/azidozide/px4_sitl_ws/install/object_tracker:/opt/ros/humble /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/mapping -- -j24 -l24
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target gcopter_trajectory_planner[0m
+[0.062s] [ 33%] Built target integrated_drone_mapping_node
+[0.063s] [ 66%] Built target corridor_gen_correct
+[0.067s] [ 83%] [32mBuilding CXX object CMakeFiles/gcopter_trajectory_planner.dir/src/planner.cpp.o[0m
+[15.500s] [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/planner.cpp:[m[K In member function ‘[01m[Kvoid GCOPTERTrajectoryPlanner::processTimerCallback()[m[K’:
+[15.500s] [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/planner.cpp:93:35:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmin(Eigen::Index, size_t)[m[K’
+[15.500s]    93 |         size_t num_real = [01;31m[Kstd::min(current_H_3d.rows(), size_t(4))[m[K;
+[15.500s]       |                           [01;31m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.500s] In file included from [01m[K/usr/include/c++/11/bits/char_traits.h:39[m[K,
+[15.500s]                  from [01m[K/usr/include/c++/11/ios:40[m[K,
+[15.500s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[15.500s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[15.500s]                  from [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/planner.cpp:1[m[K:
+[15.500s] [01m[K/usr/include/c++/11/bits/stl_algobase.h:230:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp& std::min(const _Tp&, const _Tp&)[m[K’
+[15.500s]   230 |     [01;36m[Kmin[m[K(const _Tp& __a, const _Tp& __b)
+[15.500s]       |     [01;36m[K^~~[m[K
+[15.500s] [01m[K/usr/include/c++/11/bits/stl_algobase.h:230:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[15.501s] [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/planner.cpp:93:35:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Klong int[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’})
+[15.501s]    93 |         size_t num_real = [01;36m[Kstd::min(current_H_3d.rows(), size_t(4))[m[K;
+[15.501s]       |                           [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.501s] In file included from [01m[K/usr/include/c++/11/bits/char_traits.h:39[m[K,
+[15.501s]                  from [01m[K/usr/include/c++/11/ios:40[m[K,
+[15.501s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[15.501s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[15.501s]                  from [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/planner.cpp:1[m[K:
+[15.501s] [01m[K/usr/include/c++/11/bits/stl_algobase.h:278:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::min(const _Tp&, const _Tp&, _Compare)[m[K’
+[15.501s]   278 |     [01;36m[Kmin[m[K(const _Tp& __a, const _Tp& __b, _Compare __comp)
+[15.501s]       |     [01;36m[K^~~[m[K
+[15.501s] [01m[K/usr/include/c++/11/bits/stl_algobase.h:278:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[15.501s] [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/planner.cpp:93:35:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Klong int[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’})
+[15.501s]    93 |         size_t num_real = [01;36m[Kstd::min(current_H_3d.rows(), size_t(4))[m[K;
+[15.501s]       |                           [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.501s] In file included from [01m[K/usr/include/c++/11/functional:65[m[K,
+[15.501s]                  from [01m[K/usr/include/eigen3/Eigen/Core:85[m[K,
+[15.501s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[15.501s]                  from [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/planner.cpp:3[m[K:
+[15.501s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3449:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr _Tp std::min(std::initializer_list<_Tp>)[m[K’
+[15.501s]  3449 |     [01;36m[Kmin[m[K(initializer_list<_Tp> __l)
+[15.501s]       |     [01;36m[K^~~[m[K
+[15.501s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3449:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[15.501s] [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/planner.cpp:93:35:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::initializer_list<_Tp>[m[K’ and ‘[01m[Klong int[m[K’
+[15.501s]    93 |         size_t num_real = [01;36m[Kstd::min(current_H_3d.rows(), size_t(4))[m[K;
+[15.501s]       |                           [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.501s] In file included from [01m[K/usr/include/c++/11/functional:65[m[K,
+[15.501s]                  from [01m[K/usr/include/eigen3/Eigen/Core:85[m[K,
+[15.501s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[15.501s]                  from [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/planner.cpp:3[m[K:
+[15.502s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3455:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr _Tp std::min(std::initializer_list<_Tp>, _Compare)[m[K’
+[15.502s]  3455 |     [01;36m[Kmin[m[K(initializer_list<_Tp> __l, _Compare __comp)
+[15.502s]       |     [01;36m[K^~~[m[K
+[15.502s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3455:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[15.502s] [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/planner.cpp:93:35:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::initializer_list<_Tp>[m[K’ and ‘[01m[Klong int[m[K’
+[15.502s]    93 |         size_t num_real = [01;36m[Kstd::min(current_H_3d.rows(), size_t(4))[m[K;
+[15.502s]       |                           [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.502s] gmake[2]: *** [CMakeFiles/gcopter_trajectory_planner.dir/build.make:76: CMakeFiles/gcopter_trajectory_planner.dir/src/planner.cpp.o] Error 1
+[15.502s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/gcopter_trajectory_planner.dir/all] Error 2
+[15.502s] gmake: *** [Makefile:146: all] Error 2
+[15.503s] Invoked command in '/home/azidozide/px4_sitl_ws/build/mapping' returned '2': CMAKE_PREFIX_PATH=/home/azidozide/px4_sitl_ws/install/px4_msgs:/home/azidozide/px4_sitl_ws/install/mapping:/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping:/home/azidozide/px4_sitl_ws/install/mine_mapping:/home/azidozide/px4_sitl_ws/install/object_tracker:/opt/ros/humble /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/mapping -- -j24 -l24

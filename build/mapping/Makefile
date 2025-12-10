@@ -223,6 +223,19 @@ corridor_gen_correct/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/corridor_gen_correct.dir/build.make CMakeFiles/corridor_gen_correct.dir/build
 .PHONY : corridor_gen_correct/fast
 
+#=============================================================================
+# Target rules for targets named gcopter_trajectory_planner
+
+# Build rule for target.
+gcopter_trajectory_planner: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gcopter_trajectory_planner
+.PHONY : gcopter_trajectory_planner
+
+# fast build rule for target.
+gcopter_trajectory_planner/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gcopter_trajectory_planner.dir/build.make CMakeFiles/gcopter_trajectory_planner.dir/build
+.PHONY : gcopter_trajectory_planner/fast
+
 src/corridor_gen_correct.o: src/corridor_gen_correct.cpp.o
 .PHONY : src/corridor_gen_correct.o
 
@@ -271,6 +284,30 @@ src/integrated_drone_mapping_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/integrated_drone_mapping_node.dir/build.make CMakeFiles/integrated_drone_mapping_node.dir/src/integrated_drone_mapping_node.cpp.s
 .PHONY : src/integrated_drone_mapping_node.cpp.s
 
+src/planner.o: src/planner.cpp.o
+.PHONY : src/planner.o
+
+# target to build an object file
+src/planner.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gcopter_trajectory_planner.dir/build.make CMakeFiles/gcopter_trajectory_planner.dir/src/planner.cpp.o
+.PHONY : src/planner.cpp.o
+
+src/planner.i: src/planner.cpp.i
+.PHONY : src/planner.i
+
+# target to preprocess a source file
+src/planner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gcopter_trajectory_planner.dir/build.make CMakeFiles/gcopter_trajectory_planner.dir/src/planner.cpp.i
+.PHONY : src/planner.cpp.i
+
+src/planner.s: src/planner.cpp.s
+.PHONY : src/planner.s
+
+# target to generate assembly for a file
+src/planner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gcopter_trajectory_planner.dir/build.make CMakeFiles/gcopter_trajectory_planner.dir/src/planner.cpp.s
+.PHONY : src/planner.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -287,6 +324,7 @@ help:
 	@echo "... mapping_uninstall"
 	@echo "... uninstall"
 	@echo "... corridor_gen_correct"
+	@echo "... gcopter_trajectory_planner"
 	@echo "... integrated_drone_mapping_node"
 	@echo "... src/corridor_gen_correct.o"
 	@echo "... src/corridor_gen_correct.i"
@@ -294,6 +332,9 @@ help:
 	@echo "... src/integrated_drone_mapping_node.o"
 	@echo "... src/integrated_drone_mapping_node.i"
 	@echo "... src/integrated_drone_mapping_node.s"
+	@echo "... src/planner.o"
+	@echo "... src/planner.i"
+	@echo "... src/planner.s"
 .PHONY : help
 
 

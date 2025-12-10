@@ -1,0 +1,4 @@
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/planner.cpp:[m[K In member function ‘[01m[Kvoid GCOPTERTrajectoryPlanner::processTimerCallback()[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/planner.cpp:122:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcost[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  122 |             double [01;35m[Kcost[m[K = sfc.optimize(traj, 1e-4);
+      |                    [01;35m[K^~~~[m[K

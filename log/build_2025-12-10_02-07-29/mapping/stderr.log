@@ -1,0 +1,5 @@
+In file included from [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/planner.cpp:13[m[K:
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/gcopter.hpp:[m[K In static member function ‘[01m[Kstatic void gcopter::GCOPTER_PolytopeSFC::attachPenaltyFunctional(const VectorXd&, const MatrixX3d&, const VectorXi&, const PolyhedraH&, const double&, const int&, const VectorXd&, const VectorXd&, flatness::FlatnessMap&, double&, Eigen::VectorXd&, Eigen::MatrixX3d&)[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/gcopter.hpp:367:32:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ks4[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  367 |             double s1, s2, s3, [01;35m[Ks4[m[K;
+      |                                [01;35m[K^~[m[K

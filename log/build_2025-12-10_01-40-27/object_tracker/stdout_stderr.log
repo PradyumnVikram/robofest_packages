@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating object_tracker.egg-info
+writing object_tracker.egg-info/PKG-INFO
+writing dependency_links to object_tracker.egg-info/dependency_links.txt
+writing entry points to object_tracker.egg-info/entry_points.txt
+writing requirements to object_tracker.egg-info/requires.txt
+writing top-level names to object_tracker.egg-info/top_level.txt
+writing manifest file 'object_tracker.egg-info/SOURCES.txt'
+reading manifest file 'object_tracker.egg-info/SOURCES.txt'
+writing manifest file 'object_tracker.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/azidozide/px4_sitl_ws/install/object_tracker/lib/python3.10/site-packages/object-tracker.egg-link (link to .)
+Installing drone_control script to /home/azidozide/px4_sitl_ws/install/object_tracker/lib/object_tracker
+Installing tracker script to /home/azidozide/px4_sitl_ws/install/object_tracker/lib/object_tracker
+
+Installed /home/azidozide/px4_sitl_ws/build/object_tracker
+running symlink_data
+creating /home/azidozide/px4_sitl_ws/install/object_tracker/share/ament_index
+creating /home/azidozide/px4_sitl_ws/install/object_tracker/share/ament_index/resource_index
+creating /home/azidozide/px4_sitl_ws/install/object_tracker/share/ament_index/resource_index/packages
+symbolically linking /home/azidozide/px4_sitl_ws/build/object_tracker/resource/object_tracker -> /home/azidozide/px4_sitl_ws/install/object_tracker/share/ament_index/resource_index/packages
+symbolically linking /home/azidozide/px4_sitl_ws/build/object_tracker/package.xml -> /home/azidozide/px4_sitl_ws/install/object_tracker/share/object_tracker

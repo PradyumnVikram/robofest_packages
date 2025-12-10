@@ -1,0 +1,13 @@
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/planner.cpp:[m[K In member function ‘[01m[Kvoid GCOPTERTrajectoryPlanner::processTimerCallback()[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/planner.cpp:121:24:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KEigen::VectorXd[m[K’ {aka ‘[01m[KEigen::Matrix<double, -1, 1>[m[K’} to ‘[01m[Kconst double&[m[K’
+  121 |                        [01;31m[Kbounds[m[K, weights, params, 0.5, 0.1, 4);
+      |                        [01;31m[K^~~~~~[m[K
+      |                        [01;31m[K|[m[K
+      |                        [01;31m[KEigen::VectorXd {aka Eigen::Matrix<double, -1, 1>}[m[K
+In file included from [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/planner.cpp:13[m[K:
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/gcopter.hpp:827:41:[m[K [01;36m[Knote: [m[K  initializing argument 5 of ‘[01m[Kbool gcopter::GCOPTER_PolytopeSFC::setup(const double&, const Matrix3d&, const Matrix3d&, const PolyhedraH&, const double&, const double&, const int&, const VectorXd&, const VectorXd&, const VectorXd&)[m[K’
+  827 |                           [01;36m[Kconst double &lengthPerPiece[m[K,
+      |                           [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/gcopter_trajectory_planner.dir/build.make:76: CMakeFiles/gcopter_trajectory_planner.dir/src/planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/gcopter_trajectory_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,3 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/gcopter_trajectory_planner.dir/src/planner.cpp.o[0m
+[ 50%] Built target integrated_drone_mapping_node
+[ 83%] Built target corridor_gen_correct

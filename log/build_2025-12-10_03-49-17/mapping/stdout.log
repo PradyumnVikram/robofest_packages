@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target gcopter_trajectory_planner[0m
+[ 33%] Built target integrated_drone_mapping_node
+[ 66%] Built target corridor_gen_correct
+[ 83%] [32mBuilding CXX object CMakeFiles/gcopter_trajectory_planner.dir/src/planner.cpp.o[0m

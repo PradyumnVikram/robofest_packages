@@ -1,0 +1,29 @@
+In file included from [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/planner.cpp:13[m[K:
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/gcopter.hpp:[m[K In static member function ‘[01m[Kstatic void gcopter::GCOPTER_PolytopeSFC::attachPenaltyFunctional(const VectorXd&, const MatrixX3d&, const VectorXi&, const PolyhedraH&, const double&, const int&, const VectorXd&, const VectorXd&, flatness::FlatnessMap&, double&, Eigen::VectorXd&, Eigen::MatrixX3d&)[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/gcopter.hpp:367:36:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ks5[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  367 |             double s1, s2, s3, s4, [01;35m[Ks5[m[K;
+      |                                    [01;35m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/planner.cpp:7[m[K:
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/planner.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/planner.cpp:262:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%zu[m[K’ expects argument of type ‘[01m[Ksize_t[m[K’, but argument 5 has type ‘[01m[Kint[m[K’ [[01;35m[K-Wformat=[m[K]
+  262 |     RCLCPP_INFO(planner->get_logger(), [01;35m[K"📡 /corridor_h_matrix → %zuHz 3D trajectories"[m[K, [32m[K10[m[K);
+      |                                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~[m[K
+      |                                                                                         [32m[K|[m[K
+      |                                                                                         [32m[Kint[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/planner.cpp:262:67:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  262 |     RCLCPP_INFO(planner->get_logger(), "📡 /corridor_h_matrix → [01;36m[K%zu[m[KHz 3D trajectories", 10);
+      |                                                                 [01;36m[K~~^[m[K
+      |                                                                   [01;36m[K|[m[K
+      |                                                                   [01;36m[Klong unsigned int[m[K
+      |                                                                 [32m[K%u[m[K

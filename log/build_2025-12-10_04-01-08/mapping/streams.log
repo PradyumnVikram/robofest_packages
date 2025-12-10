@@ -1,0 +1,19 @@
+[0.011s] Invoking command in '/home/azidozide/px4_sitl_ws/build/mapping': CMAKE_PREFIX_PATH=/home/azidozide/px4_sitl_ws/install/px4_msgs:/home/azidozide/px4_sitl_ws/install/mapping:/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping:/home/azidozide/px4_sitl_ws/install/mine_mapping:/home/azidozide/px4_sitl_ws/install/object_tracker:/opt/ros/humble /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/mapping -- -j24 -l24
+[0.059s] [35m[1mConsolidate compiler generated dependencies of target gcopter_trajectory_planner[0m
+[0.073s] [ 33%] Built target corridor_gen_correct
+[0.075s] [ 66%] Built target integrated_drone_mapping_node
+[0.086s] [ 83%] [32mBuilding CXX object CMakeFiles/gcopter_trajectory_planner.dir/src/planner.cpp.o[0m
+[23.891s] [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/planner.cpp:[m[K In member function ‘[01m[Kvoid GCOPTERTrajectoryPlanner::processTimerCallback()[m[K’:
+[23.891s] [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/planner.cpp:135:24:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KEigen::VectorXd[m[K’ {aka ‘[01m[KEigen::Matrix<double, -1, 1>[m[K’} to ‘[01m[Kconst double&[m[K’
+[23.891s]   135 |                        [01;31m[Kbounds[m[K, weights, params, 0.3, 0.1, 4);
+[23.891s]       |                        [01;31m[K^~~~~~[m[K
+[23.891s]       |                        [01;31m[K|[m[K
+[23.891s]       |                        [01;31m[KEigen::VectorXd {aka Eigen::Matrix<double, -1, 1>}[m[K
+[23.891s] In file included from [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/planner.cpp:13[m[K:
+[23.891s] [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/gcopter.hpp:827:41:[m[K [01;36m[Knote: [m[K  initializing argument 5 of ‘[01m[Kbool gcopter::GCOPTER_PolytopeSFC::setup(const double&, const Matrix3d&, const Matrix3d&, const PolyhedraH&, const double&, const double&, const int&, const VectorXd&, const VectorXd&, const VectorXd&)[m[K’
+[23.891s]   827 |                           [01;36m[Kconst double &lengthPerPiece[m[K,
+[23.891s]       |                           [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[23.892s] gmake[2]: *** [CMakeFiles/gcopter_trajectory_planner.dir/build.make:76: CMakeFiles/gcopter_trajectory_planner.dir/src/planner.cpp.o] Error 1
+[23.893s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/gcopter_trajectory_planner.dir/all] Error 2
+[23.893s] gmake: *** [Makefile:146: all] Error 2
+[23.895s] Invoked command in '/home/azidozide/px4_sitl_ws/build/mapping' returned '2': CMAKE_PREFIX_PATH=/home/azidozide/px4_sitl_ws/install/px4_msgs:/home/azidozide/px4_sitl_ws/install/mapping:/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping:/home/azidozide/px4_sitl_ws/install/mine_mapping:/home/azidozide/px4_sitl_ws/install/object_tracker:/opt/ros/humble /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/mapping -- -j24 -l24

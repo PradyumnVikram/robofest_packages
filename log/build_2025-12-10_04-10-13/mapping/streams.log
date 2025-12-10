@@ -1,0 +1,13 @@
+[0.009s] Invoking command in '/home/azidozide/px4_sitl_ws/build/mapping': CMAKE_PREFIX_PATH=/home/azidozide/px4_sitl_ws/install/px4_msgs:/home/azidozide/px4_sitl_ws/install/mapping:/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping:/home/azidozide/px4_sitl_ws/install/mine_mapping:/home/azidozide/px4_sitl_ws/install/object_tracker:/opt/ros/humble /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/mapping -- -j24 -l24
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target gcopter_trajectory_planner[0m
+[0.058s] [ 33%] Built target integrated_drone_mapping_node
+[0.062s] [ 66%] Built target corridor_gen_correct
+[0.071s] [ 83%] [32mBuilding CXX object CMakeFiles/gcopter_trajectory_planner.dir/src/planner.cpp.o[0m
+[0.577s] [01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/planner.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/pose_stamped.hpp: No such file or directory
+[0.577s]     9 | #include [01;31m[K"geometry_msgs/msg/pose_stamped.hpp"[m[K  // 👉 ADDED for drone pose
+[0.577s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.577s] compilation terminated.
+[0.590s] gmake[2]: *** [CMakeFiles/gcopter_trajectory_planner.dir/build.make:76: CMakeFiles/gcopter_trajectory_planner.dir/src/planner.cpp.o] Error 1
+[0.590s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/gcopter_trajectory_planner.dir/all] Error 2
+[0.590s] gmake: *** [Makefile:146: all] Error 2
+[0.592s] Invoked command in '/home/azidozide/px4_sitl_ws/build/mapping' returned '2': CMAKE_PREFIX_PATH=/home/azidozide/px4_sitl_ws/install/px4_msgs:/home/azidozide/px4_sitl_ws/install/mapping:/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping:/home/azidozide/px4_sitl_ws/install/mine_mapping:/home/azidozide/px4_sitl_ws/install/object_tracker:/opt/ros/humble /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/mapping -- -j24 -l24
