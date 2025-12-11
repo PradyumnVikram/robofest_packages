@@ -55,6 +55,7 @@ public:
       vel_(0.0f),
       lock_(0),
       direction_(0),
+      swarm_call_(0),  // NEW: Swarm command from hand tracker
       vehicle_status_(nullptr),
       vehicle_control_mode_(nullptr),
       vehicle_odometry_(nullptr),
@@ -157,22 +158,28 @@ private:
         vehicle_odometry_ = msg;
     }
 
+    // FIXED: Now reads swarm_call from msg->data[3]
     void distance_callback(const std_msgs::msg::Int32MultiArray::SharedPtr msg)
     {
         prev_distance_ = distance_;
         if (!msg->data.empty()) {
-            // msg->data[0] = distance, [1] = lock, [2] = direction
+            // msg->data[0] = distance, [1] = lock, [2] = direction, [3] = swarm_call
             distance_ = static_cast<float>(msg->data[0]) / 100.0f;
             vel_ = (distance_ - prev_distance_) * 30.0f;
+            
             if (msg->data.size() > 1) {
                 lock_ = msg->data[1];
             }
             if (msg->data.size() > 2) {
                 direction_ = msg->data[2];
             }
+            if (msg->data.size() > 3) {
+                swarm_call_ = msg->data[3];  // NEW: Swarm command (1 = true)
+            }
         }
     }
-     // Publish mother state for followers using the typed message
+
+    // FIXED: at_goal = true ONLY when swarm_call received
     void publish_mother_state(bool force_publish = false)
     {
         if (!mother_state_pub_) return;
@@ -196,53 +203,10 @@ private:
         msg.direction = direction_;
         msg.timestamp = static_cast<uint64_t>(this->get_clock()->now().nanoseconds() / 1000);
 
-        // Determine at_goal boolean using simple stability test:
-        // if lock_ != 0 -> mother is (likely) moving, mark at_goal = false
-        bool at_goal = false;
-        double vx = vehicle_odometry_->velocity[0];
-        double vy = vehicle_odometry_->velocity[1];
-        double vz = vehicle_odometry_->velocity[2];
-        double vel_norm = std::sqrt(vx*vx + vy*vy + vz*vz);
+        // FIXED: at_goal = true ONLY when swarm_call received (index+middle gesture)
+        msg.at_goal = (swarm_call_ == 1);
 
-        double px = vehicle_odometry_->position[0];
-        double py = vehicle_odometry_->position[1];
-        double pz = vehicle_odometry_->position[2];
-
-        // If lock_ != 0, mother is executing a gesture movement -> not at goal
-        if (lock_ != 0) {
-            stable_counter_ = 0;
-            at_goal = false;
-        } else {
-            // If velocity small and position does not change much since last publishes, increment stable_counter_
-            double pos_delta = NAN;
-            if (!std::isnan(last_pub_x_)) {
-                double dx = px - last_pub_x_;
-                double dy = py - last_pub_y_;
-                double dz = pz - last_pub_z_;
-                pos_delta = std::sqrt(dx*dx + dy*dy + dz*dz);
-            } else {
-                pos_delta = 0.0;
-            }
-
-            // thresholds - tune as needed
-            const double VEL_THRESH = 0.08;   // m/s
-            const double POS_DELTA_THRESH = 0.05; // m
-            if (vel_norm < VEL_THRESH && pos_delta < POS_DELTA_THRESH) {
-                stable_counter_++;
-            } else {
-                stable_counter_ = 0;
-            }
-
-            // require a few stable cycles to declare at_goal true
-            if (stable_counter_ >= 3) {
-                at_goal = true;
-            } else {
-                at_goal = false;
-            }
-        }
-
-        msg.at_goal = at_goal;
-         // Optionally avoid spamming if pose hasn't changed much
+        // Optionally avoid spamming if pose hasn't changed much
         if (!force_publish) {
             if (!std::isnan(last_pub_x_) &&
                 std::fabs(msg.x - last_pub_x_) < 0.01 &&
@@ -463,7 +427,7 @@ private:
     {
         double ex, ey, ez, evx, evy, evz;
         compute_error(ex, ey, ez, evx, evy, evz);
-         // Apply override to z-error if enabled and odometry is available.
+        // Apply override to z-error if enabled and odometry is available.
         // This makes ez equal to -z (as in the Python parity comment).
         if (use_ez_override_ && vehicle_odometry_) {
             ez = 0.0 - vehicle_odometry_->position[2];
@@ -479,8 +443,8 @@ private:
     {
         offboard_control_heartbeat_signal_publisher();
 
-        RCLCPP_INFO(this->get_logger(), "takeoff_mode: %s, counter: %d",
-                    takeoff_mode_ ? "true" : "false", counter_);
+        RCLCPP_INFO(this->get_logger(), "takeoff_mode: %s, counter: %d, swarm_call: %d",
+                    takeoff_mode_ ? "true" : "false", counter_, swarm_call_);
         counter_++;
 
         if (counter_ < 100) {
@@ -504,7 +468,7 @@ private:
                     y_ref_ = vehicle_odometry_->position[1];
                     x_ref_ = vehicle_odometry_->position[0];
                     takeoff_mode_ = false;
-                     // Publish mother state at the moment we finish takeoff and set refs
+                    // Publish mother state at the moment we finish takeoff and set refs
                     publish_mother_state(true);
                 }
             }
@@ -528,7 +492,6 @@ private:
             double ex, ey, ez, evx, evy, evz;
             compute_error(ex, ey, ez, evx, evy, evz);
 
-            
             t_ += 0.1;
             publish_mother_state();
         }
@@ -547,6 +510,7 @@ private:
     float vel_;
     int32_t lock_;
     int32_t direction_;
+    int32_t swarm_call_{0};  // NEW: Swarm command from hand tracker (msg->data[3])
 
     double x_ref_{0.0}, y_ref_{0.0}, z_ref_{0.0};
     float takeoff_height_;

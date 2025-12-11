@@ -412,101 +412,107 @@ private:
     }
 
     // Main loop
-    void command_loop()
-    {
-        offboard_control_heartbeat_signal_publisher();
+    // Replace the entire command_loop() function with this fixed version:
 
-        RCLCPP_INFO(this->get_logger(), "takeoff_mode: %s, counter: %d",
-                    takeoff_mode_ ? "true" : "false", counter_);
-        counter_++;
+void command_loop()
+{
+    offboard_control_heartbeat_signal_publisher();
 
-        if (counter_ < 100) {
-            // keep sending heartbeat before enabling offboard
-            return;
-        } else if (counter_ == 100) {
-            engage_offboard_mode();
-            arm();
-            takeoff_mode_ = true;
-        }
+    RCLCPP_INFO(this->get_logger(), "takeoff_mode: %s, counter: %d, lock: %d, leader_at_goal: %s",
+                takeoff_mode_ ? "true" : "false", counter_, lock_, leader_at_goal_ ? "true" : "false");
+    counter_++;
 
-        if (takeoff_mode_) {
-            RCLCPP_INFO(this->get_logger(), "Takeoff phase...");
-            publish_trajectory_wpt(0.0f, 0.0f, -5.0f);
-
-            if (vehicle_odometry_) {
-                double z = vehicle_odometry_->position[2];
-                if (z >= -5.0 - 0.1 && z <= -5.0 + 0.1) {
-                    z_ref_ = vehicle_odometry_->position[2];
-                    y_ref_ = vehicle_odometry_->position[1];
-                    x_ref_ = vehicle_odometry_->position[0];
-                    takeoff_mode_ = false;
-                }
-            }
-        }
-
-        if (!takeoff_mode_ && counter_ > 100) {
-            // Your original gesture-based control
-            if (lock_ != 0) {
-                double ax, ay, az;
-                tracking_pp_controller(ax, ay, az);
-                publish_trajectory_a(static_cast<float>(ax),
-                                     static_cast<float>(ay),
-                                     static_cast<float>(az));
-            } else {
-                publish_trajectory_v(0.0f, 0.0f, 0.0f);
-            }
-
-            // NEW: minimal follow-mother logic when mother is at_goal
-            if (leader_at_goal_ && vehicle_odometry_) {
-                double dx = 0.0, dy = 0.0;
-                if (leader_direction_ != 0) {
-                    dx = leader_target_distance_;   // along leader x
-                } else {
-                    dy = leader_target_distance_;   // along leader y
-                }
-
-                double yaw = leader_yaw_;
-                double target_x = leader_x_ + dx * std::cos(yaw) - dy * std::sin(yaw);
-                double target_y = leader_y_ + dx * std::sin(yaw) + dy * std::cos(yaw);
-                double target_z = leader_z_;
-
-                double px = vehicle_odometry_->position[0];
-                double py = vehicle_odometry_->position[1];
-                double pz = vehicle_odometry_->position[2];
-                double vx = vehicle_odometry_->velocity[0];
-                double vy = vehicle_odometry_->velocity[1];
-                double vz = vehicle_odometry_->velocity[2];
-
-                double ex = target_x - px;
-                double ey = target_y - py;
-                double ez = target_z - pz;
-                double evx = 0.0 - vx;
-                double evy = 0.0 - vy;
-                double evz = 0.0 - vz;
-
-                double kp = 3.0;
-                double kd = 5.0;
-                double ax = kp * ex + kd * evx;
-                double ay = kp * ey + kd * evy;
-                double az = kp * ez + kd * evz;
-
-                publish_trajectory_a(static_cast<float>(ax),
-                                     static_cast<float>(ay),
-                                     static_cast<float>(az));
-            }
-        }
-
-        if (vehicle_odometry_ && !takeoff_mode_ && counter_ > 100) {
-            RCLCPP_INFO(this->get_logger(), "t: %.3f", t_);
-
-            double ex, ey, ez, evx, evy, evz;
-            compute_error(ex, ey, ez, evx, evy, evz);
-
-            t_ += 0.1;
-        }
-
-        RCLCPP_INFO(this->get_logger(), " ");
+    if (counter_ < 100) {
+        // keep sending heartbeat before enabling offboard
+        return;
+    } else if (counter_ == 100) {
+        engage_offboard_mode();
+        arm();
+        takeoff_mode_ = true;
     }
+
+    if (takeoff_mode_) {
+        RCLCPP_INFO(this->get_logger(), "Takeoff phase...");
+        publish_trajectory_wpt(0.0f, 0.0f, -5.0f);
+
+        if (vehicle_odometry_) {
+            double z = vehicle_odometry_->position[2];
+            if (z >= -5.0 - 0.1 && z <= -5.0 + 0.1) {
+                z_ref_ = vehicle_odometry_->position[2];
+                y_ref_ = vehicle_odometry_->position[1];
+                x_ref_ = vehicle_odometry_->position[0];
+                takeoff_mode_ = false;
+            }
+        }
+        return;  // Exit early during takeoff
+    }
+
+    if (!takeoff_mode_ && counter_ > 100) {
+        // FIXED PRIORITY LOGIC: Local gesture > Follow mother > Hover
+        if (lock_ != 0) {
+            // PRIORITY 1: Local hand gestures (absolute priority)
+            double ax, ay, az;
+            tracking_pp_controller(ax, ay, az);
+            publish_trajectory_a(static_cast<float>(ax),
+                                 static_cast<float>(ay),
+                                 static_cast<float>(az));
+            RCLCPP_INFO(this->get_logger(), "LOCAL GESTURE CONTROL");
+        }
+        else if (leader_at_goal_ && vehicle_odometry_) {
+            // PRIORITY 2: Follow mother only when NO local gesture
+            double dx = 0.0, dy = 0.0;
+            if (leader_direction_ != 0) {
+                dx = leader_target_distance_;   // along leader x
+            } else {
+                dy = leader_target_distance_;   // along leader y
+            }
+
+            double yaw = leader_yaw_;
+            double target_x = leader_x_ + dx * std::cos(yaw) - dy * std::sin(yaw);
+            double target_y = leader_y_ + dx * std::sin(yaw) + dy * std::cos(yaw);
+            double target_z = leader_z_;
+
+            double px = vehicle_odometry_->position[0];
+            double py = vehicle_odometry_->position[1];
+            double pz = vehicle_odometry_->position[2];
+            double vx = vehicle_odometry_->velocity[0];
+            double vy = vehicle_odometry_->velocity[1];
+            double vz = vehicle_odometry_->velocity[2];
+
+            double ex = target_x - px;
+            double ey = target_y - py;
+            double ez = target_z - pz;
+            double evx = 0.0 - vx;
+            double evy = 0.0 - vy;
+            double evz = 0.0 - vz;
+
+            double kp = 3.0;
+            double kd = 5.0;
+            double ax = kp * ex + kd * evx;
+            double ay = kp * ey + kd * evy;
+            double az = kp * ez + kd * evz;
+
+            publish_trajectory_a(static_cast<float>(ax),
+                                 static_cast<float>(ay),
+                                 static_cast<float>(az));
+            RCLCPP_INFO(this->get_logger(), "FOLLOWING MOTHER (dist=%.2f, dir=%d)", leader_target_distance_, leader_direction_);
+        }
+        else {
+            // PRIORITY 3: Hover (zero velocity)
+            publish_trajectory_v(0.0f, 0.0f, 0.0f);
+            RCLCPP_INFO(this->get_logger(), "HOVERING");
+        }
+    }
+
+    if (vehicle_odometry_ && !takeoff_mode_ && counter_ > 100) {
+        RCLCPP_INFO(this->get_logger(), "t: %.3f", t_);
+        double ex, ey, ez, evx, evy, evz;
+        compute_error(ex, ey, ez, evx, evy, evz);
+        t_ += 0.1;
+    }
+
+    RCLCPP_INFO(this->get_logger(), " ");
+}
 
     // Members
     bool takeoff_mode_;
