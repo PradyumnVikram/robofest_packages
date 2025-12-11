@@ -1,0 +1,10 @@
+[ 33%] Built target integrated_drone_mapping_node
+[ 66%] Built target corridor_gen_correct
+[ 83%] [32mBuilding CXX object CMakeFiles/gcopter_trajectory_planner.dir/src/planner.cpp.o[0m
+[01m[K/home/azidozide/px4_sitl_ws/src/mapping/src/planner.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kpx4_msgs/msg/vehicle_odometry.hpp: No such file or directory
+    9 | #include [01;31m[K"px4_msgs/msg/vehicle_odometry.hpp"[m[K  // 👉 ADDED for drone pose
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/gcopter_trajectory_planner.dir/build.make:76: CMakeFiles/gcopter_trajectory_planner.dir/src/planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/gcopter_trajectory_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

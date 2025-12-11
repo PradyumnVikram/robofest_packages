@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:13 (find_package):
+  By not providing "Findswarm_control.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "swarm_control", but CMake did not find one.
+
+  Could not find a package configuration file provided by "swarm_control"
+  with any of the following names:
+
+    swarm_controlConfig.cmake
+    swarm_control-config.cmake
+
+  Add the installation prefix of "swarm_control" to CMAKE_PREFIX_PATH or set
+  "swarm_control_DIR" to a directory containing one of the above files.  If
+  "swarm_control" provides a separate development package or SDK, be sure it
+  has been installed.
+
+[0m

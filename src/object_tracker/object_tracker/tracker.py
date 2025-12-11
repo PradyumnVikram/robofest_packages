@@ -5,6 +5,7 @@ from std_msgs.msg import Int32MultiArray
 import cv2
 from object_tracker.process_frame import process_frames
 
+
 class ImageViewer(Node):
     def __init__(self):
         super().__init__('x500_mono_cam')
@@ -16,6 +17,7 @@ class ImageViewer(Node):
         self.timer = self.create_timer(1.0/30.0, self.timer_callback)
         self.int_publisher_ = self.create_publisher(Int32MultiArray, '/hand_distance', 10)
         cv2.namedWindow('Processed Frame', cv2.WINDOW_NORMAL)
+
 
     def timer_callback(self):
         ret, frame = self.cap.read()
@@ -30,6 +32,7 @@ class ImageViewer(Node):
             cv2.imshow('Processed Frame', frame_)
             cv2.waitKey(1)
 
+
 def main(args=None):
     rclpy.init(args=args)
     node = ImageViewer()
@@ -43,6 +46,7 @@ def main(args=None):
         node.destroy_node()
         rclpy.shutdown()
         cv2.destroyAllWindows()
+
 
 if __name__ == '__main__':
     main()

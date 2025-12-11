@@ -1,0 +1,49 @@
+[0.201s] Invoking command in '/home/azidozide/px4_sitl_ws/build/swarm_control': /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/swarm_control -- -j24 -l24
+[0.218s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.306s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.308s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.309s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.330s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.528s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.670s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.852s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.872s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.894s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.894s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.894s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.905s] -- Configuring done
+[0.922s] -- Generating done
+[0.929s] -- Build files have been written to: /home/azidozide/px4_sitl_ws/build/swarm_control
+[0.950s] [35m[1mConsolidate compiler generated dependencies of target swarm_control__rosidl_generator_c[0m
+[0.959s] [  3%] Built target swarm_control__cpp
+[0.959s] [ 12%] Built target swarm_control__rosidl_generator_c
+[0.968s] [35m[1mConsolidate compiler generated dependencies of target swarm_control__rosidl_typesupport_fastrtps_cpp[0m
+[0.969s] [35m[1mConsolidate compiler generated dependencies of target swarm_control__rosidl_typesupport_fastrtps_c[0m
+[0.970s] [ 12%] Built target ament_cmake_python_copy_swarm_control
+[0.970s] [35m[1mConsolidate compiler generated dependencies of target swarm_control__rosidl_typesupport_introspection_c[0m
+[0.973s] [35m[1mConsolidate compiler generated dependencies of target swarm_control__rosidl_typesupport_cpp[0m
+[0.973s] [35m[1mConsolidate compiler generated dependencies of target swarm_control__rosidl_typesupport_introspection_cpp[0m
+[0.973s] [35m[1mConsolidate compiler generated dependencies of target swarm_control__rosidl_typesupport_c[0m
+[0.980s] [ 22%] Built target swarm_control__rosidl_typesupport_c
+[0.981s] [ 41%] Built target swarm_control__rosidl_typesupport_cpp
+[0.982s] [ 41%] Built target swarm_control__rosidl_typesupport_fastrtps_cpp
+[0.982s] [ 51%] Built target swarm_control__rosidl_typesupport_fastrtps_c
+[0.983s] [ 61%] Built target swarm_control__rosidl_typesupport_introspection_c
+[0.983s] [ 70%] Built target swarm_control__rosidl_typesupport_introspection_cpp
+[0.998s] [ 70%] Built target swarm_control
+[1.015s] [ 74%] Built target swarm_control__py
+[1.022s] [35m[1mConsolidate compiler generated dependencies of target swarm_control__rosidl_generator_py[0m
+[1.031s] [ 80%] Built target swarm_control__rosidl_generator_py
+[1.039s] [35m[1mConsolidate compiler generated dependencies of target swarm_control__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.039s] [35m[1mConsolidate compiler generated dependencies of target swarm_control__rosidl_typesupport_introspection_c__pyext[0m
+[1.040s] [35m[1mConsolidate compiler generated dependencies of target swarm_control__rosidl_typesupport_c__pyext[0m
+[1.047s] [ 87%] Built target swarm_control__rosidl_typesupport_introspection_c__pyext
+[1.049s] [ 93%] Built target swarm_control__rosidl_typesupport_fastrtps_c__pyext
+[1.049s] [100%] Built target swarm_control__rosidl_typesupport_c__pyext
+[1.181s] running egg_info
+[1.181s] writing swarm_control.egg-info/PKG-INFO
+[1.182s] writing dependency_links to swarm_control.egg-info/dependency_links.txt
+[1.182s] writing top-level names to swarm_control.egg-info/top_level.txt
+[1.185s] reading manifest file 'swarm_control.egg-info/SOURCES.txt'
+[1.185s] writing manifest file 'swarm_control.egg-info/SOURCES.txt'
+[1.205s] [100%] Built target ament_cmake_python_build_swarm_control_egg

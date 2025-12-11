@@ -1,0 +1,17 @@
+/home/azidozide/px4_sitl_ws/install/object_tracking_cpp/lib/object_tracking_cpp/mothernode
+/home/azidozide/px4_sitl_ws/install/object_tracking_cpp/lib/object_tracking_cpp/follower_1
+/home/azidozide/px4_sitl_ws/install/object_tracking_cpp/share/ament_index/resource_index/package_run_dependencies/object_tracking_cpp
+/home/azidozide/px4_sitl_ws/install/object_tracking_cpp/share/ament_index/resource_index/parent_prefix_path/object_tracking_cpp
+/home/azidozide/px4_sitl_ws/install/object_tracking_cpp/share/object_tracking_cpp/environment/ament_prefix_path.sh
+/home/azidozide/px4_sitl_ws/install/object_tracking_cpp/share/object_tracking_cpp/environment/ament_prefix_path.dsv
+/home/azidozide/px4_sitl_ws/install/object_tracking_cpp/share/object_tracking_cpp/environment/path.sh
+/home/azidozide/px4_sitl_ws/install/object_tracking_cpp/share/object_tracking_cpp/environment/path.dsv
+/home/azidozide/px4_sitl_ws/install/object_tracking_cpp/share/object_tracking_cpp/local_setup.bash
+/home/azidozide/px4_sitl_ws/install/object_tracking_cpp/share/object_tracking_cpp/local_setup.sh
+/home/azidozide/px4_sitl_ws/install/object_tracking_cpp/share/object_tracking_cpp/local_setup.zsh
+/home/azidozide/px4_sitl_ws/install/object_tracking_cpp/share/object_tracking_cpp/local_setup.dsv
+/home/azidozide/px4_sitl_ws/install/object_tracking_cpp/share/object_tracking_cpp/package.dsv
+/home/azidozide/px4_sitl_ws/install/object_tracking_cpp/share/ament_index/resource_index/packages/object_tracking_cpp
+/home/azidozide/px4_sitl_ws/install/object_tracking_cpp/share/object_tracking_cpp/cmake/object_tracking_cppConfig.cmake
+/home/azidozide/px4_sitl_ws/install/object_tracking_cpp/share/object_tracking_cpp/cmake/object_tracking_cppConfig-version.cmake
+/home/azidozide/px4_sitl_ws/install/object_tracking_cpp/share/object_tracking_cpp/package.xml

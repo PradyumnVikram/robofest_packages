@@ -1,0 +1,19 @@
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/follower1.cpp:[m[K In constructor ‘[01m[KSwarmFollower::SwarmFollower()[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/follower1.cpp:260:11:[m[K [01;35m[Kwarning: [m[K‘[01m[KSwarmFollower::state_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  260 |     State [01;35m[Kstate_[m[K;
+      |           [01;35m[K^~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/follower1.cpp:258:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool SwarmFollower::have_offset_[m[K’ [[01;35m[K-Wreorder[m[K]
+  258 |     bool [01;35m[Khave_offset_[m[K;
+      |          [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/follower1.cpp:22:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   22 |     [01;35m[KSwarmFollower[m[K()
+      |     [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/follower1.cpp:259:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KSwarmFollower::last_mother_lock_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  259 |     int [01;35m[Klast_mother_lock_[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/follower1.cpp:227:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble SwarmFollower::publish_hz_[m[K’ [[01;35m[K-Wreorder[m[K]
+  227 |     double [01;35m[Kpublish_hz_[m[K;
+      |            [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/follower1.cpp:22:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   22 |     [01;35m[KSwarmFollower[m[K()
+      |     [01;35m[K^~~~~~~~~~~~~[m[K

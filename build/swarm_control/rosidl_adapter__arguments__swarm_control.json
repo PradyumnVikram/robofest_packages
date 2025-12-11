@@ -1,0 +1,6 @@
+{
+  "package_name": "swarm_control",
+  "non_idl_tuples": [
+    "/home/azidozide/px4_sitl_ws/src/swarm_control:msg/MotherState.msg"
+  ]
+}

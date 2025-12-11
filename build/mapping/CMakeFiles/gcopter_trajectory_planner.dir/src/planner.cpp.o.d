@@ -927,20 +927,12 @@ CMakeFiles/gcopter_trajectory_planner.dir/src/planner.cpp.o: \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__traits.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float32_multi_array__type_support.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/vehicle_odometry.hpp \
+ /home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_odometry__struct.hpp \
+ /home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_odometry__builder.hpp \
+ /home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_odometry__traits.hpp \
+ /home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_odometry__type_support.hpp \
+ /home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /home/azidozide/px4_sitl_ws/src/mapping/src/firi.hpp \
  /home/azidozide/px4_sitl_ws/src/mapping/src/lbfgs.hpp \
  /usr/include/eigen3/Eigen/Eigen /usr/include/eigen3/Eigen/Dense \

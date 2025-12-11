@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "swarm_control__py",
+		"source" : "/home/azidozide/px4_sitl_ws/build/swarm_control/swarm_control__py"
+	}
+}

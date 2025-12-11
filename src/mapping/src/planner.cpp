@@ -6,7 +6,7 @@
 #include <iomanip>
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/float32_multi_array.hpp"
-#include "geometry_msgs/msg/pose_stamped.hpp"  // 👉 ADDED for drone pose
+#include "px4_msgs/msg/vehicle_odometry.hpp"  // 👉 ADDED for drone pose
 
 // GCOPTER HEADERS
 #include "firi.hpp"
@@ -27,7 +27,7 @@ using namespace Eigen;
 class GCOPTERTrajectoryPlanner : public rclcpp::Node {
 private:
     rclcpp::Subscription<std_msgs::msg::Float32MultiArray>::SharedPtr h_matrix_sub_;
-    rclcpp::Subscription<geometry_msgs::msg::PoseStamped>::SharedPtr drone_pose_sub_;  // 👉 NEW
+    rclcpp::Subscription<px4_msgs::msg::VehicleOdometry>::SharedPtr odom_sub_;
     rclcpp::TimerBase::SharedPtr timer_;
     std::mutex h_matrix_mutex;
     Eigen::MatrixXd current_H_3d;
@@ -41,16 +41,24 @@ public:
             "/corridor_h_matrix", 10, std::bind(&GCOPTERTrajectoryPlanner::hMatrixCallback, this, std::placeholders::_1));
         
         // 👉 LIVE DRONE POSITION TRACKING
-        drone_pose_sub_ = this->create_subscription<geometry_msgs::msg::PoseStamped>(
-            "/fmu/out/vehicle_local_position/pose", 10,
-            [this](const geometry_msgs::msg::PoseStamped::SharedPtr msg) {
-                current_drone_pos = Eigen::Vector3d(
-                    msg->pose.position.x, msg->pose.position.y, msg->pose.position.z);
-                // Throttled logging
-                RCLCPP_INFO_THROTTLE(get_logger(), *get_clock(), 2000, 
-                    "🛰️ LIVE Drone: [%.2f, %.2f, %.2f]", 
-                    current_drone_pos(0), current_drone_pos(1), current_drone_pos(2));
-            });
+        odom_sub_ = this->create_subscription<px4_msgs::msg::VehicleOdometry>(
+                    "/fmu/out/vehicle_odometry",   // PX4 odom topic
+                    10,
+                    [this](const px4_msgs::msg::VehicleOdometry::SharedPtr msg) {
+                        // position is [x, y, z] in meters, local frame
+                        current_drone_pos = Eigen::Vector3d(
+                            msg->position[0],
+                            msg->position[1],
+                            msg->position[2]);
+
+                        RCLCPP_INFO_THROTTLE(
+                            get_logger(), *get_clock(), 2000,
+                            "🛰️ LIVE Drone (odom): [%.2f, %.2f, %.2f]",
+                            current_drone_pos(0),
+                            current_drone_pos(1),
+                            current_drone_pos(2));
+                    });
+
         
         timer_ = this->create_wall_timer(
             100ms, std::bind(&GCOPTERTrajectoryPlanner::processTimerCallback, this));
@@ -132,7 +140,7 @@ private:
         std::vector<Eigen::MatrixX4d> safeCorridor = {corridor};
         
         // 👉 GOAL: 1.5m forward from drone (reachable!)
-        Eigen::Vector3d goal_pos = current_drone_pos + Eigen::Vector3d(1.5, 0.0, 0.1);
+        Eigen::Vector3d goal_pos = current_drone_pos + Eigen::Vector3d(1.5, 0.0, 0.0);
         
         Eigen::Matrix3d headPVA, tailPVA; headPVA.setZero(); tailPVA.setZero();
         headPVA.col(0) = current_drone_pos;  // CURRENT position

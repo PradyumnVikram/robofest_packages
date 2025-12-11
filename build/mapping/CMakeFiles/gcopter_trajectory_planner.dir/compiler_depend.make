@@ -998,6 +998,12 @@ CMakeFiles/gcopter_trajectory_planner.dir/src/planner.cpp.o: /home/azidozide/px4
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__traits.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float32_multi_array__type_support.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/vehicle_odometry.hpp \
+  /home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_odometry__struct.hpp \
+  /home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_odometry__builder.hpp \
+  /home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_odometry__traits.hpp \
+  /home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_odometry__type_support.hpp \
+  /home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /home/azidozide/px4_sitl_ws/src/mapping/src/firi.hpp \
   /home/azidozide/px4_sitl_ws/src/mapping/src/lbfgs.hpp \
   /usr/include/eigen3/Eigen/Eigen \
@@ -1355,6 +1361,14 @@ CMakeFiles/gcopter_trajectory_planner.dir/src/planner.cpp.o: /home/azidozide/px4
 
 /usr/include/boost/type_traits/declval.hpp:
 
+/usr/include/boost/type_traits/detail/config.hpp:
+
+/usr/include/boost/type_traits/intrinsics.hpp:
+
+/usr/include/boost/type_traits/is_convertible.hpp:
+
+/usr/include/boost/type_traits/conversion_traits.hpp:
+
 /usr/include/c++/11/ratio:
 
 /opt/ros/humble/include/rcutils/rcutils/logging.h:
@@ -1563,6 +1577,8 @@ CMakeFiles/gcopter_trajectory_planner.dir/src/planner.cpp.o: /home/azidozide/px4
 
 /usr/include/eigen3/Eigen/src/Core/arch/Default/Half.h:
 
+/home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_odometry__builder.hpp:
+
 /usr/include/boost/preprocessor/variadic/elem.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/arch/AVX/MathFunctions.h:
@@ -1666,6 +1682,10 @@ CMakeFiles/gcopter_trajectory_planner.dir/src/planner.cpp.o: /home/azidozide/px4
 /usr/include/boost/type_traits/is_function.hpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/avx2intrin.h:
+
+/usr/include/boost/version.hpp:
+
+/usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h:
 
 /opt/ros/humble/include/ompl-1.7/ompl/base/State.h:
 
@@ -1905,10 +1925,6 @@ CMakeFiles/gcopter_trajectory_planner.dir/src/planner.cpp.o: /home/azidozide/px4
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/timex.h:
-
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
-
 /usr/include/locale.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/nmmintrin.h:
@@ -2118,8 +2134,6 @@ CMakeFiles/gcopter_trajectory_planner.dir/src/planner.cpp.o: /home/azidozide/px4
 /usr/include/x86_64-linux-gnu/bits/sigstack.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp:
-
-/usr/include/boost/type_traits/is_convertible.hpp:
 
 /usr/include/c++/11/pstl/pstl_config.h:
 
@@ -2509,8 +2523,6 @@ CMakeFiles/gcopter_trajectory_planner.dir/src/planner.cpp.o: /home/azidozide/px4
 
 /usr/include/boost/concept/assert.hpp:
 
-/usr/include/boost/type_traits/detail/config.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
@@ -2626,8 +2638,6 @@ CMakeFiles/gcopter_trajectory_planner.dir/src/planner.cpp.o: /home/azidozide/px4
 /usr/include/c++/11/tr1/modified_bessel_func.tcc:
 
 /opt/ros/humble/include/rclcpp/rclcpp/create_generic_publisher.hpp:
-
-/usr/include/boost/type_traits/conversion_traits.hpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/pkuintrin.h:
 
@@ -2960,12 +2970,6 @@ CMakeFiles/gcopter_trajectory_planner.dir/src/planner.cpp.o: /home/azidozide/px4
 /usr/include/boost/config/user.hpp:
 
 /opt/ros/humble/include/rcl/rcl/node.h:
-
-/usr/include/features-time64.h:
-
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp:
-
-/opt/ros/humble/include/rcl/rcl/node_options.h:
 
 /usr/include/c++/11/bits/indirect_array.h:
 
@@ -3325,6 +3329,12 @@ CMakeFiles/gcopter_trajectory_planner.dir/src/planner.cpp.o: /home/azidozide/px4
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/vehicle_odometry.hpp:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp:
@@ -3489,6 +3499,28 @@ CMakeFiles/gcopter_trajectory_planner.dir/src/planner.cpp.o: /home/azidozide/px4
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_layout__traits.hpp:
 
+/usr/include/features-time64.h:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp:
+
+/opt/ros/humble/include/rcl/rcl/node_options.h:
+
+/home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_odometry__struct.hpp:
+
+/home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_odometry__traits.hpp:
+
+/usr/include/eigen3/Eigen/SparseQR:
+
+/home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_odometry__type_support.hpp:
+
+/home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/DenseStorage.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdalign.h:
+
+/usr/include/eigen3/Eigen/src/SparseQR/SparseQR.h:
+
 /usr/include/boost/type_traits/integral_constant.hpp:
 
 /home/azidozide/px4_sitl_ws/src/mapping/src/firi.hpp:
@@ -3569,14 +3601,6 @@ CMakeFiles/gcopter_trajectory_planner.dir/src/planner.cpp.o: /home/azidozide/px4
 
 /usr/include/eigen3/Eigen/src/SparseLU/SparseLU.h:
 
-/usr/include/eigen3/Eigen/SparseQR:
-
-/usr/include/eigen3/Eigen/src/Core/DenseStorage.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdalign.h:
-
-/usr/include/eigen3/Eigen/src/SparseQR/SparseQR.h:
-
 /opt/ros/humble/include/ompl-1.7/ompl/util/String.h:
 
 /usr/include/eigen3/Eigen/SparseLU:
@@ -3642,9 +3666,3 @@ CMakeFiles/gcopter_trajectory_planner.dir/src/planner.cpp.o: /home/azidozide/px4
 /usr/include/boost/concept/detail/has_constraints.hpp:
 
 /usr/include/boost/detail/workaround.hpp:
-
-/usr/include/boost/type_traits/intrinsics.hpp:
-
-/usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h:
-
-/usr/include/boost/version.hpp:

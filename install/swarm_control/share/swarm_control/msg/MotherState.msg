@@ -1,0 +1,9 @@
+float32 x
+float32 y
+float32 z
+float32 yaw
+float32 distance
+int32 lock
+int32 direction
+bool at_goal
+uint64 timestamp

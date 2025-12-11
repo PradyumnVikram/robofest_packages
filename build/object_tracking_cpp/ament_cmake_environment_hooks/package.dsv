@@ -1,0 +1,4 @@
+source;share/object_tracking_cpp/local_setup.bash
+source;share/object_tracking_cpp/local_setup.dsv
+source;share/object_tracking_cpp/local_setup.sh
+source;share/object_tracking_cpp/local_setup.zsh

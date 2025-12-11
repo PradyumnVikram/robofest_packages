@@ -1,0 +1,11 @@
+/home/azidozide/px4_sitl_ws/build/object_tracking_cpp/CMakeFiles/uninstall.dir
+/home/azidozide/px4_sitl_ws/build/object_tracking_cpp/CMakeFiles/object_tracking_cpp_uninstall.dir
+/home/azidozide/px4_sitl_ws/build/object_tracking_cpp/CMakeFiles/mothernode.dir
+/home/azidozide/px4_sitl_ws/build/object_tracking_cpp/CMakeFiles/follower_1.dir
+/home/azidozide/px4_sitl_ws/build/object_tracking_cpp/CMakeFiles/test.dir
+/home/azidozide/px4_sitl_ws/build/object_tracking_cpp/CMakeFiles/edit_cache.dir
+/home/azidozide/px4_sitl_ws/build/object_tracking_cpp/CMakeFiles/rebuild_cache.dir
+/home/azidozide/px4_sitl_ws/build/object_tracking_cpp/CMakeFiles/list_install_components.dir
+/home/azidozide/px4_sitl_ws/build/object_tracking_cpp/CMakeFiles/install.dir
+/home/azidozide/px4_sitl_ws/build/object_tracking_cpp/CMakeFiles/install/local.dir
+/home/azidozide/px4_sitl_ws/build/object_tracking_cpp/CMakeFiles/install/strip.dir

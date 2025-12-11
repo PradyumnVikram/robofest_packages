@@ -11,7 +11,7 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
     ],
-    install_requires=['setuptools'],
+    install_requires=['setuptools','picamera2'],
     zip_safe=True,
     maintainer='azidozide',
     maintainer_email='pradyumn.vik@gmail.com',

@@ -1,0 +1,17 @@
+<package format="3">
+  <name>swarm_control</name>
+  <version>0.0.0</version>
+  <description>Swarm control custom interfaces</description>
+  <maintainer email="you@todo.todo">You</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <build_depend>rosidl_default_generators</build_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <!-- Only if you depend on std_msgs/others in your msg -->
+  <depend>std_msgs</depend>
+</package>

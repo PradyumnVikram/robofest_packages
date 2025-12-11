@@ -1,0 +1,71 @@
+[0.235s] Invoking command in '/home/azidozide/px4_sitl_ws/build/swarm_control': /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/swarm_control -- -j24 -l24
+[0.251s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.341s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.343s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.344s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.364s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.566s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.713s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.919s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.940s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.968s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.968s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.968s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.981s] -- Configuring done
+[0.995s] -- Generating done
+[1.001s] -- Build files have been written to: /home/azidozide/px4_sitl_ws/build/swarm_control
+[1.019s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.028s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.033s] [  6%] Built target ament_cmake_python_copy_swarm_control
+[1.198s] [  6%] Built target swarm_control__cpp
+[1.206s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.207s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.208s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.209s] running egg_info
+[1.210s] creating swarm_control.egg-info
+[1.210s] writing swarm_control.egg-info/PKG-INFO
+[1.210s] writing dependency_links to swarm_control.egg-info/dependency_links.txt
+[1.210s] writing top-level names to swarm_control.egg-info/top_level.txt
+[1.210s] [ 19%] [32mBuilding C object CMakeFiles/swarm_control__rosidl_generator_c.dir/rosidl_generator_c/swarm_control/msg/detail/mother_state__functions.c.o[0m
+[1.212s] writing manifest file 'swarm_control.egg-info/SOURCES.txt'
+[1.213s] reading manifest file 'swarm_control.egg-info/SOURCES.txt'
+[1.213s] writing manifest file 'swarm_control.egg-info/SOURCES.txt'
+[1.233s] [ 19%] Built target ament_cmake_python_build_swarm_control_egg
+[1.257s] [ 22%] [32m[1mLinking C shared library libswarm_control__rosidl_generator_c.so[0m
+[1.288s] [ 22%] Built target swarm_control__rosidl_generator_c
+[1.295s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.297s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.297s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.363s] [ 35%] [32mBuilding CXX object CMakeFiles/swarm_control__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/swarm_control/msg/mother_state__type_support.cpp.o[0m
+[1.378s] [ 38%] [32mBuilding CXX object CMakeFiles/swarm_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/swarm_control/msg/detail/dds_fastrtps/mother_state__type_support.cpp.o[0m
+[1.409s] [ 41%] [32mBuilding CXX object CMakeFiles/swarm_control__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/swarm_control/msg/detail/mother_state__type_support.cpp.o[0m
+[1.463s] [ 45%] [32mBuilding CXX object CMakeFiles/swarm_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/swarm_control/msg/mother_state__type_support.cpp.o[0m
+[1.473s] [ 48%] [32mBuilding C object CMakeFiles/swarm_control__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/swarm_control/msg/detail/mother_state__type_support.c.o[0m
+[1.483s] [ 51%] [32mBuilding CXX object CMakeFiles/swarm_control__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/swarm_control/msg/detail/mother_state__type_support_c.cpp.o[0m
+[1.500s] [ 54%] [32m[1mLinking CXX shared library libswarm_control__rosidl_typesupport_c.so[0m
+[1.513s] [ 58%] [32m[1mLinking C shared library libswarm_control__rosidl_typesupport_introspection_c.so[0m
+[1.538s] [ 58%] Built target swarm_control__rosidl_typesupport_c
+[1.540s] [ 58%] Built target swarm_control__rosidl_typesupport_introspection_c
+[1.562s] [ 61%] [32m[1mLinking CXX shared library libswarm_control__rosidl_typesupport_cpp.so[0m
+[1.594s] [ 61%] Built target swarm_control__rosidl_typesupport_cpp
+[1.663s] [ 64%] [32m[1mLinking CXX shared library libswarm_control__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.681s] [ 67%] [32m[1mLinking CXX shared library libswarm_control__rosidl_typesupport_introspection_cpp.so[0m
+[1.714s] [ 67%] Built target swarm_control__rosidl_typesupport_introspection_cpp
+[1.716s] [ 67%] Built target swarm_control__rosidl_typesupport_fastrtps_cpp
+[1.732s] [ 70%] [32m[1mLinking CXX shared library libswarm_control__rosidl_typesupport_fastrtps_c.so[0m
+[1.795s] [ 70%] Built target swarm_control__rosidl_typesupport_fastrtps_c
+[1.813s] [ 70%] Built target swarm_control
+[1.841s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.062s] [ 74%] Built target swarm_control__py
+[2.078s] [ 77%] [32mBuilding C object CMakeFiles/swarm_control__rosidl_generator_py.dir/rosidl_generator_py/swarm_control/msg/_mother_state_s.c.o[0m
+[2.196s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/swarm_control/libswarm_control__rosidl_generator_py.so[0m
+[2.231s] [ 80%] Built target swarm_control__rosidl_generator_py
+[2.254s] [ 87%] [32mBuilding C object CMakeFiles/swarm_control__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/swarm_control/_swarm_control_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.254s] [ 87%] [32mBuilding C object CMakeFiles/swarm_control__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/swarm_control/_swarm_control_s.ep.rosidl_typesupport_c.c.o[0m
+[2.254s] [ 90%] [32mBuilding C object CMakeFiles/swarm_control__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/swarm_control/_swarm_control_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.356s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/swarm_control/swarm_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.356s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/swarm_control/swarm_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.358s] [100%] [32m[1mLinking C shared library rosidl_generator_py/swarm_control/swarm_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.386s] [100%] Built target swarm_control__rosidl_typesupport_c__pyext
+[2.389s] [100%] Built target swarm_control__rosidl_typesupport_introspection_c__pyext
+[2.390s] [100%] Built target swarm_control__rosidl_typesupport_fastrtps_c__pyext

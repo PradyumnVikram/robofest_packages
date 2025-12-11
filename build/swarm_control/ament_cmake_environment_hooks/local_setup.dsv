@@ -1,0 +1,4 @@
+source;share/swarm_control/environment/ament_prefix_path.sh
+source;share/swarm_control/environment/library_path.sh
+source;share/swarm_control/environment/path.sh
+source;share/swarm_control/environment/pythonpath.sh

@@ -1,0 +1,23 @@
+[0.016s] Invoking command in '/home/azidozide/px4_sitl_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azidozide/px4_sitl_ws/install/object_tracker:/opt/ros/humble /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/px4_msgs -- -j24 -l24
+[0.417s] [  0%] Built target px4_msgs__cpp
+[0.428s] [  0%] Built target ament_cmake_python_copy_px4_msgs
+[0.440s] [ 12%] Built target px4_msgs__rosidl_generator_c
+[0.488s] [ 25%] Built target px4_msgs__rosidl_typesupport_c
+[0.492s] [ 37%] Built target px4_msgs__rosidl_typesupport_cpp
+[0.502s] [ 50%] Built target px4_msgs__rosidl_typesupport_introspection_c
+[0.508s] [ 63%] Built target px4_msgs__rosidl_typesupport_introspection_cpp
+[0.533s] [ 76%] Built target px4_msgs__rosidl_typesupport_fastrtps_c
+[0.538s] [ 88%] Built target px4_msgs__rosidl_typesupport_fastrtps_cpp
+[0.556s] [ 88%] Built target px4_msgs
+[0.581s] [ 88%] Built target px4_msgs__py
+[0.614s] running egg_info
+[0.615s] writing px4_msgs.egg-info/PKG-INFO
+[0.615s] writing dependency_links to px4_msgs.egg-info/dependency_links.txt
+[0.615s] writing top-level names to px4_msgs.egg-info/top_level.txt
+[0.620s] reading manifest file 'px4_msgs.egg-info/SOURCES.txt'
+[0.622s] writing manifest file 'px4_msgs.egg-info/SOURCES.txt'
+[0.641s] [ 88%] Built target ament_cmake_python_build_px4_msgs_egg
+[0.667s] [100%] Built target px4_msgs__rosidl_generator_py
+[0.689s] [100%] Built target px4_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.689s] [100%] Built target px4_msgs__rosidl_typesupport_introspection_c__pyext
+[0.690s] [100%] Built target px4_msgs__rosidl_typesupport_c__pyext

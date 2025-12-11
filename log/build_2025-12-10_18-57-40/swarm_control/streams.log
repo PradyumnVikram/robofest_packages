@@ -1,0 +1,208 @@
+[0.007s] Invoking command in '/home/azidozide/px4_sitl_ws/build/swarm_control': /usr/bin/cmake /home/azidozide/px4_sitl_ws/src/swarm_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/azidozide/px4_sitl_ws/install/swarm_control
+[0.068s] -- The C compiler identification is GNU 11.4.0
+[0.126s] -- The CXX compiler identification is GNU 11.4.0
+[0.133s] -- Detecting C compiler ABI info
+[0.181s] -- Detecting C compiler ABI info - done
+[0.188s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.188s] -- Detecting C compile features
+[0.188s] -- Detecting C compile features - done
+[0.190s] -- Detecting CXX compiler ABI info
+[0.251s] -- Detecting CXX compiler ABI info - done
+[0.260s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.260s] -- Detecting CXX compile features
+[0.261s] -- Detecting CXX compile features - done
+[0.263s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.397s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.467s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.471s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.477s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.507s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.711s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.850s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.040s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.061s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.063s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.087s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.088s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.088s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.088s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.104s] -- Found PythonExtra: .so  
+[1.133s] -- Configuring done
+[1.147s] -- Generating done
+[1.148s] [33mCMake Warning:
+[1.148s]   Manually-specified variables were not used by the project:
+[1.149s] 
+[1.149s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[1.149s] 
+[1.149s] [0m
+[1.153s] -- Build files have been written to: /home/azidozide/px4_sitl_ws/build/swarm_control
+[1.160s] Invoked command in '/home/azidozide/px4_sitl_ws/build/swarm_control' returned '0': /usr/bin/cmake /home/azidozide/px4_sitl_ws/src/swarm_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/azidozide/px4_sitl_ws/install/swarm_control
+[1.161s] Invoking command in '/home/azidozide/px4_sitl_ws/build/swarm_control': /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/swarm_control -- -j24 -l24
+[1.201s] [35m[1mConsolidate compiler generated dependencies of target swarm_control__rosidl_generator_c[0m
+[1.208s] [  3%] Built target swarm_control__cpp
+[1.210s] [ 12%] Built target swarm_control__rosidl_generator_c
+[1.215s] [ 12%] Built target ament_cmake_python_copy_swarm_control
+[1.219s] [35m[1mConsolidate compiler generated dependencies of target swarm_control__rosidl_typesupport_fastrtps_cpp[0m
+[1.219s] [35m[1mConsolidate compiler generated dependencies of target swarm_control__rosidl_typesupport_cpp[0m
+[1.220s] [35m[1mConsolidate compiler generated dependencies of target swarm_control__rosidl_typesupport_introspection_c[0m
+[1.220s] [35m[1mConsolidate compiler generated dependencies of target swarm_control__rosidl_typesupport_c[0m
+[1.220s] [35m[1mConsolidate compiler generated dependencies of target swarm_control__rosidl_typesupport_introspection_cpp[0m
+[1.221s] [35m[1mConsolidate compiler generated dependencies of target swarm_control__rosidl_typesupport_fastrtps_c[0m
+[1.231s] [ 29%] Built target swarm_control__rosidl_typesupport_cpp
+[1.231s] [ 32%] Built target swarm_control__rosidl_typesupport_fastrtps_cpp
+[1.231s] [ 41%] Built target swarm_control__rosidl_typesupport_fastrtps_c
+[1.232s] [ 61%] Built target swarm_control__rosidl_typesupport_introspection_c
+[1.232s] [ 61%] Built target swarm_control__rosidl_typesupport_c
+[1.233s] [ 70%] Built target swarm_control__rosidl_typesupport_introspection_cpp
+[1.249s] [ 70%] Built target swarm_control
+[1.264s] [ 74%] Built target swarm_control__py
+[1.271s] [35m[1mConsolidate compiler generated dependencies of target swarm_control__rosidl_generator_py[0m
+[1.279s] [ 80%] Built target swarm_control__rosidl_generator_py
+[1.286s] [35m[1mConsolidate compiler generated dependencies of target swarm_control__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.287s] [35m[1mConsolidate compiler generated dependencies of target swarm_control__rosidl_typesupport_c__pyext[0m
+[1.288s] [35m[1mConsolidate compiler generated dependencies of target swarm_control__rosidl_typesupport_introspection_c__pyext[0m
+[1.295s] [ 87%] Built target swarm_control__rosidl_typesupport_c__pyext
+[1.296s] [ 93%] Built target swarm_control__rosidl_typesupport_fastrtps_c__pyext
+[1.298s] [100%] Built target swarm_control__rosidl_typesupport_introspection_c__pyext
+[1.398s] running egg_info
+[1.399s] writing swarm_control.egg-info/PKG-INFO
+[1.399s] writing dependency_links to swarm_control.egg-info/dependency_links.txt
+[1.399s] writing top-level names to swarm_control.egg-info/top_level.txt
+[1.402s] reading manifest file 'swarm_control.egg-info/SOURCES.txt'
+[1.402s] writing manifest file 'swarm_control.egg-info/SOURCES.txt'
+[1.421s] [100%] Built target ament_cmake_python_build_swarm_control_egg
+[1.430s] Invoked command in '/home/azidozide/px4_sitl_ws/build/swarm_control' returned '0': /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/swarm_control -- -j24 -l24
+[1.439s] Invoking command in '/home/azidozide/px4_sitl_ws/build/swarm_control': /usr/bin/cmake --install /home/azidozide/px4_sitl_ws/build/swarm_control
+[1.447s] -- Install configuration: ""
+[1.447s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/ament_index/resource_index/rosidl_interfaces/swarm_control
+[1.447s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control
+[1.447s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg
+[1.447s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail
+[1.447s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail/mother_state__functions.c
+[1.447s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail/mother_state__struct.h
+[1.447s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail/mother_state__functions.h
+[1.447s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail/mother_state__type_support.h
+[1.447s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/mother_state.h
+[1.447s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/rosidl_generator_c__visibility_control.h
+[1.447s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/environment/library_path.sh
+[1.447s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/environment/library_path.dsv
+[1.448s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/lib/libswarm_control__rosidl_generator_c.so
+[1.448s] -- Set runtime path of "/home/azidozide/px4_sitl_ws/install/swarm_control/lib/libswarm_control__rosidl_generator_c.so" to ""
+[1.448s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control
+[1.448s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg
+[1.448s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail
+[1.448s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail/mother_state__rosidl_typesupport_fastrtps_c.h
+[1.448s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.448s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/lib/libswarm_control__rosidl_typesupport_fastrtps_c.so
+[1.448s] -- Set runtime path of "/home/azidozide/px4_sitl_ws/install/swarm_control/lib/libswarm_control__rosidl_typesupport_fastrtps_c.so" to ""
+[1.448s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control
+[1.448s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg
+[1.448s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail
+[1.448s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail/mother_state__type_support.c
+[1.448s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail/mother_state__rosidl_typesupport_introspection_c.h
+[1.448s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.448s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/lib/libswarm_control__rosidl_typesupport_introspection_c.so
+[1.448s] -- Set runtime path of "/home/azidozide/px4_sitl_ws/install/swarm_control/lib/libswarm_control__rosidl_typesupport_introspection_c.so" to ""
+[1.448s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/lib/libswarm_control__rosidl_typesupport_c.so
+[1.448s] -- Set runtime path of "/home/azidozide/px4_sitl_ws/install/swarm_control/lib/libswarm_control__rosidl_typesupport_c.so" to ""
+[1.449s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control
+[1.449s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg
+[1.449s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail
+[1.449s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail/mother_state__builder.hpp
+[1.449s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail/mother_state__traits.hpp
+[1.449s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail/mother_state__struct.hpp
+[1.449s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail/mother_state__type_support.hpp
+[1.449s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/mother_state.hpp
+[1.449s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.449s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control
+[1.449s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg
+[1.449s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail
+[1.449s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail/mother_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.449s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail/dds_fastrtps
+[1.449s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.449s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/lib/libswarm_control__rosidl_typesupport_fastrtps_cpp.so
+[1.449s] -- Set runtime path of "/home/azidozide/px4_sitl_ws/install/swarm_control/lib/libswarm_control__rosidl_typesupport_fastrtps_cpp.so" to ""
+[1.449s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control
+[1.449s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg
+[1.449s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail
+[1.449s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail/mother_state__type_support.cpp
+[1.449s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail/mother_state__rosidl_typesupport_introspection_cpp.hpp
+[1.449s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/lib/libswarm_control__rosidl_typesupport_introspection_cpp.so
+[1.449s] -- Set runtime path of "/home/azidozide/px4_sitl_ws/install/swarm_control/lib/libswarm_control__rosidl_typesupport_introspection_cpp.so" to ""
+[1.450s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/lib/libswarm_control__rosidl_typesupport_cpp.so
+[1.450s] -- Set runtime path of "/home/azidozide/px4_sitl_ws/install/swarm_control/lib/libswarm_control__rosidl_typesupport_cpp.so" to ""
+[1.450s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/environment/pythonpath.sh
+[1.450s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/environment/pythonpath.dsv
+[1.450s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control-0.0.0-py3.10.egg-info
+[1.450s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control-0.0.0-py3.10.egg-info/PKG-INFO
+[1.450s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control-0.0.0-py3.10.egg-info/top_level.txt
+[1.450s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.450s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.450s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control
+[1.450s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/swarm_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.450s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/msg
+[1.450s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/msg/_mother_state.py
+[1.450s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/msg/_mother_state_s.c
+[1.450s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/msg/__init__.py
+[1.450s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/_swarm_control_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.450s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/_swarm_control_s.ep.rosidl_typesupport_c.c
+[1.450s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/swarm_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.450s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/__init__.py
+[1.450s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/swarm_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.450s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/libswarm_control__rosidl_generator_py.so
+[1.451s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/_swarm_control_s.ep.rosidl_typesupport_introspection_c.c
+[1.477s] Listing '/home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control'...
+[1.477s] Compiling '/home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/__init__.py'...
+[1.477s] Listing '/home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/msg'...
+[1.477s] Compiling '/home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/msg/__init__.py'...
+[1.477s] Compiling '/home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/msg/_mother_state.py'...
+[1.480s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/swarm_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.480s] -- Set runtime path of "/home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/swarm_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[1.480s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/swarm_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.480s] -- Set runtime path of "/home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/swarm_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[1.480s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/swarm_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.480s] -- Set runtime path of "/home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/swarm_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[1.480s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/lib/libswarm_control__rosidl_generator_py.so
+[1.480s] -- Set runtime path of "/home/azidozide/px4_sitl_ws/install/swarm_control/lib/libswarm_control__rosidl_generator_py.so" to ""
+[1.480s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/msg/MotherState.idl
+[1.480s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/msg/MotherState.msg
+[1.480s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/ament_index/resource_index/package_run_dependencies/swarm_control
+[1.480s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/ament_index/resource_index/parent_prefix_path/swarm_control
+[1.480s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/environment/ament_prefix_path.sh
+[1.481s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/environment/ament_prefix_path.dsv
+[1.481s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/environment/path.sh
+[1.481s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/environment/path.dsv
+[1.481s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/local_setup.bash
+[1.481s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/local_setup.sh
+[1.481s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/local_setup.zsh
+[1.481s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/local_setup.dsv
+[1.481s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/package.dsv
+[1.481s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/ament_index/resource_index/packages/swarm_control
+[1.481s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/export_swarm_control__rosidl_generator_cExport.cmake
+[1.481s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/export_swarm_control__rosidl_generator_cExport-noconfig.cmake
+[1.481s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/export_swarm_control__rosidl_typesupport_fastrtps_cExport.cmake
+[1.481s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/export_swarm_control__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.481s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/swarm_control__rosidl_typesupport_introspection_cExport.cmake
+[1.481s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/swarm_control__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.481s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/swarm_control__rosidl_typesupport_cExport.cmake
+[1.481s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/swarm_control__rosidl_typesupport_cExport-noconfig.cmake
+[1.481s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/export_swarm_control__rosidl_generator_cppExport.cmake
+[1.481s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/export_swarm_control__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.481s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/export_swarm_control__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.482s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/swarm_control__rosidl_typesupport_introspection_cppExport.cmake
+[1.482s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/swarm_control__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.482s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/swarm_control__rosidl_typesupport_cppExport.cmake
+[1.482s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/swarm_control__rosidl_typesupport_cppExport-noconfig.cmake
+[1.482s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/export_swarm_control__rosidl_generator_pyExport.cmake
+[1.482s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/export_swarm_control__rosidl_generator_pyExport-noconfig.cmake
+[1.482s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/rosidl_cmake-extras.cmake
+[1.482s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.482s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/ament_cmake_export_libraries-extras.cmake
+[1.482s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/ament_cmake_export_targets-extras.cmake
+[1.482s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.482s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.482s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.482s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/swarm_controlConfig.cmake
+[1.482s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/swarm_controlConfig-version.cmake
+[1.482s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/package.xml
+[1.484s] Invoked command in '/home/azidozide/px4_sitl_ws/build/swarm_control' returned '0': /usr/bin/cmake --install /home/azidozide/px4_sitl_ws/build/swarm_control

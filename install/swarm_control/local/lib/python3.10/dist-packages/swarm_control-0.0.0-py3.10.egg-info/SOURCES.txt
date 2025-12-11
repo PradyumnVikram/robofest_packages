@@ -1,0 +1,8 @@
+setup.py
+swarm_control/__init__.py
+swarm_control.egg-info/PKG-INFO
+swarm_control.egg-info/SOURCES.txt
+swarm_control.egg-info/dependency_links.txt
+swarm_control.egg-info/top_level.txt
+swarm_control/msg/__init__.py
+swarm_control/msg/_mother_state.py

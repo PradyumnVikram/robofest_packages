@@ -1,0 +1,361 @@
+[0.071s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.071s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x76fc50ca67d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76fc50dbb7f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76fc50dbb7f0>>, mixin_verb=('build',))
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.202s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/azidozide/px4_sitl_ws'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extension 'ros'
+[0.212s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mapping' with type 'ros.ament_cmake' and name 'mapping'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_mapping) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_mapping) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_mapping) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_mapping) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_mapping) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_mapping) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_mapping) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/mine_mapping) by extension 'ros'
+[0.213s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mine_mapping' with type 'ros.ament_cmake' and name 'mine_mapping'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_tracker) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_tracker) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_tracker) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_tracker) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_tracker) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_tracker) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_tracker) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_tracker) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_tracker) by extension 'ros'
+[0.214s] DEBUG:colcon.colcon_core.package_identification:Package 'src/object_tracker' with type 'ros.ament_python' and name 'object_tracker'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[0.214s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.228s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/azidozide/px4_sitl_ws/install
+[0.229s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 288 installed packages in /opt/ros/humble
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.252s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'px4_msgs' is in: /home/azidozide/px4_sitl_ws/install/px4_msgs
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding px4_msgs
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'mine_mapping' build argument 'cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'mine_mapping' build argument 'cmake_target' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'mine_mapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'mine_mapping' build argument 'cmake_clean_cache' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'mine_mapping' build argument 'cmake_clean_first' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'mine_mapping' build argument 'cmake_force_configure' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'mine_mapping' build argument 'ament_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'mine_mapping' build argument 'catkin_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'mine_mapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.252s] DEBUG:colcon.colcon_core.verb:Building package 'mine_mapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/azidozide/px4_sitl_ws/build/mine_mapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/azidozide/px4_sitl_ws/install/mine_mapping', 'merge_install': False, 'path': '/home/azidozide/px4_sitl_ws/src/mine_mapping', 'symlink_install': False, 'test_result_base': None}
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'object_tracker' build argument 'cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'object_tracker' build argument 'cmake_target' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'object_tracker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'object_tracker' build argument 'cmake_clean_cache' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'object_tracker' build argument 'cmake_clean_first' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'object_tracker' build argument 'cmake_force_configure' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'object_tracker' build argument 'ament_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'object_tracker' build argument 'catkin_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'object_tracker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.253s] DEBUG:colcon.colcon_core.verb:Building package 'object_tracker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/azidozide/px4_sitl_ws/build/object_tracker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/azidozide/px4_sitl_ws/install/object_tracker', 'merge_install': False, 'path': '/home/azidozide/px4_sitl_ws/src/object_tracker', 'symlink_install': False, 'test_result_base': None}
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.253s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/azidozide/px4_sitl_ws/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/azidozide/px4_sitl_ws/install/px4_msgs', 'merge_install': False, 'path': '/home/azidozide/px4_sitl_ws/src/px4_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_target' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_clean_cache' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_clean_first' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_force_configure' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'ament_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'catkin_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.253s] DEBUG:colcon.colcon_core.verb:Building package 'mapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/azidozide/px4_sitl_ws/build/mapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/azidozide/px4_sitl_ws/install/mapping', 'merge_install': False, 'path': '/home/azidozide/px4_sitl_ws/src/mapping', 'symlink_install': False, 'test_result_base': None}
+[0.253s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.254s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.254s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/azidozide/px4_sitl_ws/src/px4_msgs' with build type 'ament_cmake'
+[0.254s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/azidozide/px4_sitl_ws/src/px4_msgs'
+[0.256s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.256s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.256s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.258s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/azidozide/px4_sitl_ws/src/mine_mapping' with build type 'ament_cmake'
+[0.258s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/azidozide/px4_sitl_ws/src/mine_mapping'
+[0.258s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.258s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.261s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/azidozide/px4_sitl_ws/src/object_tracker' with build type 'ament_python'
+[0.261s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_tracker', 'ament_prefix_path')
+[0.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azidozide/px4_sitl_ws/install/object_tracker/share/object_tracker/hook/ament_prefix_path.ps1'
+[0.262s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azidozide/px4_sitl_ws/install/object_tracker/share/object_tracker/hook/ament_prefix_path.dsv'
+[0.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azidozide/px4_sitl_ws/install/object_tracker/share/object_tracker/hook/ament_prefix_path.sh'
+[0.263s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.263s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azidozide/px4_sitl_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azidozide/px4_sitl_ws/install/object_tracker:/opt/ros/humble /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/px4_msgs -- -j24 -l24
+[0.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azidozide/px4_sitl_ws/build/mine_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azidozide/px4_sitl_ws/install/object_tracker:/opt/ros/humble /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/mine_mapping -- -j24 -l24
+[0.464s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/azidozide/px4_sitl_ws/src/object_tracker'
+[0.464s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.464s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azidozide/px4_sitl_ws/build/mine_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azidozide/px4_sitl_ws/install/object_tracker:/opt/ros/humble /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/mine_mapping -- -j24 -l24
+[0.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azidozide/px4_sitl_ws/build/mine_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azidozide/px4_sitl_ws/install/object_tracker:/opt/ros/humble /usr/bin/cmake --install /home/azidozide/px4_sitl_ws/build/mine_mapping
+[0.485s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mine_mapping)
+[0.486s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azidozide/px4_sitl_ws/build/mine_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azidozide/px4_sitl_ws/install/object_tracker:/opt/ros/humble /usr/bin/cmake --install /home/azidozide/px4_sitl_ws/build/mine_mapping
+[0.488s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/mine_mapping' for CMake module files
+[0.488s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/mine_mapping' for CMake config files
+[0.488s] Level 1:colcon.colcon_core.shell:create_environment_hook('mine_mapping', 'cmake_prefix_path')
+[0.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/hook/cmake_prefix_path.ps1'
+[0.488s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/hook/cmake_prefix_path.dsv'
+[0.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/hook/cmake_prefix_path.sh'
+[0.489s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/mine_mapping/lib'
+[0.489s] Level 1:colcon.colcon_core.shell:create_environment_hook('mine_mapping', 'ld_library_path_lib')
+[0.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/hook/ld_library_path_lib.ps1'
+[0.489s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/hook/ld_library_path_lib.dsv'
+[0.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/hook/ld_library_path_lib.sh'
+[0.490s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/mine_mapping/bin'
+[0.490s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/mine_mapping/lib/pkgconfig/mine_mapping.pc'
+[0.490s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/mine_mapping/lib/python3.10/site-packages'
+[0.490s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/mine_mapping/bin'
+[0.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/package.ps1'
+[0.491s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/package.dsv'
+[0.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/package.sh'
+[0.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/package.bash'
+[0.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/package.zsh'
+[0.492s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azidozide/px4_sitl_ws/install/mine_mapping/share/colcon-core/packages/mine_mapping)
+[0.493s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mine_mapping)
+[0.493s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/mine_mapping' for CMake module files
+[0.493s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/mine_mapping' for CMake config files
+[0.493s] Level 1:colcon.colcon_core.shell:create_environment_hook('mine_mapping', 'cmake_prefix_path')
+[0.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/hook/cmake_prefix_path.ps1'
+[0.494s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/hook/cmake_prefix_path.dsv'
+[0.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/hook/cmake_prefix_path.sh'
+[0.494s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/mine_mapping/lib'
+[0.494s] Level 1:colcon.colcon_core.shell:create_environment_hook('mine_mapping', 'ld_library_path_lib')
+[0.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/hook/ld_library_path_lib.ps1'
+[0.494s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/hook/ld_library_path_lib.dsv'
+[0.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/hook/ld_library_path_lib.sh'
+[0.495s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/mine_mapping/bin'
+[0.495s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/mine_mapping/lib/pkgconfig/mine_mapping.pc'
+[0.495s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/mine_mapping/lib/python3.10/site-packages'
+[0.495s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/mine_mapping/bin'
+[0.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/package.ps1'
+[0.496s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/package.dsv'
+[0.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/package.sh'
+[0.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/package.bash'
+[0.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/azidozide/px4_sitl_ws/install/mine_mapping/share/mine_mapping/package.zsh'
+[0.496s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azidozide/px4_sitl_ws/install/mine_mapping/share/colcon-core/packages/mine_mapping)
+[0.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azidozide/px4_sitl_ws/src/object_tracker': PYTHONPATH=/home/azidozide/px4_sitl_ws/build/object_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/azidozide/px4_sitl_ws/install/object_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_tracker build --build-base /home/azidozide/px4_sitl_ws/build/object_tracker/build install --record /home/azidozide/px4_sitl_ws/build/object_tracker/install.log --single-version-externally-managed install_data
+[0.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azidozide/px4_sitl_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azidozide/px4_sitl_ws/install/object_tracker:/opt/ros/humble /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/px4_msgs -- -j24 -l24
+[0.998s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azidozide/px4_sitl_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azidozide/px4_sitl_ws/install/object_tracker:/opt/ros/humble /usr/bin/cmake --install /home/azidozide/px4_sitl_ws/build/px4_msgs
+[1.025s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/object_tracker' for CMake module files
+[1.029s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/object_tracker' for CMake config files
+[1.041s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azidozide/px4_sitl_ws/src/object_tracker' returned '0': PYTHONPATH=/home/azidozide/px4_sitl_ws/build/object_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/azidozide/px4_sitl_ws/install/object_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_tracker build --build-base /home/azidozide/px4_sitl_ws/build/object_tracker/build install --record /home/azidozide/px4_sitl_ws/build/object_tracker/install.log --single-version-externally-managed install_data
+[1.042s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/object_tracker/lib'
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/object_tracker/bin'
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/object_tracker/lib/pkgconfig/object_tracker.pc'
+[1.050s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/object_tracker/lib/python3.10/site-packages'
+[1.050s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_tracker', 'pythonpath')
+[1.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azidozide/px4_sitl_ws/install/object_tracker/share/object_tracker/hook/pythonpath.ps1'
+[1.052s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azidozide/px4_sitl_ws/install/object_tracker/share/object_tracker/hook/pythonpath.dsv'
+[1.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azidozide/px4_sitl_ws/install/object_tracker/share/object_tracker/hook/pythonpath.sh'
+[1.059s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/object_tracker/bin'
+[1.059s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(object_tracker)
+[1.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/azidozide/px4_sitl_ws/install/object_tracker/share/object_tracker/package.ps1'
+[1.061s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azidozide/px4_sitl_ws/install/object_tracker/share/object_tracker/package.dsv'
+[1.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/azidozide/px4_sitl_ws/install/object_tracker/share/object_tracker/package.sh'
+[1.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/azidozide/px4_sitl_ws/install/object_tracker/share/object_tracker/package.bash'
+[1.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/azidozide/px4_sitl_ws/install/object_tracker/share/object_tracker/package.zsh'
+[1.099s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azidozide/px4_sitl_ws/install/object_tracker/share/colcon-core/packages/object_tracker)
+[1.258s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[1.259s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azidozide/px4_sitl_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azidozide/px4_sitl_ws/install/object_tracker:/opt/ros/humble /usr/bin/cmake --install /home/azidozide/px4_sitl_ws/build/px4_msgs
+[1.259s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/px4_msgs' for CMake module files
+[1.259s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/px4_msgs' for CMake config files
+[1.259s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[1.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azidozide/px4_sitl_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[1.260s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azidozide/px4_sitl_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[1.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azidozide/px4_sitl_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[1.260s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/px4_msgs/lib'
+[1.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[1.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azidozide/px4_sitl_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[1.261s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azidozide/px4_sitl_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[1.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azidozide/px4_sitl_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[1.261s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/px4_msgs/bin'
+[1.261s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[1.261s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/px4_msgs/lib/python3.10/site-packages'
+[1.262s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/px4_msgs/bin'
+[1.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/azidozide/px4_sitl_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[1.262s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azidozide/px4_sitl_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[1.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/azidozide/px4_sitl_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[1.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/azidozide/px4_sitl_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[1.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/azidozide/px4_sitl_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[1.263s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azidozide/px4_sitl_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[1.264s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[1.264s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/px4_msgs' for CMake module files
+[1.264s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/px4_msgs' for CMake config files
+[1.264s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[1.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azidozide/px4_sitl_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[1.265s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azidozide/px4_sitl_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[1.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azidozide/px4_sitl_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[1.265s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/px4_msgs/lib'
+[1.265s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[1.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azidozide/px4_sitl_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[1.266s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azidozide/px4_sitl_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[1.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azidozide/px4_sitl_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[1.266s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/px4_msgs/bin'
+[1.266s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[1.266s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/px4_msgs/lib/python3.10/site-packages'
+[1.267s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/px4_msgs/bin'
+[1.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/azidozide/px4_sitl_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[1.267s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azidozide/px4_sitl_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[1.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/azidozide/px4_sitl_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[1.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/azidozide/px4_sitl_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[1.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/azidozide/px4_sitl_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[1.268s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azidozide/px4_sitl_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[1.268s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/azidozide/px4_sitl_ws/src/mapping' with build type 'ament_cmake'
+[1.268s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/azidozide/px4_sitl_ws/src/mapping'
+[1.269s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.269s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azidozide/px4_sitl_ws/build/mapping': CMAKE_PREFIX_PATH=/home/azidozide/px4_sitl_ws/install/px4_msgs:/home/azidozide/px4_sitl_ws/install/mapping:/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping:/home/azidozide/px4_sitl_ws/install/mine_mapping:/home/azidozide/px4_sitl_ws/install/object_tracker:/opt/ros/humble /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/mapping -- -j24 -l24
+[27.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azidozide/px4_sitl_ws/build/mapping' returned '0': CMAKE_PREFIX_PATH=/home/azidozide/px4_sitl_ws/install/px4_msgs:/home/azidozide/px4_sitl_ws/install/mapping:/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping:/home/azidozide/px4_sitl_ws/install/mine_mapping:/home/azidozide/px4_sitl_ws/install/object_tracker:/opt/ros/humble /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/mapping -- -j24 -l24
+[27.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azidozide/px4_sitl_ws/build/mapping': CMAKE_PREFIX_PATH=/home/azidozide/px4_sitl_ws/install/px4_msgs:/home/azidozide/px4_sitl_ws/install/mapping:/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping:/home/azidozide/px4_sitl_ws/install/mine_mapping:/home/azidozide/px4_sitl_ws/install/object_tracker:/opt/ros/humble /usr/bin/cmake --install /home/azidozide/px4_sitl_ws/build/mapping
+[27.234s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mapping)
+[27.234s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/mapping' for CMake module files
+[27.235s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azidozide/px4_sitl_ws/build/mapping' returned '0': CMAKE_PREFIX_PATH=/home/azidozide/px4_sitl_ws/install/px4_msgs:/home/azidozide/px4_sitl_ws/install/mapping:/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping:/home/azidozide/px4_sitl_ws/install/mine_mapping:/home/azidozide/px4_sitl_ws/install/object_tracker:/opt/ros/humble /usr/bin/cmake --install /home/azidozide/px4_sitl_ws/build/mapping
+[27.235s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/mapping' for CMake config files
+[27.235s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping', 'cmake_prefix_path')
+[27.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azidozide/px4_sitl_ws/install/mapping/share/mapping/hook/cmake_prefix_path.ps1'
+[27.235s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azidozide/px4_sitl_ws/install/mapping/share/mapping/hook/cmake_prefix_path.dsv'
+[27.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azidozide/px4_sitl_ws/install/mapping/share/mapping/hook/cmake_prefix_path.sh'
+[27.236s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/mapping/lib'
+[27.236s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/mapping/bin'
+[27.236s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/mapping/lib/pkgconfig/mapping.pc'
+[27.236s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/mapping/lib/python3.10/site-packages'
+[27.236s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping', 'pythonpath')
+[27.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azidozide/px4_sitl_ws/install/mapping/share/mapping/hook/pythonpath.ps1'
+[27.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azidozide/px4_sitl_ws/install/mapping/share/mapping/hook/pythonpath.dsv'
+[27.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azidozide/px4_sitl_ws/install/mapping/share/mapping/hook/pythonpath.sh'
+[27.237s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/mapping/bin'
+[27.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/azidozide/px4_sitl_ws/install/mapping/share/mapping/package.ps1'
+[27.238s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azidozide/px4_sitl_ws/install/mapping/share/mapping/package.dsv'
+[27.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/azidozide/px4_sitl_ws/install/mapping/share/mapping/package.sh'
+[27.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/azidozide/px4_sitl_ws/install/mapping/share/mapping/package.bash'
+[27.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/azidozide/px4_sitl_ws/install/mapping/share/mapping/package.zsh'
+[27.239s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azidozide/px4_sitl_ws/install/mapping/share/colcon-core/packages/mapping)
+[27.239s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mapping)
+[27.239s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/mapping' for CMake module files
+[27.239s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/mapping' for CMake config files
+[27.240s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping', 'cmake_prefix_path')
+[27.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azidozide/px4_sitl_ws/install/mapping/share/mapping/hook/cmake_prefix_path.ps1'
+[27.240s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azidozide/px4_sitl_ws/install/mapping/share/mapping/hook/cmake_prefix_path.dsv'
+[27.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azidozide/px4_sitl_ws/install/mapping/share/mapping/hook/cmake_prefix_path.sh'
+[27.240s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/mapping/lib'
+[27.240s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/mapping/bin'
+[27.240s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/mapping/lib/pkgconfig/mapping.pc'
+[27.241s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/mapping/lib/python3.10/site-packages'
+[27.241s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping', 'pythonpath')
+[27.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azidozide/px4_sitl_ws/install/mapping/share/mapping/hook/pythonpath.ps1'
+[27.241s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azidozide/px4_sitl_ws/install/mapping/share/mapping/hook/pythonpath.dsv'
+[27.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azidozide/px4_sitl_ws/install/mapping/share/mapping/hook/pythonpath.sh'
+[27.242s] Level 1:colcon.colcon_core.environment:checking '/home/azidozide/px4_sitl_ws/install/mapping/bin'
+[27.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/azidozide/px4_sitl_ws/install/mapping/share/mapping/package.ps1'
+[27.243s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azidozide/px4_sitl_ws/install/mapping/share/mapping/package.dsv'
+[27.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/azidozide/px4_sitl_ws/install/mapping/share/mapping/package.sh'
+[27.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/azidozide/px4_sitl_ws/install/mapping/share/mapping/package.bash'
+[27.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/azidozide/px4_sitl_ws/install/mapping/share/mapping/package.zsh'
+[27.244s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azidozide/px4_sitl_ws/install/mapping/share/colcon-core/packages/mapping)
+[27.244s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[27.244s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[27.244s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[27.244s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[27.249s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[27.249s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[27.249s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[27.263s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[27.264s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/azidozide/px4_sitl_ws/install/local_setup.ps1'
+[27.264s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/azidozide/px4_sitl_ws/install/_local_setup_util_ps1.py'
+[27.265s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/azidozide/px4_sitl_ws/install/setup.ps1'
+[27.266s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/azidozide/px4_sitl_ws/install/local_setup.sh'
+[27.266s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/azidozide/px4_sitl_ws/install/_local_setup_util_sh.py'
+[27.267s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/azidozide/px4_sitl_ws/install/setup.sh'
+[27.267s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/azidozide/px4_sitl_ws/install/local_setup.bash'
+[27.268s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/azidozide/px4_sitl_ws/install/setup.bash'
+[27.268s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/azidozide/px4_sitl_ws/install/local_setup.zsh'
+[27.269s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/azidozide/px4_sitl_ws/install/setup.zsh'

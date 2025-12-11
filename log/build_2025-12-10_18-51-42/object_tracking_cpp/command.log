@@ -1,0 +1,1 @@
+Invoking command in '/home/azidozide/px4_sitl_ws/build/object_tracking_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azidozide/px4_sitl_ws/install/object_tracker:/opt/ros/humble /usr/bin/cmake /home/azidozide/px4_sitl_ws/src/object_tracking_cpp -DCMAKE_INSTALL_PREFIX=/home/azidozide/px4_sitl_ws/install/object_tracking_cpp

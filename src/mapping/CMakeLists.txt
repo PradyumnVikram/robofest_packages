@@ -55,7 +55,7 @@ target_compile_options(corridor_gen_correct PRIVATE
 add_executable(gcopter_trajectory_planner src/planner.cpp)
 
 ament_target_dependencies(gcopter_trajectory_planner
-  rclcpp std_msgs Eigen3 ompl geometry_msgs# Added ompl
+  rclcpp std_msgs Eigen3 ompl px4_msgs# Added ompl
 )
 
 target_link_libraries(gcopter_trajectory_planner
