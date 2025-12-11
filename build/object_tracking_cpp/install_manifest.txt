@@ -1,5 +1,7 @@
 /home/azidozide/px4_sitl_ws/install/object_tracking_cpp/lib/object_tracking_cpp/mothernode
 /home/azidozide/px4_sitl_ws/install/object_tracking_cpp/lib/object_tracking_cpp/follower_1
+/home/azidozide/px4_sitl_ws/install/object_tracking_cpp/lib/object_tracking_cpp/follower_2
+/home/azidozide/px4_sitl_ws/install/object_tracking_cpp/lib/object_tracking_cpp/follower_3
 /home/azidozide/px4_sitl_ws/install/object_tracking_cpp/share/ament_index/resource_index/package_run_dependencies/object_tracking_cpp
 /home/azidozide/px4_sitl_ws/install/object_tracking_cpp/share/ament_index/resource_index/parent_prefix_path/object_tracking_cpp
 /home/azidozide/px4_sitl_ws/install/object_tracking_cpp/share/object_tracking_cpp/environment/ament_prefix_path.sh

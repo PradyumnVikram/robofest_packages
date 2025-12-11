@@ -154,13 +154,19 @@ CMakeFiles/follower_1.dir/src/follower1.cpp.o: \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
- /usr/include/c++/11/pstl/execution_defs.h /usr/include/c++/11/string \
+ /usr/include/c++/11/pstl/execution_defs.h /usr/include/c++/11/vector \
+ /usr/include/c++/11/bits/stl_vector.h \
+ /usr/include/c++/11/bits/stl_bvector.h \
+ /usr/include/c++/11/bits/vector.tcc /usr/include/c++/11/fstream \
+ /usr/include/c++/11/istream /usr/include/c++/11/ios \
  /usr/include/c++/11/bits/char_traits.h \
  /usr/include/c++/11/bits/localefwd.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
  /usr/include/c++/11/clocale /usr/include/locale.h \
  /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/11/cctype \
- /usr/include/ctype.h /usr/include/c++/11/bits/ostream_insert.h \
+ /usr/include/ctype.h /usr/include/c++/11/bits/ios_base.h \
+ /usr/include/c++/11/bits/locale_classes.h /usr/include/c++/11/string \
+ /usr/include/c++/11/bits/ostream_insert.h \
  /usr/include/c++/11/bits/cxxabi_forced.h \
  /usr/include/c++/11/bits/basic_string.h /usr/include/c++/11/string_view \
  /usr/include/c++/11/bits/string_view.tcc \
@@ -172,6 +178,24 @@ CMakeFiles/follower_1.dir/src/follower1.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
+ /usr/include/c++/11/bits/locale_classes.tcc \
+ /usr/include/c++/11/system_error \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+ /usr/include/c++/11/stdexcept /usr/include/c++/11/streambuf \
+ /usr/include/c++/11/bits/streambuf.tcc \
+ /usr/include/c++/11/bits/basic_ios.h \
+ /usr/include/c++/11/bits/locale_facets.h /usr/include/c++/11/cwctype \
+ /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+ /usr/include/c++/11/bits/streambuf_iterator.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+ /usr/include/c++/11/bits/locale_facets.tcc \
+ /usr/include/c++/11/bits/basic_ios.tcc /usr/include/c++/11/ostream \
+ /usr/include/c++/11/bits/ostream.tcc \
+ /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+ /usr/include/c++/11/bits/fstream.tcc \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -204,9 +228,7 @@ CMakeFiles/follower_1.dir/src/follower1.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
  /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp \
  /usr/include/c++/11/future /usr/include/c++/11/mutex \
- /usr/include/c++/11/system_error \
- /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
- /usr/include/c++/11/stdexcept /usr/include/c++/11/bits/std_mutex.h \
+ /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
  /usr/include/c++/11/condition_variable /usr/include/c++/11/atomic \
  /usr/include/c++/11/bits/atomic_futex.h \
@@ -229,28 +251,11 @@ CMakeFiles/follower_1.dir/src/follower1.cpp.o: \
  /usr/include/c++/11/bits/stl_heap.h \
  /usr/include/c++/11/bits/uniform_int_dist.h \
  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
- /usr/include/c++/11/functional /usr/include/c++/11/vector \
- /usr/include/c++/11/bits/stl_vector.h \
- /usr/include/c++/11/bits/stl_bvector.h \
- /usr/include/c++/11/bits/vector.tcc /usr/include/c++/11/cassert \
+ /usr/include/c++/11/functional /usr/include/c++/11/cassert \
  /usr/include/assert.h /usr/include/c++/11/iostream \
- /usr/include/c++/11/ostream /usr/include/c++/11/ios \
- /usr/include/c++/11/bits/ios_base.h \
- /usr/include/c++/11/bits/locale_classes.h \
- /usr/include/c++/11/bits/locale_classes.tcc \
- /usr/include/c++/11/streambuf /usr/include/c++/11/bits/streambuf.tcc \
- /usr/include/c++/11/bits/basic_ios.h \
- /usr/include/c++/11/bits/locale_facets.h /usr/include/c++/11/cwctype \
- /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
- /usr/include/c++/11/bits/streambuf_iterator.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
- /usr/include/c++/11/bits/locale_facets.tcc \
- /usr/include/c++/11/bits/basic_ios.tcc \
- /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
- /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/list \
- /usr/include/c++/11/bits/stl_list.h /usr/include/c++/11/bits/list.tcc \
- /usr/include/c++/11/map /usr/include/c++/11/bits/stl_map.h \
+ /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
+ /usr/include/c++/11/bits/list.tcc /usr/include/c++/11/map \
+ /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /opt/ros/humble/include/rcl/rcl/guard_condition.h \
  /opt/ros/humble/include/rcl/rcl/allocator.h \
@@ -376,8 +381,8 @@ CMakeFiles/follower_1.dir/src/follower1.cpp.o: \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp \
- /usr/include/c++/11/codecvt /usr/include/c++/11/bits/codecvt.h \
- /usr/include/c++/11/iomanip /usr/include/c++/11/locale \
+ /usr/include/c++/11/codecvt /usr/include/c++/11/iomanip \
+ /usr/include/c++/11/locale \
  /usr/include/c++/11/bits/locale_facets_nonio.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
@@ -627,6 +632,16 @@ CMakeFiles/follower_1.dir/src/follower1.cpp.o: \
  /home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/offboard_control_mode__builder.hpp \
  /home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/offboard_control_mode__traits.hpp \
  /home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/offboard_control_mode__type_support.hpp \
+ /home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/vehicle_control_mode.hpp \
+ /home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_control_mode__struct.hpp \
+ /home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_control_mode__builder.hpp \
+ /home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_control_mode__traits.hpp \
+ /home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_control_mode__type_support.hpp \
+ /home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/vehicle_status.hpp \
+ /home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_status__struct.hpp \
+ /home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_status__builder.hpp \
+ /home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_status__traits.hpp \
+ /home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_status__type_support.hpp \
  /home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/vehicle_command.hpp \
  /home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_command__struct.hpp \
  /home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_command__builder.hpp \
@@ -637,6 +652,16 @@ CMakeFiles/follower_1.dir/src/follower1.cpp.o: \
  /home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_odometry__builder.hpp \
  /home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_odometry__traits.hpp \
  /home/azidozide/px4_sitl_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_odometry__type_support.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/int32_multi_array.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32_multi_array__struct.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_layout__struct.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__struct.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32_multi_array__builder.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32_multi_array__traits.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_layout__traits.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__traits.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32_multi_array__type_support.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/mother_state.hpp \
  /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail/mother_state__struct.hpp \
  /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail/mother_state__builder.hpp \

@@ -1,0 +1,23 @@
+[ 50%] Built target map_generator
+[35m[1mConsolidate compiler generated dependencies of target mine_mapper[0m
+[100%] Built target mine_mapper
+-- Install configuration: ""
+-- Up-to-date: /home/azidozide/px4_sitl_ws/src/install/mine_mapping/lib/mine_mapping/mine_mapper
+-- Up-to-date: /home/azidozide/px4_sitl_ws/src/install/mine_mapping/lib/libmap_generator.so
+-- Up-to-date: /home/azidozide/px4_sitl_ws/src/install/mine_mapping/include/mine_mapping
+-- Up-to-date: /home/azidozide/px4_sitl_ws/src/install/mine_mapping/include/mine_mapping/map_generator.hpp
+-- Up-to-date: /home/azidozide/px4_sitl_ws/src/install/mine_mapping/share/ament_index/resource_index/package_run_dependencies/mine_mapping
+-- Up-to-date: /home/azidozide/px4_sitl_ws/src/install/mine_mapping/share/ament_index/resource_index/parent_prefix_path/mine_mapping
+-- Up-to-date: /home/azidozide/px4_sitl_ws/src/install/mine_mapping/share/mine_mapping/environment/ament_prefix_path.sh
+-- Up-to-date: /home/azidozide/px4_sitl_ws/src/install/mine_mapping/share/mine_mapping/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/azidozide/px4_sitl_ws/src/install/mine_mapping/share/mine_mapping/environment/path.sh
+-- Up-to-date: /home/azidozide/px4_sitl_ws/src/install/mine_mapping/share/mine_mapping/environment/path.dsv
+-- Up-to-date: /home/azidozide/px4_sitl_ws/src/install/mine_mapping/share/mine_mapping/local_setup.bash
+-- Up-to-date: /home/azidozide/px4_sitl_ws/src/install/mine_mapping/share/mine_mapping/local_setup.sh
+-- Up-to-date: /home/azidozide/px4_sitl_ws/src/install/mine_mapping/share/mine_mapping/local_setup.zsh
+-- Up-to-date: /home/azidozide/px4_sitl_ws/src/install/mine_mapping/share/mine_mapping/local_setup.dsv
+-- Installing: /home/azidozide/px4_sitl_ws/src/install/mine_mapping/share/mine_mapping/package.dsv
+-- Up-to-date: /home/azidozide/px4_sitl_ws/src/install/mine_mapping/share/ament_index/resource_index/packages/mine_mapping
+-- Up-to-date: /home/azidozide/px4_sitl_ws/src/install/mine_mapping/share/mine_mapping/cmake/mine_mappingConfig.cmake
+-- Up-to-date: /home/azidozide/px4_sitl_ws/src/install/mine_mapping/share/mine_mapping/cmake/mine_mappingConfig-version.cmake
+-- Up-to-date: /home/azidozide/px4_sitl_ws/src/install/mine_mapping/share/mine_mapping/package.xml

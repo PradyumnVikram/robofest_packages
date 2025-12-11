@@ -1,6 +1,8 @@
 /home/azidozide/px4_sitl_ws/src/build/mapping/CMakeFiles/uninstall.dir
 /home/azidozide/px4_sitl_ws/src/build/mapping/CMakeFiles/mapping_uninstall.dir
 /home/azidozide/px4_sitl_ws/src/build/mapping/CMakeFiles/integrated_drone_mapping_node.dir
+/home/azidozide/px4_sitl_ws/src/build/mapping/CMakeFiles/corridor_gen_correct.dir
+/home/azidozide/px4_sitl_ws/src/build/mapping/CMakeFiles/gcopter_trajectory_planner.dir
 /home/azidozide/px4_sitl_ws/src/build/mapping/CMakeFiles/test.dir
 /home/azidozide/px4_sitl_ws/src/build/mapping/CMakeFiles/edit_cache.dir
 /home/azidozide/px4_sitl_ws/src/build/mapping/CMakeFiles/rebuild_cache.dir

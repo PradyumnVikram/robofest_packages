@@ -1,0 +1,4 @@
+Invoking command in '/home/azidozide/px4_sitl_ws/src/build/swarm_control': /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/src/build/swarm_control -- -j24 -l24
+Invoked command in '/home/azidozide/px4_sitl_ws/src/build/swarm_control' returned '0': /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/src/build/swarm_control -- -j24 -l24
+Invoking command in '/home/azidozide/px4_sitl_ws/src/build/swarm_control': /usr/bin/cmake --install /home/azidozide/px4_sitl_ws/src/build/swarm_control
+Invoked command in '/home/azidozide/px4_sitl_ws/src/build/swarm_control' returned '0': /usr/bin/cmake --install /home/azidozide/px4_sitl_ws/src/build/swarm_control

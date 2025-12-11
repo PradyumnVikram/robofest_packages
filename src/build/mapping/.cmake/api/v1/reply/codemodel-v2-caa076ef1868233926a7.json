@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-2df5f5d099491f7539bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mapping",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "corridor_gen_correct::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-corridor_gen_correct-b505adb82dbc571c4cfe.json",
+					"name" : "corridor_gen_correct",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gcopter_trajectory_planner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gcopter_trajectory_planner-569fcbf58945972cbdf4.json",
+					"name" : "gcopter_trajectory_planner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "integrated_drone_mapping_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-integrated_drone_mapping_node-718c788c3a04386b871a.json",
+					"name" : "integrated_drone_mapping_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mapping_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mapping_uninstall-755851119394fbe3dde6.json",
+					"name" : "mapping_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-81c67abc01d2ac47f45d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/azidozide/px4_sitl_ws/src/build/mapping",
+		"source" : "/home/azidozide/px4_sitl_ws/src/mapping"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

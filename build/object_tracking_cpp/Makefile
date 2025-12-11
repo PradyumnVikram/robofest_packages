@@ -223,6 +223,32 @@ follower_1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/follower_1.dir/build.make CMakeFiles/follower_1.dir/build
 .PHONY : follower_1/fast
 
+#=============================================================================
+# Target rules for targets named follower_2
+
+# Build rule for target.
+follower_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 follower_2
+.PHONY : follower_2
+
+# fast build rule for target.
+follower_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/follower_2.dir/build.make CMakeFiles/follower_2.dir/build
+.PHONY : follower_2/fast
+
+#=============================================================================
+# Target rules for targets named follower_3
+
+# Build rule for target.
+follower_3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 follower_3
+.PHONY : follower_3
+
+# fast build rule for target.
+follower_3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/follower_3.dir/build.make CMakeFiles/follower_3.dir/build
+.PHONY : follower_3/fast
+
 src/follower1.o: src/follower1.cpp.o
 .PHONY : src/follower1.o
 
@@ -246,6 +272,54 @@ src/follower1.s: src/follower1.cpp.s
 src/follower1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/follower_1.dir/build.make CMakeFiles/follower_1.dir/src/follower1.cpp.s
 .PHONY : src/follower1.cpp.s
+
+src/follower2.o: src/follower2.cpp.o
+.PHONY : src/follower2.o
+
+# target to build an object file
+src/follower2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/follower_2.dir/build.make CMakeFiles/follower_2.dir/src/follower2.cpp.o
+.PHONY : src/follower2.cpp.o
+
+src/follower2.i: src/follower2.cpp.i
+.PHONY : src/follower2.i
+
+# target to preprocess a source file
+src/follower2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/follower_2.dir/build.make CMakeFiles/follower_2.dir/src/follower2.cpp.i
+.PHONY : src/follower2.cpp.i
+
+src/follower2.s: src/follower2.cpp.s
+.PHONY : src/follower2.s
+
+# target to generate assembly for a file
+src/follower2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/follower_2.dir/build.make CMakeFiles/follower_2.dir/src/follower2.cpp.s
+.PHONY : src/follower2.cpp.s
+
+src/follower3.o: src/follower3.cpp.o
+.PHONY : src/follower3.o
+
+# target to build an object file
+src/follower3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/follower_3.dir/build.make CMakeFiles/follower_3.dir/src/follower3.cpp.o
+.PHONY : src/follower3.cpp.o
+
+src/follower3.i: src/follower3.cpp.i
+.PHONY : src/follower3.i
+
+# target to preprocess a source file
+src/follower3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/follower_3.dir/build.make CMakeFiles/follower_3.dir/src/follower3.cpp.i
+.PHONY : src/follower3.cpp.i
+
+src/follower3.s: src/follower3.cpp.s
+.PHONY : src/follower3.s
+
+# target to generate assembly for a file
+src/follower3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/follower_3.dir/build.make CMakeFiles/follower_3.dir/src/follower3.cpp.s
+.PHONY : src/follower3.cpp.s
 
 src/mothernode.o: src/mothernode.cpp.o
 .PHONY : src/mothernode.o
@@ -287,10 +361,18 @@ help:
 	@echo "... object_tracking_cpp_uninstall"
 	@echo "... uninstall"
 	@echo "... follower_1"
+	@echo "... follower_2"
+	@echo "... follower_3"
 	@echo "... mothernode"
 	@echo "... src/follower1.o"
 	@echo "... src/follower1.i"
 	@echo "... src/follower1.s"
+	@echo "... src/follower2.o"
+	@echo "... src/follower2.i"
+	@echo "... src/follower2.s"
+	@echo "... src/follower3.o"
+	@echo "... src/follower3.i"
+	@echo "... src/follower3.s"
 	@echo "... src/mothernode.o"
 	@echo "... src/mothernode.i"
 	@echo "... src/mothernode.s"

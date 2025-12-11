@@ -34,10 +34,32 @@ ament_target_dependencies(follower_1
   swarm_control
 )
 
+add_executable(follower_2
+  src/follower2.cpp
+)
+ament_target_dependencies(follower_2
+  rclcpp
+  std_msgs
+  px4_msgs
+  swarm_control
+)
+
+add_executable(follower_3
+  src/follower3.cpp
+)
+ament_target_dependencies(follower_3
+  rclcpp
+  std_msgs
+  px4_msgs
+  swarm_control
+)
+
 # Install the executables so `ros2 run` can find them
 install(TARGETS
   mothernode
   follower_1
+  follower_2
+  follower_3
   DESTINATION lib/${PROJECT_NAME}
 )
 

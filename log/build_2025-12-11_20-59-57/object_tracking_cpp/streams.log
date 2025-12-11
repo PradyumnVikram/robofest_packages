@@ -1,0 +1,17 @@
+[0.014s] Invoking command in '/home/azidozide/px4_sitl_ws/build/object_tracking_cpp': CMAKE_PREFIX_PATH=/home/azidozide/px4_sitl_ws/install/object_tracker:/opt/ros/humble:/home/azidozide/px4_sitl_ws/install/swarm_control:/home/azidozide/px4_sitl_ws/install/px4_msgs:/home/azidozide/px4_sitl_ws/install/object_tracking_cpp:/home/azidozide/px4_sitl_ws/install/mapping:/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping:/home/azidozide/px4_sitl_ws/install/mine_mapping /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/object_tracking_cpp -- -j24 -l24
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target follower_1[0m
+[0.075s] [ 50%] Built target mothernode
+[0.078s] [ 75%] [32mBuilding CXX object CMakeFiles/follower_1.dir/src/follower1.cpp.o[0m
+[15.373s] [01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/follower1.cpp:[m[K In constructor ‘[01m[KOffboard::Offboard()[m[K’:
+[15.373s] [01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/follower1.cpp:539:47:[m[K [01;35m[Kwarning: [m[K‘[01m[KOffboard::vehicle_odometry_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[15.373s]   539 |     px4_msgs::msg::VehicleOdometry::SharedPtr [01;35m[Kvehicle_odometry_[m[K;
+[15.373s]       |                                               [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[15.373s] [01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/follower1.cpp:524:11:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kfloat Offboard::takeoff_height_[m[K’ [[01;35m[K-Wreorder[m[K]
+[15.373s]   524 |     float [01;35m[Ktakeoff_height_[m[K;
+[15.373s]       |           [01;35m[K^~~~~~~~~~~~~~~[m[K
+[15.373s] [01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/follower1.cpp:47:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[15.373s]    47 |     [01;35m[KOffboard[m[K()
+[15.373s]       |     [01;35m[K^~~~~~~~[m[K
+[15.396s] [100%] [32m[1mLinking CXX executable follower_1[0m
+[16.253s] gmake: *** [Makefile:146: all] Interrupt
+[16.255s] Invoked command in '/home/azidozide/px4_sitl_ws/build/object_tracking_cpp' returned '-2': CMAKE_PREFIX_PATH=/home/azidozide/px4_sitl_ws/install/object_tracker:/opt/ros/humble:/home/azidozide/px4_sitl_ws/install/swarm_control:/home/azidozide/px4_sitl_ws/install/px4_msgs:/home/azidozide/px4_sitl_ws/install/object_tracking_cpp:/home/azidozide/px4_sitl_ws/install/mapping:/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping:/home/azidozide/px4_sitl_ws/install/mine_mapping /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/object_tracking_cpp -- -j24 -l24

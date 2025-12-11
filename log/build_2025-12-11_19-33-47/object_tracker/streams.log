@@ -1,0 +1,23 @@
+[0.932s] Invoking command in '/home/azidozide/px4_sitl_ws/src/object_tracker': PYTHONPATH=/home/azidozide/px4_sitl_ws/build/object_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/azidozide/px4_sitl_ws/install/object_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_tracker build --build-base /home/azidozide/px4_sitl_ws/build/object_tracker/build install --record /home/azidozide/px4_sitl_ws/build/object_tracker/install.log --single-version-externally-managed install_data
+[1.336s] running egg_info
+[1.340s] writing ../../build/object_tracker/object_tracker.egg-info/PKG-INFO
+[1.340s] writing dependency_links to ../../build/object_tracker/object_tracker.egg-info/dependency_links.txt
+[1.340s] writing entry points to ../../build/object_tracker/object_tracker.egg-info/entry_points.txt
+[1.340s] writing requirements to ../../build/object_tracker/object_tracker.egg-info/requires.txt
+[1.340s] writing top-level names to ../../build/object_tracker/object_tracker.egg-info/top_level.txt
+[1.353s] reading manifest file '../../build/object_tracker/object_tracker.egg-info/SOURCES.txt'
+[1.354s] adding license file 'LICENSE'
+[1.356s] writing manifest file '../../build/object_tracker/object_tracker.egg-info/SOURCES.txt'
+[1.356s] running build
+[1.356s] running build_py
+[1.357s] running install
+[1.357s] running install_lib
+[1.374s] running install_data
+[1.374s] running install_egg_info
+[1.391s] removing '/home/azidozide/px4_sitl_ws/install/object_tracker/lib/python3.10/site-packages/object_tracker-0.0.0-py3.10.egg-info' (and everything under it)
+[1.391s] Copying ../../build/object_tracker/object_tracker.egg-info to /home/azidozide/px4_sitl_ws/install/object_tracker/lib/python3.10/site-packages/object_tracker-0.0.0-py3.10.egg-info
+[1.395s] running install_scripts
+[1.469s] Installing drone_control script to /home/azidozide/px4_sitl_ws/install/object_tracker/lib/object_tracker
+[1.469s] Installing tracker script to /home/azidozide/px4_sitl_ws/install/object_tracker/lib/object_tracker
+[1.469s] writing list of installed files to '/home/azidozide/px4_sitl_ws/build/object_tracker/install.log'
+[1.515s] Invoked command in '/home/azidozide/px4_sitl_ws/src/object_tracker' returned '0': PYTHONPATH=/home/azidozide/px4_sitl_ws/build/object_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/azidozide/px4_sitl_ws/install/object_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_tracker build --build-base /home/azidozide/px4_sitl_ws/build/object_tracker/build install --record /home/azidozide/px4_sitl_ws/build/object_tracker/install.log --single-version-externally-managed install_data

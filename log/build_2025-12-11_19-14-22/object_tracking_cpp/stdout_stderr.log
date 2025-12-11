@@ -1,0 +1,51 @@
+[35m[1mConsolidate compiler generated dependencies of target follower_1[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/mothernode.dir/src/mothernode.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/follower_1.dir/src/follower1.cpp.o[0m
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mothernode.cpp:[m[K In constructor ‘[01m[KOffboard::Offboard()[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mothernode.cpp:567:47:[m[K [01;35m[Kwarning: [m[K‘[01m[KOffboard::vehicle_odometry_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  567 |     px4_msgs::msg::VehicleOdometry::SharedPtr [01;35m[Kvehicle_odometry_[m[K;
+      |                                               [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mothernode.cpp:552:11:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kfloat Offboard::takeoff_height_[m[K’ [[01;35m[K-Wreorder[m[K]
+  552 |     float [01;35m[Ktakeoff_height_[m[K;
+      |           [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mothernode.cpp:47:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   47 |     [01;35m[KOffboard[m[K()
+      |     [01;35m[K^~~~~~~~[m[K
+[ 75%] [32m[1mLinking CXX executable mothernode[0m
+[ 75%] Built target mothernode
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/follower1.cpp:[m[K In constructor ‘[01m[KOffboard::Offboard()[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/follower1.cpp:393:47:[m[K [01;35m[Kwarning: [m[K‘[01m[KOffboard::vehicle_odometry_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  393 |     px4_msgs::msg::VehicleOdometry::SharedPtr [01;35m[Kvehicle_odometry_[m[K;
+      |                                               [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/follower1.cpp:383:11:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kfloat Offboard::takeoff_height_[m[K’ [[01;35m[K-Wreorder[m[K]
+  383 |     float [01;35m[Ktakeoff_height_[m[K;
+      |           [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/follower1.cpp:46:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   46 |     [01;35m[KOffboard[m[K()
+      |     [01;35m[K^~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/follower1.cpp:[m[K In member function ‘[01m[Kvoid Offboard::compute_target_position(double&, double&, double&)[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/follower1.cpp:172:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdistance[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  172 |         double [01;35m[Kdistance[m[K = std::abs(target_distance_);
+      |                [01;35m[K^~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable follower_1[0m
+[100%] Built target follower_1
+-- Install configuration: ""
+-- Installing: /home/azidozide/px4_sitl_ws/install/object_tracking_cpp/lib/object_tracking_cpp/mothernode
+-- Set runtime path of "/home/azidozide/px4_sitl_ws/install/object_tracking_cpp/lib/object_tracking_cpp/mothernode" to ""
+-- Installing: /home/azidozide/px4_sitl_ws/install/object_tracking_cpp/lib/object_tracking_cpp/follower_1
+-- Set runtime path of "/home/azidozide/px4_sitl_ws/install/object_tracking_cpp/lib/object_tracking_cpp/follower_1" to ""
+-- Up-to-date: /home/azidozide/px4_sitl_ws/install/object_tracking_cpp/share/ament_index/resource_index/package_run_dependencies/object_tracking_cpp
+-- Up-to-date: /home/azidozide/px4_sitl_ws/install/object_tracking_cpp/share/ament_index/resource_index/parent_prefix_path/object_tracking_cpp
+-- Up-to-date: /home/azidozide/px4_sitl_ws/install/object_tracking_cpp/share/object_tracking_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/azidozide/px4_sitl_ws/install/object_tracking_cpp/share/object_tracking_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/azidozide/px4_sitl_ws/install/object_tracking_cpp/share/object_tracking_cpp/environment/path.sh
+-- Up-to-date: /home/azidozide/px4_sitl_ws/install/object_tracking_cpp/share/object_tracking_cpp/environment/path.dsv
+-- Up-to-date: /home/azidozide/px4_sitl_ws/install/object_tracking_cpp/share/object_tracking_cpp/local_setup.bash
+-- Up-to-date: /home/azidozide/px4_sitl_ws/install/object_tracking_cpp/share/object_tracking_cpp/local_setup.sh
+-- Up-to-date: /home/azidozide/px4_sitl_ws/install/object_tracking_cpp/share/object_tracking_cpp/local_setup.zsh
+-- Up-to-date: /home/azidozide/px4_sitl_ws/install/object_tracking_cpp/share/object_tracking_cpp/local_setup.dsv
+-- Installing: /home/azidozide/px4_sitl_ws/install/object_tracking_cpp/share/object_tracking_cpp/package.dsv
+-- Up-to-date: /home/azidozide/px4_sitl_ws/install/object_tracking_cpp/share/ament_index/resource_index/packages/object_tracking_cpp
+-- Up-to-date: /home/azidozide/px4_sitl_ws/install/object_tracking_cpp/share/object_tracking_cpp/cmake/object_tracking_cppConfig.cmake
+-- Up-to-date: /home/azidozide/px4_sitl_ws/install/object_tracking_cpp/share/object_tracking_cpp/cmake/object_tracking_cppConfig-version.cmake
+-- Up-to-date: /home/azidozide/px4_sitl_ws/install/object_tracking_cpp/share/object_tracking_cpp/package.xml

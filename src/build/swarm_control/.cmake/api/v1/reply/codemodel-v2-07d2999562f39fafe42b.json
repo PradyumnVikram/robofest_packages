@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-cfef5b01eb0223e9238e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "swarm_control__py",
+					"jsonFile" : "directory-swarm_control__py-a48b37cf551f323355b5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/azidozide/px4_sitl_ws/src/build/swarm_control/swarm_control__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "swarm_control",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_swarm_control_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_swarm_control_egg-1dc30368bc1e4c7c4416.json",
+					"name" : "ament_cmake_python_build_swarm_control_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_swarm_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_swarm_control-117718e054e1de75c1c3.json",
+					"name" : "ament_cmake_python_copy_swarm_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "swarm_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-swarm_control-49064490a6b44b399e57.json",
+					"name" : "swarm_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "swarm_control__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-swarm_control__cpp-00fe3b894b1ca8929bde.json",
+					"name" : "swarm_control__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "swarm_control__py::@8c167a390c9eaa43c255",
+					"jsonFile" : "target-swarm_control__py-24d28b82a11fe58f640e.json",
+					"name" : "swarm_control__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "swarm_control__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-swarm_control__rosidl_generator_c-15669f7f0fb79e333386.json",
+					"name" : "swarm_control__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "swarm_control__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-swarm_control__rosidl_generator_py-0f1320b2e6a866fcfcc3.json",
+					"name" : "swarm_control__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "swarm_control__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-swarm_control__rosidl_typesupport_c-21fe34bd5d9bee8b67d9.json",
+					"name" : "swarm_control__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "swarm_control__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-swarm_control__rosidl_typesupport_c__pyext-e1f5f3c37d0d224b1e77.json",
+					"name" : "swarm_control__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "swarm_control__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-swarm_control__rosidl_typesupport_cpp-d77ac0c39d5dc2ff53fc.json",
+					"name" : "swarm_control__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "swarm_control__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-swarm_control__rosidl_typesupport_fastrtps_c-a310c963b852facf3d0b.json",
+					"name" : "swarm_control__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "swarm_control__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-swarm_control__rosidl_typesupport_fastrtps_c__pyext-69d9c56d212d7b106710.json",
+					"name" : "swarm_control__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "swarm_control__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-swarm_control__rosidl_typesupport_fastrtps_cpp-31271d060a693d0c605e.json",
+					"name" : "swarm_control__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "swarm_control__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-swarm_control__rosidl_typesupport_introspection_c-7c9c23fc86a7f70185d8.json",
+					"name" : "swarm_control__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "swarm_control__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-swarm_control__rosidl_typesupport_introspection_c__pyext-d246f67bf3e5ffb2d493.json",
+					"name" : "swarm_control__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "swarm_control__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-swarm_control__rosidl_typesupport_introspection_cpp-fe9202f104da553752b2.json",
+					"name" : "swarm_control__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "swarm_control_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-swarm_control_uninstall-2880ae24571e94f17896.json",
+					"name" : "swarm_control_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8bdbb4310047a16c37ad.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/azidozide/px4_sitl_ws/src/build/swarm_control",
+		"source" : "/home/azidozide/px4_sitl_ws/src/swarm_control"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,52 @@
+[35m[1mConsolidate compiler generated dependencies of target follower_1[0m
+[ 50%] Built target mothernode
+[ 75%] [32mBuilding CXX object CMakeFiles/follower_1.dir/src/follower1.cpp.o[0m
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/follower1.cpp:334:9:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint SwarmFollower::counter_[m[K’
+  334 |     int [01;31m[Kcounter_[m[K;
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/follower1.cpp:80:9:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint SwarmFollower::counter_[m[K’
+   80 |     int [01;36m[Kcounter_[m[K;
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/follower1.cpp:335:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kbool SwarmFollower::takeoff_mode_[m[K’
+  335 |     bool [01;31m[Ktakeoff_mode_[m[K;
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/follower1.cpp:81:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kbool SwarmFollower::takeoff_mode_[m[K’
+   81 |     bool [01;36m[Ktakeoff_mode_[m[K;
+      |          [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/follower1.cpp:336:11:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kfloat SwarmFollower::takeoff_height_[m[K’
+  336 |     float [01;31m[Ktakeoff_height_[m[K;
+      |           [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/follower1.cpp:82:11:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kfloat SwarmFollower::takeoff_height_[m[K’
+   82 |     float [01;36m[Ktakeoff_height_[m[K;
+      |           [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/follower1.cpp:[m[K In constructor ‘[01m[KSwarmFollower::SwarmFollower()[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/follower1.cpp:331:11:[m[K [01;35m[Kwarning: [m[K‘[01m[KSwarmFollower::state_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  331 |     State [01;35m[Kstate_[m[K;
+      |           [01;35m[K^~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/follower1.cpp:329:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool SwarmFollower::have_offset_[m[K’ [[01;35m[K-Wreorder[m[K]
+  329 |     bool [01;35m[Khave_offset_[m[K;
+      |          [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/follower1.cpp:24:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   24 |     [01;35m[KSwarmFollower[m[K()
+      |     [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/follower1.cpp:330:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KSwarmFollower::last_mother_lock_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  330 |     int [01;35m[Klast_mother_lock_[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/follower1.cpp:298:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble SwarmFollower::publish_hz_[m[K’ [[01;35m[K-Wreorder[m[K]
+  298 |     double [01;35m[Kpublish_hz_[m[K;
+      |            [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/follower1.cpp:24:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   24 |     [01;35m[KSwarmFollower[m[K()
+      |     [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/follower1.cpp:299:12:[m[K [01;35m[Kwarning: [m[K‘[01m[KSwarmFollower::arrival_tolerance_m_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  299 |     double [01;35m[Karrival_tolerance_m_[m[K;
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/follower1.cpp:80:9:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint SwarmFollower::counter_[m[K’ [[01;35m[K-Wreorder[m[K]
+   80 |     int [01;35m[Kcounter_[m[K;
+      |         [01;35m[K^~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/follower1.cpp:24:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   24 |     [01;35m[KSwarmFollower[m[K()
+      |     [01;35m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/follower_1.dir/build.make:76: CMakeFiles/follower_1.dir/src/follower1.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/follower_1.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

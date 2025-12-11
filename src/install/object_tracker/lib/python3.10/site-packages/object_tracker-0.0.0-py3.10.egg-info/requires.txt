@@ -1,3 +1,4 @@
+picamera2
 setuptools
 
 [test]

@@ -469,10 +469,10 @@ private:
             ez = 0.0 - vehicle_odometry_->position[2];
         }
 
-        ax = 3.0 * ex + 5.0 * evx;
-        ay = 3.0 * ey + 5.0 * evy;
-        az = 3.0 * ez + 5.0 * evz;
-    }
+        ax = 0.1 * ex + 5.0 * evx;
+        ay = 0.1 * ey + 5.0 * evy;
+        az = 0.1 * ez + 5.0 * evz;
+    } 
 
     // Main loop
     void command_loop()
