@@ -2,7 +2,7 @@ import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Image
 from std_msgs.msg import Int32MultiArray
-from std_msgs.msg import Float32MultiArray
+from std_msgs.msg import Float32
 import cv2
 from object_tracker.process_frame import process_frames
 
@@ -22,7 +22,7 @@ class ImageViewer(Node):
             Int32MultiArray, '/hand_distance', 10
         )
         self.float_publisher_ = self.create_publisher(
-            Float32MultiArray, '/waist_angle', 10
+            Float32, '/waist_angle', 10
         )
         cv2.namedWindow('Processed Frame', cv2.WINDOW_NORMAL)
 
@@ -61,10 +61,9 @@ class ImageViewer(Node):
             )
 
             # Log waist center
-            float_msg = Float32MultiArray()
+            float_msg = Float32()
             wx, wy = self.waist_center
-            float_msg.data = [float(wx),
-                              float(wy)]
+            float_msg.data = float(wx)
             self.float_publisher_.publish(float_msg)
 
             cv2.imshow('Processed Frame', frame_)

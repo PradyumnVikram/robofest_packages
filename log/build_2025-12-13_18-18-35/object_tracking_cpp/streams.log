@@ -1,0 +1,50 @@
+[0.012s] Invoking command in '/home/azidozide/px4_sitl_ws/build/object_tracking_cpp': CMAKE_PREFIX_PATH=/home/azidozide/px4_sitl_ws/install/object_tracker:/opt/ros/humble:/home/azidozide/px4_sitl_ws/install/swarm_control:/home/azidozide/px4_sitl_ws/install/px4_msgs:/home/azidozide/px4_sitl_ws/install/object_tracking_cpp:/home/azidozide/px4_sitl_ws/install/mapping:/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping:/home/azidozide/px4_sitl_ws/install/mine_mapping /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/object_tracking_cpp -- -j24 -l24
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target yaw_control[0m
+[0.051s] [ 20%] Built target mothernode
+[0.051s] [ 40%] Built target follower_2
+[0.054s] [ 60%] Built target follower_3
+[0.056s] [ 70%] [32mBuilding CXX object CMakeFiles/yaw_control.dir/src/mother_yaw.cpp.o[0m
+[0.056s] [ 90%] Built target follower_1
+[2.997s] [01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:[m[K In member function ‘[01m[Kvoid MothernodeYaw::yaw_callback(std_msgs::msg::Float32_<std::allocator<void> >::SharedPtr) const[m[K’:
+[2.997s] [01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:38:16:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[KMothernodeYaw::yaw_rate[m[K’ in read-only object
+[2.997s]    38 |       [01;31m[Kyaw_rate = 0.0[m[K;
+[2.997s]       |       [01;31m[K~~~~~~~~~^~~~~[m[K
+[2.997s] [01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:39:17:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst MothernodeYaw[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+[2.997s]    39 |       if([01;31m[Kabs_val(msg->data)[m[K > 0.05){
+[2.997s]       |          [01;31m[K~~~~~~~^~~~~~~~~~~[m[K
+[2.997s] [01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:29:11:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kfloat MothernodeYaw::abs_val(float)[m[K’
+[2.997s]    29 |     float [01;36m[Kabs_val[m[K(float x){
+[2.997s]       |           [01;36m[K^~~~~~~[m[K
+[2.997s] [01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:40:18:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[KMothernodeYaw::yaw_rate[m[K’ in read-only object
+[2.997s]    40 |         [01;31m[Kyaw_rate = (msg->data<0)? -0.1 : 0.1[m[K;
+[2.997s]       |         [01;31m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.997s] [01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:43:12:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kauto msg[m[K’ shadows a parameter
+[2.997s]    43 |       auto [01;31m[Kmsg[m[K = px4_msgs::msg::TrajectorySetpoint();
+[2.997s]       |            [01;31m[K^~~[m[K
+[2.997s] [01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:36:63:[m[K [01;36m[Knote: [m[K‘[01m[Kconst SharedPtr msg[m[K’ previously declared here
+[2.997s]    36 |     void yaw_callback([01;36m[Kconst std_msgs::msg::Float32::SharedPtr msg[m[K) const
+[2.997s]       |                       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.997s] [01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:44:45:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kstd::__shared_ptr_access<const rclcpp::Clock, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[Kconst rclcpp::Clock[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+[2.997s]    44 |       msg.timestamp = [01;31m[Kthis->get_clock()->now()[m[K.nanoseconds() / 1000;  // [us]
+[2.997s]       |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[2.997s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:27[m[K,
+[2.997s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:30[m[K,
+[2.997s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.998s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.998s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.998s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.998s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.998s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.998s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.998s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.998s]                  from [01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:3[m[K:
+[2.998s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:87:3:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Krclcpp::Time rclcpp::Clock::now()[m[K’
+[2.998s]    87 |   [01;36m[Know[m[K();
+[2.998s]       |   [01;36m[K^~~[m[K
+[2.998s] [01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:52:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct px4_msgs::msg::TrajectorySetpoint_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kyawrate[m[K’
+[2.998s]    52 |       msg.[01;31m[Kyawrate[m[K = yaw_rate;
+[2.998s]       |           [01;31m[K^~~~~~~[m[K
+[2.998s] gmake[2]: *** [CMakeFiles/yaw_control.dir/build.make:76: CMakeFiles/yaw_control.dir/src/mother_yaw.cpp.o] Error 1
+[2.998s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/yaw_control.dir/all] Error 2
+[2.999s] gmake: *** [Makefile:146: all] Error 2
+[3.001s] Invoked command in '/home/azidozide/px4_sitl_ws/build/object_tracking_cpp' returned '2': CMAKE_PREFIX_PATH=/home/azidozide/px4_sitl_ws/install/object_tracker:/opt/ros/humble:/home/azidozide/px4_sitl_ws/install/swarm_control:/home/azidozide/px4_sitl_ws/install/px4_msgs:/home/azidozide/px4_sitl_ws/install/object_tracking_cpp:/home/azidozide/px4_sitl_ws/install/mapping:/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping:/home/azidozide/px4_sitl_ws/install/mine_mapping /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/object_tracking_cpp -- -j24 -l24

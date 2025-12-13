@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target yaw_control[0m
+[ 20%] Built target mothernode
+[ 40%] Built target follower_3
+[ 60%] Built target follower_2
+[ 80%] Built target follower_1
+[ 90%] [32mBuilding CXX object CMakeFiles/yaw_control.dir/src/mother_yaw.cpp.o[0m
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:[m[K In constructor ‘[01m[KOffboard::Offboard()[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:454:47:[m[K [01;35m[Kwarning: [m[K‘[01m[KOffboard::vehicle_odometry_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  454 |     px4_msgs::msg::VehicleOdometry::SharedPtr [01;35m[Kvehicle_odometry_[m[K;
+      |                                               [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:438:11:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kfloat Offboard::takeoff_height_[m[K’ [[01;35m[K-Wreorder[m[K]
+  438 |     float [01;35m[Ktakeoff_height_[m[K;
+      |           [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:47:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   47 |     [01;35m[KOffboard[m[K()
+      |     [01;35m[K^~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:[m[K In member function ‘[01m[Kvoid Offboard::command_loop()[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:405:17:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+  405 |                 [01;31m[K}[m[K
+      |                 [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/yaw_control.dir/build.make:76: CMakeFiles/yaw_control.dir/src/mother_yaw.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/yaw_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

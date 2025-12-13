@@ -1,0 +1,7 @@
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:[m[K In member function ‘[01m[Kvoid MothernodeYaw::publish_offboard_mode(bool)[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:60:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct px4_msgs::msg::OffboardControlMode_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kyawspeed[m[K’
+   60 |     msg.[01;31m[Kyawspeed[m[K = use_yaw_rate;  // ✅ Fix: yawspeed (not yaw_rate)
+      |         [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/yaw_control.dir/build.make:76: CMakeFiles/yaw_control.dir/src/mother_yaw.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/yaw_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,36 @@
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:441:41:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+  441 |     rclcpp::Subscription<std_msgs::msg::[01;31m[KInt32MultiArray[m[K>::SharedPtr hand_distance_sub_;
+      |                                         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:441:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  441 |     rclcpp::Subscription<std_msgs::msg::Int32MultiArray[01;31m[K>[m[K::SharedPtr hand_distance_sub_;
+      |                                                        [01;31m[K^[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:441:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:441:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:441:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:441:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  441 |     rclcpp::Subscription<std_msgs::msg::Int32MultiArray>::[01;31m[KSharedPtr[m[K hand_distance_sub_;
+      |                                                           [01;31m[K^~~~~~~~~[m[K
+      |                                                                    [32m[K;[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:441:69:[m[K [01;31m[Kerror: [m[K‘[01m[Khand_distance_sub_[m[K’ does not name a type
+  441 |     rclcpp::Subscription<std_msgs::msg::Int32MultiArray>::SharedPtr [01;31m[Khand_distance_sub_[m[K;
+      |                                                                     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:[m[K In constructor ‘[01m[KOffboard::Offboard()[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:433:47:[m[K [01;35m[Kwarning: [m[K‘[01m[KOffboard::vehicle_odometry_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  433 |     px4_msgs::msg::VehicleOdometry::SharedPtr [01;35m[Kvehicle_odometry_[m[K;
+      |                                               [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:418:11:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kfloat Offboard::takeoff_height_[m[K’ [[01;35m[K-Wreorder[m[K]
+  418 |     float [01;35m[Ktakeoff_height_[m[K;
+      |           [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:47:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   47 |     [01;35m[KOffboard[m[K()
+      |     [01;35m[K^~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:[m[K In member function ‘[01m[Kvoid Offboard::command_loop()[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:393:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kyaw_rate[m[K’ was not declared in this scope
+  393 |             [01;31m[Kyaw_rate[m[K = 0.0f;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:394:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kabs_val[m[K’ was not declared in this scope
+  394 |             if([01;31m[Kabs_val[m[K(msg_yaw) > 0.05f){
+      |                [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/yaw_control.dir/build.make:76: CMakeFiles/yaw_control.dir/src/mother_yaw.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/yaw_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

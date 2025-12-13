@@ -1,0 +1,42 @@
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:[m[K In member function ‘[01m[Kvoid MothernodeYaw::yaw_callback(std_msgs::msg::Float32_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:38:16:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[KMothernodeYaw::yaw_rate[m[K’ in read-only object
+   38 |       [01;31m[Kyaw_rate = 0.0[m[K;
+      |       [01;31m[K~~~~~~~~~^~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:39:17:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst MothernodeYaw[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+   39 |       if([01;31m[Kabs_val(msg->data)[m[K > 0.05){
+      |          [01;31m[K~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:29:11:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kfloat MothernodeYaw::abs_val(float)[m[K’
+   29 |     float [01;36m[Kabs_val[m[K(float x){
+      |           [01;36m[K^~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:40:18:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[KMothernodeYaw::yaw_rate[m[K’ in read-only object
+   40 |         [01;31m[Kyaw_rate = (msg->data<0)? -0.1 : 0.1[m[K;
+      |         [01;31m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:43:12:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kauto msg[m[K’ shadows a parameter
+   43 |       auto [01;31m[Kmsg[m[K = px4_msgs::msg::TrajectorySetpoint();
+      |            [01;31m[K^~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:36:63:[m[K [01;36m[Knote: [m[K‘[01m[Kconst SharedPtr msg[m[K’ previously declared here
+   36 |     void yaw_callback([01;36m[Kconst std_msgs::msg::Float32::SharedPtr msg[m[K) const
+      |                       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:44:45:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kstd::__shared_ptr_access<const rclcpp::Clock, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[Kconst rclcpp::Clock[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+   44 |       msg.timestamp = [01;31m[Kthis->get_clock()->now()[m[K.nanoseconds() / 1000;  // [us]
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:27[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:87:3:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Krclcpp::Time rclcpp::Clock::now()[m[K’
+   87 |   [01;36m[Know[m[K();
+      |   [01;36m[K^~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:52:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct px4_msgs::msg::TrajectorySetpoint_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kyawrate[m[K’
+   52 |       msg.[01;31m[Kyawrate[m[K = yaw_rate;
+      |           [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/yaw_control.dir/build.make:76: CMakeFiles/yaw_control.dir/src/mother_yaw.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/yaw_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

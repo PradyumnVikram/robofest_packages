@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0eb6cb4d2f2fe17918d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mapping",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "corridor_gen_correct::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-corridor_gen_correct-Debug-97ac2b711b5f3e188f9e.json",
+					"name" : "corridor_gen_correct",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gcopter_trajectory_planner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gcopter_trajectory_planner-Debug-60d100c28ea6ad9bae6d.json",
+					"name" : "gcopter_trajectory_planner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "integrated_drone_mapping_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-integrated_drone_mapping_node-Debug-d4f70e11f11fc8018d42.json",
+					"name" : "integrated_drone_mapping_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mapping_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mapping_uninstall-Debug-cab5f5be9c31deaac655.json",
+					"name" : "mapping_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-81c67abc01d2ac47f45d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/azidozide/px4_sitl_ws/src/build",
+		"source" : "/home/azidozide/px4_sitl_ws/src/mapping"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

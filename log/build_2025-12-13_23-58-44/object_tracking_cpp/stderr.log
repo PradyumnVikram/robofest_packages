@@ -1,0 +1,17 @@
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:[m[K In constructor ‘[01m[KOffboard::Offboard()[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:443:47:[m[K [01;35m[Kwarning: [m[K‘[01m[KOffboard::vehicle_odometry_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  443 |     px4_msgs::msg::VehicleOdometry::SharedPtr [01;35m[Kvehicle_odometry_[m[K;
+      |                                               [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:428:11:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kfloat Offboard::takeoff_height_[m[K’ [[01;35m[K-Wreorder[m[K]
+  428 |     float [01;35m[Ktakeoff_height_[m[K;
+      |           [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:47:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   47 |     [01;35m[KOffboard[m[K()
+      |     [01;35m[K^~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:[m[K In member function ‘[01m[Kvoid Offboard::offboard_control_heartbeat_signal_publisher()[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:183:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct px4_msgs::msg::OffboardControlMode_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kyawspeed[m[K’
+  183 |             msg.[01;31m[Kyawspeed[m[K = true;       // ADD THIS LINE
+      |                 [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/yaw_control.dir/build.make:76: CMakeFiles/yaw_control.dir/src/mother_yaw.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/yaw_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

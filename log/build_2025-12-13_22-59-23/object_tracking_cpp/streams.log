@@ -1,0 +1,56 @@
+[0.010s] Invoking command in '/home/azidozide/px4_sitl_ws/build/object_tracking_cpp': CMAKE_PREFIX_PATH=/home/azidozide/px4_sitl_ws/install/object_tracker:/opt/ros/humble:/home/azidozide/px4_sitl_ws/install/swarm_control:/home/azidozide/px4_sitl_ws/install/px4_msgs:/home/azidozide/px4_sitl_ws/install/object_tracking_cpp:/home/azidozide/px4_sitl_ws/install/mapping:/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping:/home/azidozide/px4_sitl_ws/install/mine_mapping /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/object_tracking_cpp -- -j24 -l24
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target yaw_control[0m
+[0.051s] [ 40%] Built target follower_2
+[0.051s] [ 40%] Built target follower_3
+[0.052s] [ 60%] Built target follower_1
+[0.054s] [ 70%] [32mBuilding CXX object CMakeFiles/yaw_control.dir/src/mother_yaw.cpp.o[0m
+[0.057s] [ 90%] Built target mothernode
+[5.102s] [01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:441:41:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[5.102s]   441 |     rclcpp::Subscription<std_msgs::msg::[01;31m[KInt32MultiArray[m[K>::SharedPtr hand_distance_sub_;
+[5.102s]       |                                         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[5.102s] [01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:441:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.102s]   441 |     rclcpp::Subscription<std_msgs::msg::Int32MultiArray[01;31m[K>[m[K::SharedPtr hand_distance_sub_;
+[5.102s]       |                                                        [01;31m[K^[m[K
+[5.102s] [01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:441:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[5.103s] [01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:441:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[5.103s] [01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:441:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[5.103s] [01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:441:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[5.103s]   441 |     rclcpp::Subscription<std_msgs::msg::Int32MultiArray>::[01;31m[KSharedPtr[m[K hand_distance_sub_;
+[5.103s]       |                                                           [01;31m[K^~~~~~~~~[m[K
+[5.103s]       |                                                                    [32m[K;[m[K
+[5.103s] [01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:441:69:[m[K [01;31m[Kerror: [m[K‘[01m[Khand_distance_sub_[m[K’ does not name a type
+[5.103s]   441 |     rclcpp::Subscription<std_msgs::msg::Int32MultiArray>::SharedPtr [01;31m[Khand_distance_sub_[m[K;
+[5.103s]       |                                                                     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.103s] [01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:[m[K In constructor ‘[01m[KOffboard::Offboard()[m[K’:
+[5.103s] [01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:433:47:[m[K [01;35m[Kwarning: [m[K‘[01m[KOffboard::vehicle_odometry_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[5.103s]   433 |     px4_msgs::msg::VehicleOdometry::SharedPtr [01;35m[Kvehicle_odometry_[m[K;
+[5.103s]       |                                               [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[5.103s] [01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:418:11:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kfloat Offboard::takeoff_height_[m[K’ [[01;35m[K-Wreorder[m[K]
+[5.103s]   418 |     float [01;35m[Ktakeoff_height_[m[K;
+[5.103s]       |           [01;35m[K^~~~~~~~~~~~~~~[m[K
+[5.103s] [01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:47:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[5.103s]    47 |     [01;35m[KOffboard[m[K()
+[5.103s]       |     [01;35m[K^~~~~~~~[m[K
+[5.103s] [01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:[m[K In member function ‘[01m[Kvoid Offboard::yaw_callback(std_msgs::msg::Float32_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.103s] [01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:147:19:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >[m[K’} to ‘[01m[Kfloat*[m[K’ in assignment
+[5.103s]   147 |         msg_yaw = [01;31m[Kmsg[m[K;
+[5.103s]       |                   [01;31m[K^~~[m[K
+[5.103s]       |                   [01;31m[K|[m[K
+[5.103s]       |                   [01;31m[Kconst SharedPtr {aka const std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >}[m[K
+[5.103s] [01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:[m[K In member function ‘[01m[Kvoid Offboard::command_loop()[m[K’:
+[5.104s] [01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:393:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kyaw_rate[m[K’ was not declared in this scope
+[5.104s]   393 |             [01;31m[Kyaw_rate[m[K = 0.0f;
+[5.104s]       |             [01;31m[K^~~~~~~~[m[K
+[5.104s] [01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:394:33:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kdata[m[K’ in ‘[01m[K*((Offboard*)this)->Offboard::msg_yaw[m[K’, which is of non-class type ‘[01m[Kfloat[m[K’
+[5.104s]   394 |             if(abs_val(msg_yaw->[01;31m[Kdata[m[K) > 0.05f){
+[5.104s]       |                                 [01;31m[K^~~~[m[K
+[5.104s] [01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:394:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kabs_val[m[K’ was not declared in this scope
+[5.104s]   394 |             if([01;31m[Kabs_val[m[K(msg_yaw->data) > 0.05f){
+[5.104s]       |                [01;31m[K^~~~~~~[m[K
+[5.104s] [01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:395:38:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kdata[m[K’ in ‘[01m[K*((Offboard*)this)->Offboard::msg_yaw[m[K’, which is of non-class type ‘[01m[Kfloat[m[K’
+[5.104s]   395 |                 yaw_rate = (msg_yaw->[01;31m[Kdata[m[K<0)? -0.1f : 0.1f;
+[5.104s]       |                                      [01;31m[K^~~~[m[K
+[5.104s] gmake[2]: *** [CMakeFiles/yaw_control.dir/build.make:76: CMakeFiles/yaw_control.dir/src/mother_yaw.cpp.o] Error 1
+[5.104s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/yaw_control.dir/all] Error 2
+[5.104s] gmake: *** [Makefile:146: all] Error 2
+[5.106s] Invoked command in '/home/azidozide/px4_sitl_ws/build/object_tracking_cpp' returned '2': CMAKE_PREFIX_PATH=/home/azidozide/px4_sitl_ws/install/object_tracker:/opt/ros/humble:/home/azidozide/px4_sitl_ws/install/swarm_control:/home/azidozide/px4_sitl_ws/install/px4_msgs:/home/azidozide/px4_sitl_ws/install/object_tracking_cpp:/home/azidozide/px4_sitl_ws/install/mapping:/home/azidozide/px4_sitl_ws/install/integrated_drone_mapping:/home/azidozide/px4_sitl_ws/install/mine_mapping /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/object_tracking_cpp -- -j24 -l24

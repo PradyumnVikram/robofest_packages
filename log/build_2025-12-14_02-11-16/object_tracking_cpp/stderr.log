@@ -1,0 +1,19 @@
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:[m[K In constructor ‘[01m[KOffboard::Offboard()[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:383:47:[m[K [01;35m[Kwarning: [m[K‘[01m[KOffboard::vehicle_odometry_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  383 |     px4_msgs::msg::VehicleOdometry::SharedPtr [01;35m[Kvehicle_odometry_[m[K;
+      |                                               [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:367:11:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kfloat Offboard::takeoff_height_[m[K’ [[01;35m[K-Wreorder[m[K]
+  367 |     float [01;35m[Ktakeoff_height_[m[K;
+      |           [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:46:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   46 |     [01;35m[KOffboard[m[K()
+      |     [01;35m[K^~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:398:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KOffboard::last_pub_lock_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  398 |     int [01;35m[Klast_pub_lock_[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:356:11:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kfloat Offboard::msg_yaw_[m[K’ [[01;35m[K-Wreorder[m[K]
+  356 |     float [01;35m[Kmsg_yaw_[m[K;
+      |           [01;35m[K^~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mother_yaw.cpp:46:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   46 |     [01;35m[KOffboard[m[K()
+      |     [01;35m[K^~~~~~~~[m[K

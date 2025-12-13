@@ -1,0 +1,144 @@
+[0.014s] Invoking command in '/home/azidozide/px4_sitl_ws/build/swarm_control': /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/swarm_control -- -j24 -l24
+[0.054s] [  6%] Built target swarm_control__cpp
+[0.054s] [ 12%] Built target swarm_control__rosidl_generator_c
+[0.064s] [ 12%] Built target ament_cmake_python_copy_swarm_control
+[0.072s] [ 22%] Built target swarm_control__rosidl_typesupport_introspection_cpp
+[0.072s] [ 32%] Built target swarm_control__rosidl_typesupport_cpp
+[0.074s] [ 41%] Built target swarm_control__rosidl_typesupport_fastrtps_cpp
+[0.080s] [ 51%] Built target swarm_control__rosidl_typesupport_c
+[0.081s] [ 61%] Built target swarm_control__rosidl_typesupport_fastrtps_c
+[0.082s] [ 70%] Built target swarm_control__rosidl_typesupport_introspection_c
+[0.100s] [ 70%] Built target swarm_control
+[0.116s] [ 74%] Built target swarm_control__py
+[0.135s] [ 80%] Built target swarm_control__rosidl_generator_py
+[0.153s] [ 87%] Built target swarm_control__rosidl_typesupport_fastrtps_c__pyext
+[0.153s] [ 93%] Built target swarm_control__rosidl_typesupport_c__pyext
+[0.154s] [100%] Built target swarm_control__rosidl_typesupport_introspection_c__pyext
+[0.270s] running egg_info
+[0.270s] writing swarm_control.egg-info/PKG-INFO
+[0.270s] writing dependency_links to swarm_control.egg-info/dependency_links.txt
+[0.271s] writing top-level names to swarm_control.egg-info/top_level.txt
+[0.273s] reading manifest file 'swarm_control.egg-info/SOURCES.txt'
+[0.273s] writing manifest file 'swarm_control.egg-info/SOURCES.txt'
+[0.292s] [100%] Built target ament_cmake_python_build_swarm_control_egg
+[0.302s] Invoked command in '/home/azidozide/px4_sitl_ws/build/swarm_control' returned '0': /usr/bin/cmake --build /home/azidozide/px4_sitl_ws/build/swarm_control -- -j24 -l24
+[0.303s] Invoking command in '/home/azidozide/px4_sitl_ws/build/swarm_control': /usr/bin/cmake --install /home/azidozide/px4_sitl_ws/build/swarm_control
+[0.311s] -- Install configuration: ""
+[0.311s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/ament_index/resource_index/rosidl_interfaces/swarm_control
+[0.311s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control
+[0.311s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg
+[0.311s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail
+[0.311s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail/mother_state__functions.c
+[0.311s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail/mother_state__struct.h
+[0.311s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail/mother_state__functions.h
+[0.311s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail/mother_state__type_support.h
+[0.311s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/mother_state.h
+[0.311s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/rosidl_generator_c__visibility_control.h
+[0.311s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/environment/library_path.sh
+[0.311s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/environment/library_path.dsv
+[0.312s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/lib/libswarm_control__rosidl_generator_c.so
+[0.312s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control
+[0.312s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg
+[0.312s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail
+[0.312s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail/mother_state__rosidl_typesupport_fastrtps_c.h
+[0.312s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.312s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/lib/libswarm_control__rosidl_typesupport_fastrtps_c.so
+[0.312s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control
+[0.312s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg
+[0.312s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail
+[0.312s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail/mother_state__type_support.c
+[0.313s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail/mother_state__rosidl_typesupport_introspection_c.h
+[0.313s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.313s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/lib/libswarm_control__rosidl_typesupport_introspection_c.so
+[0.313s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/lib/libswarm_control__rosidl_typesupport_c.so
+[0.313s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control
+[0.313s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg
+[0.313s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail
+[0.313s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail/mother_state__builder.hpp
+[0.313s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail/mother_state__traits.hpp
+[0.313s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail/mother_state__struct.hpp
+[0.313s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail/mother_state__type_support.hpp
+[0.313s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/mother_state.hpp
+[0.313s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.313s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control
+[0.313s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg
+[0.313s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail
+[0.313s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail/mother_state__rosidl_typesupport_fastrtps_cpp.hpp
+[0.313s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail/dds_fastrtps
+[0.313s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.313s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/lib/libswarm_control__rosidl_typesupport_fastrtps_cpp.so
+[0.313s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control
+[0.313s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg
+[0.314s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail
+[0.314s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail/mother_state__type_support.cpp
+[0.314s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/include/swarm_control/swarm_control/msg/detail/mother_state__rosidl_typesupport_introspection_cpp.hpp
+[0.314s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/lib/libswarm_control__rosidl_typesupport_introspection_cpp.so
+[0.314s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/lib/libswarm_control__rosidl_typesupport_cpp.so
+[0.314s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/environment/pythonpath.sh
+[0.314s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/environment/pythonpath.dsv
+[0.314s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control-0.0.0-py3.10.egg-info
+[0.314s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control-0.0.0-py3.10.egg-info/PKG-INFO
+[0.314s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control-0.0.0-py3.10.egg-info/top_level.txt
+[0.314s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.314s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.314s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control
+[0.314s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/swarm_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.314s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/msg
+[0.314s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/msg/_mother_state.py
+[0.314s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/msg/_mother_state_s.c
+[0.314s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/msg/__init__.py
+[0.314s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/_swarm_control_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.314s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/_swarm_control_s.ep.rosidl_typesupport_c.c
+[0.314s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/swarm_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.314s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/__init__.py
+[0.314s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/swarm_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.314s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/libswarm_control__rosidl_generator_py.so
+[0.314s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/_swarm_control_s.ep.rosidl_typesupport_introspection_c.c
+[0.342s] Listing '/home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control'...
+[0.342s] Listing '/home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/msg'...
+[0.346s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/swarm_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.346s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/swarm_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.346s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/local/lib/python3.10/dist-packages/swarm_control/swarm_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.346s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/lib/libswarm_control__rosidl_generator_py.so
+[0.346s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/msg/MotherState.idl
+[0.346s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/msg/MotherState.msg
+[0.346s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/ament_index/resource_index/package_run_dependencies/swarm_control
+[0.346s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/ament_index/resource_index/parent_prefix_path/swarm_control
+[0.346s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/environment/ament_prefix_path.sh
+[0.346s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/environment/ament_prefix_path.dsv
+[0.346s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/environment/path.sh
+[0.347s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/environment/path.dsv
+[0.347s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/local_setup.bash
+[0.347s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/local_setup.sh
+[0.347s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/local_setup.zsh
+[0.347s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/local_setup.dsv
+[0.347s] -- Installing: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/package.dsv
+[0.347s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/ament_index/resource_index/packages/swarm_control
+[0.347s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/export_swarm_control__rosidl_generator_cExport.cmake
+[0.347s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/export_swarm_control__rosidl_generator_cExport-noconfig.cmake
+[0.347s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/export_swarm_control__rosidl_typesupport_fastrtps_cExport.cmake
+[0.347s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/export_swarm_control__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.347s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/swarm_control__rosidl_typesupport_introspection_cExport.cmake
+[0.347s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/swarm_control__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.347s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/swarm_control__rosidl_typesupport_cExport.cmake
+[0.347s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/swarm_control__rosidl_typesupport_cExport-noconfig.cmake
+[0.347s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/export_swarm_control__rosidl_generator_cppExport.cmake
+[0.347s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/export_swarm_control__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.347s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/export_swarm_control__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.347s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/swarm_control__rosidl_typesupport_introspection_cppExport.cmake
+[0.347s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/swarm_control__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.347s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/swarm_control__rosidl_typesupport_cppExport.cmake
+[0.347s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/swarm_control__rosidl_typesupport_cppExport-noconfig.cmake
+[0.347s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/export_swarm_control__rosidl_generator_pyExport.cmake
+[0.347s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/export_swarm_control__rosidl_generator_pyExport-noconfig.cmake
+[0.347s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/rosidl_cmake-extras.cmake
+[0.348s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.348s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/ament_cmake_export_libraries-extras.cmake
+[0.348s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/ament_cmake_export_targets-extras.cmake
+[0.348s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.348s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.348s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.348s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/swarm_controlConfig.cmake
+[0.348s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/cmake/swarm_controlConfig-version.cmake
+[0.348s] -- Up-to-date: /home/azidozide/px4_sitl_ws/install/swarm_control/share/swarm_control/package.xml
+[0.349s] Invoked command in '/home/azidozide/px4_sitl_ws/build/swarm_control' returned '0': /usr/bin/cmake --install /home/azidozide/px4_sitl_ws/build/swarm_control

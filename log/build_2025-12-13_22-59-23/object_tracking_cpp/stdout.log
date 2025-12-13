@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target yaw_control[0m
+[ 40%] Built target follower_2
+[ 40%] Built target follower_3
+[ 60%] Built target follower_1
+[ 70%] [32mBuilding CXX object CMakeFiles/yaw_control.dir/src/mother_yaw.cpp.o[0m
+[ 90%] Built target mothernode
