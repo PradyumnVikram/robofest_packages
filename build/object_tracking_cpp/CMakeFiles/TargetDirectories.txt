@@ -4,6 +4,7 @@
 /home/azidozide/px4_sitl_ws/build/object_tracking_cpp/CMakeFiles/follower_1.dir
 /home/azidozide/px4_sitl_ws/build/object_tracking_cpp/CMakeFiles/follower_2.dir
 /home/azidozide/px4_sitl_ws/build/object_tracking_cpp/CMakeFiles/follower_3.dir
+/home/azidozide/px4_sitl_ws/build/object_tracking_cpp/CMakeFiles/yaw_control.dir
 /home/azidozide/px4_sitl_ws/build/object_tracking_cpp/CMakeFiles/test.dir
 /home/azidozide/px4_sitl_ws/build/object_tracking_cpp/CMakeFiles/edit_cache.dir
 /home/azidozide/px4_sitl_ws/build/object_tracking_cpp/CMakeFiles/rebuild_cache.dir

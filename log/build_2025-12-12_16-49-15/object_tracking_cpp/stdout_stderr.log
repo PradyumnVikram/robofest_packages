@@ -1,0 +1,54 @@
+[35m[1mConsolidate compiler generated dependencies of target follower_1[0m
+[35m[1mConsolidate compiler generated dependencies of target mothernode[0m
+[ 25%] Built target follower_2
+[ 37%] [32mBuilding CXX object CMakeFiles/mothernode.dir/src/mothernode.cpp.o[0m
+[ 62%] Built target follower_3
+[ 87%] Built target follower_1
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mothernode.cpp:389:79:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K&[m[K’ token
+  389 |                        double &error_vx, double &error_vy, double &error_vz , [01;31m[K&[m[Kintegrate_error_x , &integrate_error_y , &integrate_error_z)
+      |                                                                               [01;31m[K^[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mothernode.cpp:389:100:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K&[m[K’ token
+  389 |                        double &error_vx, double &error_vy, double &error_vz , &integrate_error_x , [01;31m[K&[m[Kintegrate_error_y , &integrate_error_z)
+      |                                                                                                    [01;31m[K^[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mothernode.cpp:389:121:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K&[m[K’ token
+  389 |                        double &error_vx, double &error_vy, double &error_vz , &integrate_error_x , &integrate_error_y , [01;31m[K&[m[Kintegrate_error_z)
+      |                                                                                                                         [01;31m[K^[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mothernode.cpp:[m[K In constructor ‘[01m[KOffboard::Offboard()[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mothernode.cpp:533:47:[m[K [01;35m[Kwarning: [m[K‘[01m[KOffboard::vehicle_odometry_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  533 |     px4_msgs::msg::VehicleOdometry::SharedPtr [01;35m[Kvehicle_odometry_[m[K;
+      |                                               [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mothernode.cpp:518:11:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kfloat Offboard::takeoff_height_[m[K’ [[01;35m[K-Wreorder[m[K]
+  518 |     float [01;35m[Ktakeoff_height_[m[K;
+      |           [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mothernode.cpp:47:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   47 |     [01;35m[KOffboard[m[K()
+      |     [01;35m[K^~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mothernode.cpp:[m[K In member function ‘[01m[Kvoid Offboard::compute_error(double&, double&, double&, double&, double&, double&, int&, int&, int&)[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mothernode.cpp:389:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kintegrate_error_x[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  389 |                        double &error_vx, double &error_vy, double &error_vz , [01;35m[K&integrate_error_x[m[K , &integrate_error_y , &integrate_error_z)
+      |                                                                               [01;35m[K~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mothernode.cpp:389:101:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kintegrate_error_y[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  389 |                        double &error_vx, double &error_vy, double &error_vz , &integrate_error_x , [01;35m[K&integrate_error_y[m[K , &integrate_error_z)
+      |                                                                                                    [01;35m[K~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mothernode.cpp:389:122:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kintegrate_error_z[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  389 |                        double &error_vx, double &error_vy, double &error_vz , &integrate_error_x , &integrate_error_y , [01;35m[K&integrate_error_z[m[K)
+      |                                                                                                                         [01;35m[K~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mothernode.cpp:[m[K In member function ‘[01m[Kvoid Offboard::tracking_pp_controller(double&, double&, double&)[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mothernode.cpp:431:22:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KOffboard::compute_error(double&, double&, double&, double&, double&, double&)[m[K’
+  431 |         [01;31m[Kcompute_error(ex, ey, ez, evx, evy, evz)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mothernode.cpp:388:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Offboard::compute_error(double&, double&, double&, double&, double&, double&, int&, int&, int&)[m[K’
+  388 |     void [01;36m[Kcompute_error[m[K(double &error_x, double &error_y, double &error_z,
+      |          [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mothernode.cpp:388:10:[m[K [01;36m[Knote: [m[K  candidate expects 9 arguments, 6 provided
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mothernode.cpp:[m[K In member function ‘[01m[Kvoid Offboard::command_loop()[m[K’:
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mothernode.cpp:495:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KOffboard::compute_error(double&, double&, double&, double&, double&, double&)[m[K’
+  495 |             [01;31m[Kcompute_error(ex, ey, ez, evx, evy, evz)[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mothernode.cpp:388:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Offboard::compute_error(double&, double&, double&, double&, double&, double&, int&, int&, int&)[m[K’
+  388 |     void [01;36m[Kcompute_error[m[K(double &error_x, double &error_y, double &error_z,
+      |          [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/azidozide/px4_sitl_ws/src/object_tracking_cpp/src/mothernode.cpp:388:10:[m[K [01;36m[Knote: [m[K  candidate expects 9 arguments, 6 provided
+gmake[2]: *** [CMakeFiles/mothernode.dir/build.make:76: CMakeFiles/mothernode.dir/src/mothernode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/mothernode.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

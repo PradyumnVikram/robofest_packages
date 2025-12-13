@@ -162,11 +162,15 @@ private:
     void distance_callback(const std_msgs::msg::Int32MultiArray::SharedPtr msg)
     {
         prev_distance_ = distance_;
+
+        // Default: no swarm
+        swarm_call_ = 0;
+
         if (!msg->data.empty()) {
             // msg->data[0] = distance, [1] = lock, [2] = direction, [3] = swarm_call
             distance_ = static_cast<float>(msg->data[0]) / 100.0f;
             vel_ = (distance_ - prev_distance_) * 30.0f;
-            
+
             if (msg->data.size() > 1) {
                 lock_ = msg->data[1];
             }
@@ -174,10 +178,14 @@ private:
                 direction_ = msg->data[2];
             }
             if (msg->data.size() > 3) {
-                swarm_call_ = msg->data[3];  // NEW: Swarm command (1 = true)
+                swarm_call_ = msg->data[3];  // 0 or 1 from gesture node
             }
         }
     }
+
+
+    // FIXED: at_goal = true ONLY when swarm_call received
+
 
     // FIXED: at_goal = true ONLY when swarm_call received
     void publish_mother_state(bool force_publish = false)
@@ -426,6 +434,8 @@ private:
     void tracking_pp_controller(double &ax, double &ay, double &az)
     {
         double ex, ey, ez, evx, evy, evz;
+
+
         compute_error(ex, ey, ez, evx, evy, evz);
         // Apply override to z-error if enabled and odometry is available.
         // This makes ez equal to -z (as in the Python parity comment).

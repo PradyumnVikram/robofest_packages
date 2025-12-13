@@ -307,6 +307,13 @@ class Offboard(Node):
             error_vy=0.0-self.vehicle_odometry.velocity[1]
             error_vz=0.0-self.vehicle_odometry.velocity[2]
 
+        self.integrate_x+=error_x*0.1
+        self.integrate_y+=error_y*0.1
+        self.integrate_z+=error_z*0.1
+
+        self.integrate_vx+=error_vx*0.1
+        self.integrate_vy+=error_vy*0.1
+        self.integarte_vz+=error_vz*0.1
 
         self.rmse_x+=error_x**2
         self.rmse_y+=error_y**2
@@ -325,9 +332,9 @@ class Offboard(Node):
         l=list(self.error())
 
 
-        del_ax=(3*l[0]+5*l[3])
-        del_ay=(3*l[1]+5*l[4])
-        del_az=(3*l[2]+5*l[5])
+        del_ax=(0.1*l[0]+5*l[3] + 0*self.integrate_x)
+        del_ay=(0.1*l[1]+5*l[4] + 0*self.integrate_y)
+        del_az=(0.1*l[2]+5*l[5] + 0*self.integrate_z)
 
         return (del_ax,del_ay,del_az)
     

@@ -1,0 +1,7 @@
+[35m[1mConsolidate compiler generated dependencies of target mothernode[0m
+[ 25%] Built target follower_2
+[ 37%] [32mBuilding CXX object CMakeFiles/mothernode.dir/src/mothernode.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/follower_1.dir/src/follower1.cpp.o[0m
+[ 75%] Built target follower_3
+[ 87%] [32m[1mLinking CXX executable follower_1[0m
+[ 87%] Built target follower_1

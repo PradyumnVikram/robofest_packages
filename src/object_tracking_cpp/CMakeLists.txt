@@ -54,12 +54,22 @@ ament_target_dependencies(follower_3
   swarm_control
 )
 
+add_executable(yaw_control
+  src/mother_yaw.cpp
+)
+ament_target_dependencies(yaw_control
+  rclcpp
+  std_msgs
+  px4_msgs
+)
+
 # Install the executables so `ros2 run` can find them
 install(TARGETS
   mothernode
   follower_1
   follower_2
   follower_3
+  yaw_control
   DESTINATION lib/${PROJECT_NAME}
 )
 

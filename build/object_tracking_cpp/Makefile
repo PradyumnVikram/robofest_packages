@@ -249,6 +249,19 @@ follower_3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/follower_3.dir/build.make CMakeFiles/follower_3.dir/build
 .PHONY : follower_3/fast
 
+#=============================================================================
+# Target rules for targets named yaw_control
+
+# Build rule for target.
+yaw_control: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 yaw_control
+.PHONY : yaw_control
+
+# fast build rule for target.
+yaw_control/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/yaw_control.dir/build.make CMakeFiles/yaw_control.dir/build
+.PHONY : yaw_control/fast
+
 src/follower1.o: src/follower1.cpp.o
 .PHONY : src/follower1.o
 
@@ -321,6 +334,30 @@ src/follower3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/follower_3.dir/build.make CMakeFiles/follower_3.dir/src/follower3.cpp.s
 .PHONY : src/follower3.cpp.s
 
+src/mother_yaw.o: src/mother_yaw.cpp.o
+.PHONY : src/mother_yaw.o
+
+# target to build an object file
+src/mother_yaw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/yaw_control.dir/build.make CMakeFiles/yaw_control.dir/src/mother_yaw.cpp.o
+.PHONY : src/mother_yaw.cpp.o
+
+src/mother_yaw.i: src/mother_yaw.cpp.i
+.PHONY : src/mother_yaw.i
+
+# target to preprocess a source file
+src/mother_yaw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/yaw_control.dir/build.make CMakeFiles/yaw_control.dir/src/mother_yaw.cpp.i
+.PHONY : src/mother_yaw.cpp.i
+
+src/mother_yaw.s: src/mother_yaw.cpp.s
+.PHONY : src/mother_yaw.s
+
+# target to generate assembly for a file
+src/mother_yaw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/yaw_control.dir/build.make CMakeFiles/yaw_control.dir/src/mother_yaw.cpp.s
+.PHONY : src/mother_yaw.cpp.s
+
 src/mothernode.o: src/mothernode.cpp.o
 .PHONY : src/mothernode.o
 
@@ -364,6 +401,7 @@ help:
 	@echo "... follower_2"
 	@echo "... follower_3"
 	@echo "... mothernode"
+	@echo "... yaw_control"
 	@echo "... src/follower1.o"
 	@echo "... src/follower1.i"
 	@echo "... src/follower1.s"
@@ -373,6 +411,9 @@ help:
 	@echo "... src/follower3.o"
 	@echo "... src/follower3.i"
 	@echo "... src/follower3.s"
+	@echo "... src/mother_yaw.o"
+	@echo "... src/mother_yaw.i"
+	@echo "... src/mother_yaw.s"
 	@echo "... src/mothernode.o"
 	@echo "... src/mothernode.i"
 	@echo "... src/mothernode.s"

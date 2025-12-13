@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-efc3f61545b6176ec06a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "object_tracking_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "follower_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follower_1-35e18222344a0ddb8a8e.json",
+					"name" : "follower_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follower_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follower_2-e5af3fabba9af27e2e4a.json",
+					"name" : "follower_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follower_3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follower_3-89d25fc2942742a7ab5c.json",
+					"name" : "follower_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mothernode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mothernode-bbe1d1ea766b9d5518e8.json",
+					"name" : "mothernode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "object_tracking_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-object_tracking_cpp_uninstall-850ded09f83e8d9e4287.json",
+					"name" : "object_tracking_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b44c3c2bd6e107430095.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yaw_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yaw_control-53fbb65ce1390b313191.json",
+					"name" : "yaw_control",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/azidozide/px4_sitl_ws/build/object_tracking_cpp",
+		"source" : "/home/azidozide/px4_sitl_ws/src/object_tracking_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -698,4 +698,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/follower_1.dir/DependInfo.cmake"
   "CMakeFiles/follower_2.dir/DependInfo.cmake"
   "CMakeFiles/follower_3.dir/DependInfo.cmake"
+  "CMakeFiles/yaw_control.dir/DependInfo.cmake"
   )
